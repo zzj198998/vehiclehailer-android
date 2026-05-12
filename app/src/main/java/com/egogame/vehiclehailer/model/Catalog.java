@@ -12,6 +12,8 @@ public class Catalog {
         this.displayName = displayName;
     }
 
+    public int getId() { return catalog.hashCode(); }
     public String getCatalog() { return catalog; }
     public String getDisplayName() { return displayName; }
+    public String getName() { return displayName; }
 }
