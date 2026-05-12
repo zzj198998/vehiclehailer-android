@@ -386,8 +386,6 @@
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
 
-                </LinearLayout>
-            </com.google.android.material.card.MaterialCardView>
 
                     <!-- 2. 开关门音效 -->
                     <com.google.android.material.card.MaterialCardView
