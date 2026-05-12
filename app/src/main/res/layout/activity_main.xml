@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  车机横屏自适应布局（完全无固定dp，所有尺寸按比例）
+  侧边栏 <-> 内容区 = 1:6
+  导航按钮垂直方向均分
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/background_dark">
+
+    <!-- ========== 左侧导航栏（占1/7屏幕宽度） ========== -->
+    <LinearLayout
+        android:id="@+id/nav_sidebar"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/background_card"
+        android:paddingTop="8dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp">
+
+        <!-- Logo区 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="🚗"
+            android:textSize="20sp" />
+
+        <!-- App名称 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp" />
+
+        <!-- 分隔线 -->
+        <View
+            android:layout_width="24dp"
+            android:layout_height="1dp"
+            android:background="@color/gray_600"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="6dp" />
+
+        <!-- 5个导航按钮：垂直均匀分配 -->
+        <TextView
+            android:id="@+id/nav_voice"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_media_play"
+            android:drawablePadding="2dp"
+            android:text="@string/tab_voice"
+            android:textColor="@color/primary_light"
+            android:textSize="9sp"
+            android:background="@drawable/sidebar_item_selected"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/nav_monitor"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_menu_info_details"
+            android:drawablePadding="2dp"
+            android:text="@string/tab_monitor"
+            android:textColor="@color/gray_400"
+            android:textSize="9sp"
+            android:background="@drawable/sidebar_item_normal"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/nav_trigger"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_menu_manage"
+            android:drawablePadding="2dp"
+            android:text="@string/tab_trigger"
+            android:textColor="@color/gray_400"
+            android:textSize="9sp"
+            android:background="@drawable/sidebar_item_normal"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/nav_audio_library"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_menu_gallery"
+            android:drawablePadding="2dp"
+            android:text="@string/nav_audio_library"
+            android:textColor="@color/gray_400"
+            android:textSize="9sp"
+            android:background="@drawable/sidebar_item_normal"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/nav_settings"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_menu_preferences"
+            android:drawablePadding="2dp"
+            android:text="@string/tab_settings"
+            android:textColor="@color/gray_400"
+            android:textSize="9sp"
+            android:background="@drawable/sidebar_item_normal"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- 底部版本号 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="v1.0"
+            android:textColor="@color/gray_600"
+            android:textSize="8sp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp" />
+
+    </LinearLayout>
+
+    <!-- ========== 右侧内容区（占6/7屏幕宽度） ========== -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6" />
+
+</LinearLayout>

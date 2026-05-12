@@ -1,0 +1,12 @@
+"category","value_type","default_condition_type"
+"#category","#值类型(INT/FLOAT/STRING)","#默认条件类型"
+"DOOR_STATUS","INT","EQUALS"
+"DOOR_DEGREE","FLOAT","EQUALS"
+"GEAR_POSITION","INT","EQUALS"
+"PRESSURE","FLOAT","EQUALS"
+"TEMPERATURE","FLOAT","EQUALS"
+"PERCENTAGE","FLOAT","EQUALS"
+"SPEED","FLOAT","EQUALS"
+"BOOLEAN","INT","EQUALS"
+"CUSTOM","FLOAT","EQUALS"
+

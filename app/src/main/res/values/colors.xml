@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主色调 - 深蓝科技风 -->
+    <color name="primary">#FF1565C0</color>
+    <color name="primary_dark">#FF0D47A1</color>
+    <color name="primary_light">#FF42A5F5</color>
+
+    <!-- 辅助色 -->
+    <color name="secondary">#FF00BCD4</color>
+    <color name="secondary_dark">#FF0097A7</color>
+
+    <!-- 功能色 -->
+    <color name="success">#FF4CAF50</color>
+    <color name="warning">#FFFFC107</color>
+    <color name="error">#FFF44336</color>
+    <color name="info">#FF2196F3</color>
+
+    <!-- 中性色 -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="gray_50">#FFF5F5F5</color>
+    <color name="gray_100">#FFE0E0E0</color>
+    <color name="gray_400">#FF9E9E9E</color>
+    <color name="gray_500">#FF9E9E9E</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="gray_700">#FF616161</color>
+    <color name="gray_800">#FF424242</color>
+
+    <!-- 背景色 -->
+    <color name="background_dark">#FF121212</color>
+    <color name="background_card">#FF1E1E2E</color>
+    <color name="background_card_light">#FFFFFFFF</color>
+
+    <!-- 代码/连接相关色 -->
+    <color name="accent">#FF00BCD4</color>
+    <color name="code_text">#FF80CBC4</color>
+    <color name="gray_300">#FFBDBDBD</color>
+
+    <!-- 语音状态色 -->
+    <color name="voice_playing">#FF4CAF50</color>
+    <color name="voice_idle">#FF757575</color>
+    <color name="voice_blocked">#FFE53935</color>
+
+    <!-- 音频卡片分类色 -->
+    <color name="card_hailing">#FF1565C0</color>
+    <color name="card_door">#FF43A047</color>
+    <color name="card_lock">#FFF57C00</color>
+    <color name="card_custom">#FF7B1FA2</color>
+    <color name="card_soundwave">#FFD32F2F</color>
+
+    <!-- 音频增强开关色 -->
+    <color name="switch_enabled">#FF4CAF50</color>
+    <color name="switch_disabled">#FF9E9E9E</color>
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/background_dark"
+    android:padding="0dp">
+
+    <!-- 左侧：垂直分类导航 -->
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background_card"
+        android:paddingTop="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="分类"
+            android:textColor="@color/gray_400"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tab_hailing"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:text="@string/audio_tab_hailing"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tab_door"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:text="@string/audio_tab_door"
+            android:textColor="@color/gray_400"
+            android:textSize="13sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tab_lock"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:text="@string/audio_tab_lock"
+            android:textColor="@color/gray_400"
+            android:textSize="13sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tab_custom"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:text="@string/audio_tab_custom"
+            android:textColor="@color/gray_400"
+            android:textSize="13sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tab_soundwave"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:text="@string/audio_tab_soundwave"
+            android:textColor="@color/gray_400"
+            android:textSize="13sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+    <!-- 右侧：音频列表 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- 上传按钮 -->
+        <Button
+            android:id="@+id/btn_upload_audio"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:text="@string/audio_upload"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/primary"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="6dp" />
+
+        <!-- 格式提示 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/audio_format_hint"
+            android:textSize="11sp"
+            android:textColor="@color/gray_400"
+            android:layout_marginBottom="6dp" />
+
+        <!-- 分隔线 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_800"
+            android:layout_marginBottom="4dp" />
+
+        <!-- 空状态提示 -->
+        <TextView
+            android:id="@+id/audio_empty_hint"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/audio_empty_hint"
+            android:textSize="14sp"
+            android:textColor="@color/gray_400"
+            android:visibility="visible" />
+
+        <!-- 音频列表 -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/audio_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>

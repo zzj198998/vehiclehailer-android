@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/background_dark"
+    android:padding="0dp">
+
+    <!-- 左侧：标题 + 规则列表 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- 标题行 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/trigger_title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/trigger_enable_all"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/trigger_enable"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/primary" />
+
+        </LinearLayout>
+
+        <!-- 操作按钮行 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/trigger_reset"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="@string/trigger_reset"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/gray_700" />
+
+            <Button
+                android:id="@+id/trigger_add"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="@string/trigger_add_rule"
+                android:textSize="12sp"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/primary" />
+        </LinearLayout>
+
+        <!-- 规则列表 -->
+        <ListView
+            android:id="@+id/trigger_rule_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@color/gray_800"
+            android:dividerHeight="1dp" />
+
+        <!-- 空状态提示 -->
+        <TextView
+            android:id="@+id/trigger_empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/trigger_rule_empty"
+            android:textSize="14sp"
+            android:textColor="@color/gray_500"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <!-- 右侧分隔线 -->
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/gray_800" />
+
+    <!-- 右侧：测试区域面板 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="@color/background_card"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trigger_test_hint"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_light"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="模拟车辆属性变化，测试联动规则是否符合预期"
+            android:textSize="11sp"
+            android:textColor="@color/gray_400"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 属性选择 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="选择属性"
+            android:textSize="12sp"
+            android:textColor="@color/gray_400"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/trigger_test_property"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/spinner_dark_bg"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 属性值 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="预期值"
+            android:textSize="12sp"
+            android:textColor="@color/gray_400"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/trigger_test_value"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/spinner_dark_bg"
+            android:layout_marginBottom="20dp" />
+
+        <!-- 测试按钮 -->
+        <Button
+            android:id="@+id/trigger_test_btn"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:text="@string/trigger_test"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/primary"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/trigger_test_result"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:text="🔎 测试结果将显示在这里"
+            android:textSize="12sp"
+            android:textColor="@color/gray_500"
+            android:padding="8dp"
+            android:background="@color/background_dark" />
+
+    </LinearLayout>
+
+</LinearLayout>

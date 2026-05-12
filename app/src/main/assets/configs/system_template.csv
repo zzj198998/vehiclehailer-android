@@ -1,0 +1,5 @@
+id,name,description,json_path
+system_test_template,内置测试模板,包含所有基础车辆状态音效的示例模板,LocalAssets/templates/system_test_template.json
+system_qicheren_template,汽车人,汽车人主题音效模板,LocalAssets/templates/system_qicheren_template.json
+system_shortcut_template,深蓝快捷模板,包含按键喊话、解锁音效、刹车雾灯警告和转向联动360的快捷功能模板,LocalAssets/templates/system_shortcut_template.json
+#system_self_test_template,自用测试,恒温座舱意图测试模板,LocalAssets/templates/system_self_test_template.json
