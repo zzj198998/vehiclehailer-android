@@ -52,7 +52,7 @@ public class AutoTriggerEngine {
         this.voiceItems = VehicleHailerApp.getInstance().getConfigLoader().getVoiceItems();
 
         // 注册属性变化监听
-        stateManager.setOnPropertyChangeListener((propertyName, newValue) -> {
+        stateManager.setOnPropertyChangeListener((propertyName, oldValue, newValue) -> {
             if (!enabled) return;
 
             String oldValue = lastPropertyValues.get(propertyName);
@@ -239,7 +239,7 @@ public class AutoTriggerEngine {
             voicePlayer.setChannel(VoicePlayer.Channel.OUTSIDE);
         }
 
-        voicePlayer.play(item.getFilePath());
+        voicePlayer.play(item, item.getTab() == VoiceTab.BLOCK);
         playedVoiceIds.add(item.getId());
 
         // 阻塞级语音播放完后自动重置"已播放"状态
