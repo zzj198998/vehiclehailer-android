@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- 基础主题 - 使用AppCompat替代Material3，降低资源依赖 -->
-    <style name="Theme.VehicleHailer" parent="Theme.AppCompat.DayNight.NoActionBar">
+    <style name="Theme.VehicleHailer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="colorAccent">@color/secondary</item>
@@ -10,8 +10,8 @@
         <item name="android:navigationBarColor">@color/black</item>
     </style>
 
-    <!-- ActionBar覆盖主题，替代 ThemeOverlay.Material3.Dark.ActionBar -->
-    <style name="ThemeOverlay.VehicleHailer.Dark.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <!-- ActionBar覆盖主题 -->
+    <style name="ThemeOverlay.VehicleHailer.Dark.ActionBar" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
         <item name="android:background">@color/primary_dark</item>
         <item name="titleTextColor">@color/white</item>
     </style>
