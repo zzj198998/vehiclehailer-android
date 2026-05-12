@@ -74,7 +74,6 @@
                     android:layout_height="wrap_content"
                     android:text="全部"
                     android:textColor="@color/white"
-                    android:checkedIconVisible="false"
                     app:chipBackgroundColor="@color/primary_dark"
                     app:chipStrokeColor="@color/primary_light"
                     app:chipStrokeWidth="1dp"
