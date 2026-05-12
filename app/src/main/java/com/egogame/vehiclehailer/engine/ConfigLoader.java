@@ -278,6 +278,10 @@ public class ConfigLoader {
         return map;
     }
 
+    public VehicleProperty getVehicleProperty(String propertyName) {
+        return findPropertyByName(propertyName);
+    }
+
     public VehicleProperty findPropertyByName(String propertyName) {
         for (VehicleProperty p : vehicleProperties) {
             if (p.getPropertyName().equals(propertyName)) return p;
