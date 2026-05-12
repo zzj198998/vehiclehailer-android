@@ -42,8 +42,10 @@ public class VehicleProperty {
         this.unsupportedModelIds = unsupportedModelIds;
     }
 
+    public int getCatalogId() { return catalog.hashCode(); }
     public String getPropertyName() { return propertyName; }
     public String getDisplayName() { return displayName; }
+    public String getName() { return displayName; }
     public String getCategory() { return category; }
     public String getCatalog() { return catalog; }
     public ControlType getControlType() { return controlType; }
