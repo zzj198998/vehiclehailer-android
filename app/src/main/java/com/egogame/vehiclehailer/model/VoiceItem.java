@@ -43,7 +43,9 @@ public class VoiceItem {
 
     public int getId() { return id; }
     public String getTitle() { return title; }
+    public String getName() { return title; }
     public String getPath() { return path; }
+    public String getFilePath() { return path; }
     public VoiceTab getTab() { return tab; }
     public boolean isPlaying() { return isPlaying; }
     public void setPlaying(boolean playing) { isPlaying = playing; }
