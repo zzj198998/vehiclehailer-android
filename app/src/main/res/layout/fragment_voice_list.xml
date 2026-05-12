@@ -36,7 +36,7 @@
             app:tabSelectedTextColor="@color/primary_light"
             app:tabIndicatorColor="@color/primary_light"
             app:tabIndicatorHeight="3dp"
-            app:tabIndicatorGravity="end"
+            app:tabIndicatorGravity="stretch"
             app:tabRippleColor="@android:color/transparent">
 
             <com.google.android.material.tabs.TabItem
