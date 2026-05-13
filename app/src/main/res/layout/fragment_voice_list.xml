@@ -78,11 +78,11 @@
                     app:chipSpacing="12dp">
 
                     <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_custom"
+                        android:id="@+id/chip_all"
                         style="@style/Widget.Material3.Chip.Filter"
                         android:layout_width="wrap_content"
                         android:layout_height="40dp"
-                        android:text="自定义音效"
+                        android:text="全部"
                         android:textSize="14sp"
                         android:textColor="#FF1F2937"
                         app:chipBackgroundColor="#FFF3F4F6"
@@ -95,7 +95,7 @@
                         style="@style/Widget.Material3.Chip.Filter"
                         android:layout_width="wrap_content"
                         android:layout_height="40dp"
-                        android:text="系统音效"
+                        android:text="系统"
                         android:textSize="14sp"
                         app:chipBackgroundColor="#FFF3F4F6"
                         app:chipStrokeColor="#FFE5E7EB"
@@ -103,11 +103,11 @@
                         app:chipCornerRadius="20dp" />
 
                     <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_all"
+                        android:id="@+id/chip_blocked"
                         style="@style/Widget.Material3.Chip.Filter"
                         android:layout_width="wrap_content"
                         android:layout_height="40dp"
-                        android:text="全部"
+                        android:text="已屏蔽"
                         android:textSize="14sp"
                         app:chipBackgroundColor="#FFF3F4F6"
                         app:chipStrokeColor="#FFE5E7EB"
@@ -143,7 +143,7 @@
             android:textColorHint="#FF9CA3AF"
             android:textColor="#FF1F2937"
             android:textSize="15sp"
-            android:background="#00000000"
+            android:background="@"
             android:drawableStart="@android:drawable/ic_menu_search"
             android:drawablePadding="12dp"
             android:drawableTint="#FF9CA3AF" />
