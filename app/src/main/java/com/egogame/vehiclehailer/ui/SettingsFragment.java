@@ -36,6 +36,28 @@ import java.util.Map;
 
 public class SettingsFragment extends Fragment {
 
+    /**
+     * 安全设置Switch文本：防止Android 14上SwitchCompat.makeLayout因文本崩溃
+     */
+    private void safeSetSwitchText(MaterialSwitch sw, int resId) {
+        if (sw != null) {
+            sw.setText(resId);
+            // 重置安全检查（防止系统主题覆写）
+            if (sw.getText() == null) {
+                sw.setText("");
+            }
+        }
+    }
+
+    private void safeSetSwitchText(MaterialSwitch sw, CharSequence text) {
+        if (sw != null) {
+            sw.setText(text);
+            if (sw.getText() == null) {
+                sw.setText("");
+            }
+        }
+    }
+
     private Spinner carModelSpinner;
     private MaterialSwitch channelSwitch;
     private MaterialSwitch ttsEnabledSwitch;
@@ -146,14 +168,15 @@ public class SettingsFragment extends Fragment {
             public void onNothingSelected(AdapterView<?> parent) {}
         });
 
-        // 声道切换（车内/车外）
+        // 声道切换（车内/车外）- 先安全设置文本防止SwitchCompat崩溃
+        safeSetSwitchText(channelSwitch, R.string.setting_channel_inside);
         channelSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (isChecked) {
                 voicePlayer.setChannel(VoicePlayer.Channel.INSIDE);
-                channelSwitch.setText(R.string.setting_channel_inside);
+                safeSetSwitchText(channelSwitch, R.string.setting_channel_inside);
             } else {
                 voicePlayer.setChannel(VoicePlayer.Channel.OUTSIDE);
-                channelSwitch.setText(R.string.setting_channel_outside);
+                safeSetSwitchText(channelSwitch, R.string.setting_channel_outside);
             }
         });
 
