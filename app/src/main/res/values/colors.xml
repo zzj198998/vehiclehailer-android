@@ -1,54 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- 主色调 - 深蓝科技风 -->
-    <color name="primary">#FF1565C0</color>
-    <color name="primary_dark">#FF0D47A1</color>
-    <color name="primary_light">#FF42A5F5</color>
+    <!-- 主色调 - Material Blue -->
+    <color name="primary">#FF2563EB</color>
+    <color name="primary_dark">#FF1D4ED8</color>
+    <color name="primary_light">#FF3B82F6</color>
 
     <!-- 辅助色 -->
-    <color name="secondary">#FF00BCD4</color>
-    <color name="secondary_dark">#FF0097A7</color>
+    <color name="secondary">#FF0EA5E9</color>
+    <color name="secondary_dark">#FF0284C7</color>
 
     <!-- 功能色 -->
-    <color name="success">#FF4CAF50</color>
-    <color name="warning">#FFFFC107</color>
-    <color name="error">#FFF44336</color>
-    <color name="info">#FF2196F3</color>
+    <color name="success">#FF10B981</color>
+    <color name="warning">#FFF59E0B</color>
+    <color name="error">#FFEF4444</color>
+    <color name="info">#FF3B82F6</color>
 
-    <!-- 中性色 -->
+    <!-- 语义文字色 -->
+    <color name="text_primary">#FF1F2937</color>
+    <color name="text_secondary">#FF6B7280</color>
+    <color name="text_hint">#FF9CA3AF</color>
+    <color name="text_disabled">#FFD1D5DB</color>
+
+    <!-- 中性色 - 明亮风格 -->
     <color name="white">#FFFFFFFF</color>
-    <color name="black">#FF000000</color>
-    <color name="gray_50">#FFF5F5F5</color>
-    <color name="gray_100">#FFE0E0E0</color>
-    <color name="gray_400">#FF9E9E9E</color>
-    <color name="gray_500">#FF9E9E9E</color>
-    <color name="gray_600">#FF757575</color>
-    <color name="gray_700">#FF616161</color>
-    <color name="gray_800">#FF424242</color>
+    <color name="black">#FF111827</color>
+    <color name="gray_50">#FFF9FAFB</color>
+    <color name="gray_100">#FFF3F4F6</color>
+    <color name="gray_200">#FFE5E7EB</color>
+    <color name="gray_300">#FFD1D5DB</color>
+    <color name="gray_400">#FF9CA3AF</color>
+    <color name="gray_500">#FF6B7280</color>
+    <color name="gray_600">#FF4B5563</color>
 
-    <!-- 背景色 -->
-    <color name="background_dark">#FF121212</color>
-    <color name="background_card">#FF1E1E2E</color>
-    <color name="background_card_light">#FFFFFFFF</color>
+    <!-- 背景色 - 明亮白底 -->
+    <color name="background">#FFF9FAFB</color>
+    <color name="background_card">#FFFFFFFF</color>
+    <color name="background_card_light">#FFF3F4F6</color>
+    <color name="background_sidebar">#FF1F2937</color>
 
     <!-- 代码/连接相关色 -->
-    <color name="accent">#FF00BCD4</color>
-    <color name="code_text">#FF80CBC4</color>
-    <color name="gray_300">#FFBDBDBD</color>
+    <color name="accent">#FF2563EB</color>
+    <color name="code_text">#FF059669</color>
+    <color name="code_bg">#FFF0FDF4</color>
 
     <!-- 语音状态色 -->
-    <color name="voice_playing">#FF4CAF50</color>
-    <color name="voice_idle">#FF757575</color>
-    <color name="voice_blocked">#FFE53935</color>
+    <color name="voice_playing">#FF10B981</color>
+    <color name="voice_idle">#FF9CA3AF</color>
+    <color name="voice_blocked">#FFEF4444</color>
 
     <!-- 音频卡片分类色 -->
-    <color name="card_hailing">#FF1565C0</color>
-    <color name="card_door">#FF43A047</color>
-    <color name="card_lock">#FFF57C00</color>
-    <color name="card_custom">#FF7B1FA2</color>
-    <color name="card_soundwave">#FFD32F2F</color>
+    <color name="card_hailing">#FF2563EB</color>
+    <color name="card_door">#FF059669</color>
+    <color name="card_lock">#FFD97706</color>
+    <color name="card_custom">#FF7C3AED</color>
+    <color name="card_soundwave">#FFDC2626</color>
 
     <!-- 音频增强开关色 -->
-    <color name="switch_enabled">#FF4CAF50</color>
-    <color name="switch_disabled">#FF9E9E9E</color>
+    <color name="switch_enabled">#FF10B981</color>
+    <color name="switch_disabled">#FFD1D5DB</color>
+    
+    <!-- 分隔线 -->
+    <color name="divider">#FFE5E7EB</color>
 </resources>
