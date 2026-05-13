@@ -35,7 +35,8 @@ public class LogcatService extends Service {
 
         // 启动Logcat监听
         VehicleHailerApp app = VehicleHailerApp.getInstance();
-        logcatMonitor = new LogcatMonitor(app.getVehicleStateManager(), matchedLine -> {
+        logcatMonitor = new LogcatMonitor(app.getVehicleStateManager());
+        logcatMonitor.setOnLogMatchedListener(matchedLine -> {
             Log.d(TAG, "Logcat匹配: " + matchedLine);
         });
         logcatMonitor.start();
