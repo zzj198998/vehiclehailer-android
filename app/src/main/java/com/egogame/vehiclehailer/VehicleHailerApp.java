@@ -1,7 +1,10 @@
 package com.egogame.vehiclehailer;
 
 import android.app.Application;
+import android.content.Context;
+import android.content.ContextWrapper;
 import android.util.Log;
+import android.view.ContextThemeWrapper;
 
 import com.egogame.vehiclehailer.engine.ConfigLoader;
 import com.egogame.vehiclehailer.engine.VehicleStateManager;
@@ -20,6 +23,24 @@ public class VehicleHailerApp extends Application {
     private ConfigLoader configLoader;
     private VehicleStateManager vehicleStateManager;
     private VoicePlayer voicePlayer;
+
+    /**
+     * 全局主题注入：覆写attachBaseContext，确保所有基于此Application创建的Context
+     * 都强制使用MaterialComponents主题，防止OPPO/小米/华为等厂商系统覆写主题导致Material组件崩溃
+     */
+    @Override
+    protected void attachBaseContext(Context base) {
+        // 用ContextThemeWrapper包裹原始context，强制使用我们的MaterialComponents主题
+        Context themedContext = new ContextThemeWrapper(base, R.style.Theme_VehicleHailer);
+        // 递归确保内部ContextWrapper也被包裹
+        if (base instanceof ContextWrapper) {
+            Context baseContext = ((ContextWrapper) base).getBaseContext();
+            if (baseContext != null) {
+                themedContext = new ContextThemeWrapper(baseContext, R.style.Theme_VehicleHailer);
+            }
+        }
+        super.attachBaseContext(themedContext);
+    }
 
     @Override
     public void onCreate() {
