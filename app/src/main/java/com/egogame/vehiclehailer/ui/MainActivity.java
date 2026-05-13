@@ -2,8 +2,10 @@ package com.egogame.vehiclehailer.ui;
 
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.ContextWrapper;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.ContextThemeWrapper;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -25,6 +27,22 @@ import com.egogame.vehiclehailer.engine.VehicleStateManager;
 import com.egogame.vehiclehailer.engine.VoicePlayer;
 
 public class MainActivity extends AppCompatActivity {
+
+    /**
+     * Activity层主题加固：防止厂商系统覆写主题导致Material组件崩溃
+     * 与Application层的attachBaseContext形成双重保障
+     */
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        // 递归读取最底层的base context，用我们的MaterialComponents主题包裹
+        Context base = newBase;
+        while (base instanceof ContextWrapper) {
+            Context inner = ((ContextWrapper) base).getBaseContext();
+            if (inner == null || inner == base) break;
+            base = inner;
+        }
+        super.attachBaseContext(new ContextThemeWrapper(base, R.style.Theme_VehicleHailer));
+    }
 
     private FragmentManager fragmentManager;
 
@@ -175,8 +193,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void startLogcatMonitoring() {
         VehicleHailerApp app = VehicleHailerApp.getInstance();
-        logcatMonitor = new LogcatMonitor(app.getVehicleStateManager());
-        logcatMonitor.setOnLogMatchedListener(matchedLine -> {
+        logcatMonitor = new LogcatMonitor(app.getVehicleStateManager(), matchedLine -> {
             runOnUiThread(() -> {
                 if (!isMonitoring) {
                     isMonitoring = true;
