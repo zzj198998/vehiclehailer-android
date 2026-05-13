@@ -193,7 +193,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void startLogcatMonitoring() {
         VehicleHailerApp app = VehicleHailerApp.getInstance();
-        logcatMonitor = new LogcatMonitor(app.getVehicleStateManager(), matchedLine -> {
+        logcatMonitor = new LogcatMonitor(app.getVehicleStateManager());
+        logcatMonitor.setOnLogMatchedListener(matchedLine -> {
             runOnUiThread(() -> {
                 if (!isMonitoring) {
                     isMonitoring = true;
