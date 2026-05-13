@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="8dp"
-    app:cardBackgroundColor="@color/background_card"
+    app:cardBackgroundColor="#FFFFFFFF"
     app:cardCornerRadius="12dp"
-    app:cardElevation="1dp"
+    app:cardElevation="0dp"
     app:cardUseCompatPadding="true">
 
     <LinearLayout
@@ -26,7 +26,7 @@
             android:background="@drawable/sidebar_item_normal"
             android:scaleType="center"
             android:contentDescription="播放"
-            android:tint="@color/primary" />
+            android:tint="#FF2563EB" />
 
         <!-- 音频名称 -->
         <TextView
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginHorizontal="8dp"
-            android:textColor="@color/text_primary"
+            android:textColor="#FF1F2937"
             android:textSize="14sp"
             android:maxLines="2"
             android:ellipsize="end" />
@@ -49,7 +49,7 @@
             android:background="?attr/selectableItemBackgroundBorderless"
             android:scaleType="center"
             android:contentDescription="重命名"
-            android:tint="@color/text_secondary" />
+            android:tint="#FF6B7280" />
 
         <!-- 删除按钮 -->
         <ImageButton
@@ -60,7 +60,7 @@
             android:background="?attr/selectableItemBackgroundBorderless"
             android:scaleType="center"
             android:contentDescription="删除"
-            android:tint="@color/text_secondary" />
+            android:tint="#FF6B7280" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>
