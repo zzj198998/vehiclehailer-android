@@ -86,7 +86,7 @@ public class SettingsFragment extends Fragment {
         autoPlaySwitch = view.findViewById(R.id.auto_play_switch);
 
         // 车型adb信息控件
-        carModelPackageView = view.findViewById(R.id.car_model_spinner); // 借用提示区域
+        // carModelPackageView = view.findViewById(R.id.car_model_spinner); // 已废弃（Spinner不能强转TextView）
         adbCmdView = view.findViewById(R.id.adb_cmd_self);
         // 将adb_cmd_other区域改为显示车型包名
         View adbOtherParent = view.findViewById(R.id.adb_cmd_other);
