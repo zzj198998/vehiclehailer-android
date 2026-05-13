@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.ContextThemeWrapper;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -146,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
      */
     private void updateNavSelection(int selectedIndex) {
         int accentColor = ContextCompat.getColor(this, R.color.primary_light);
-        int grayColor = ContextCompat.getColor(this, R.color.text_hint);
+        int grayColor = ContextCompat.getColor(this, R.color.gray_400);
         for (int i = 0; i < navButtons.length; i++) {
             View item = navButtons[i];
             // 从LinearLayout容器中找出图标TextView（第1个）和文字TextView（第2个）
