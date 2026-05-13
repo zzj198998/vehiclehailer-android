@@ -266,7 +266,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="12dp"
-                android:text="@string/version_info"
+                android:text="无心车机喊话 v1.2.0"
                 android:textColor="#FF9CA3AF"
                 android:textSize="12sp"
                 android:gravity="center" />
