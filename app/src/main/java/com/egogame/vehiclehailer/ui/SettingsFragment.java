@@ -27,7 +27,7 @@ import com.egogame.vehiclehailer.engine.TriggerRuleConfig;
 import com.egogame.vehiclehailer.engine.VehicleEventTrigger;
 import com.egogame.vehiclehailer.engine.VoicePlayer;
 import com.egogame.vehiclehailer.model.CarModel;
-import com.google.android.material.materialswitch.MaterialSwitch;
+import androidx.appcompat.widget.SwitchCompat;
 import com.google.android.material.textfield.TextInputEditText;
 
 import java.util.HashMap;
@@ -39,7 +39,7 @@ public class SettingsFragment extends Fragment {
     /**
      * 安全设置Switch文本：防止Android 14上SwitchCompat.makeLayout因文本崩溃
      */
-    private void safeSetSwitchText(MaterialSwitch sw, int resId) {
+    private void safeSetSwitchText(SwitchCompat sw, int resId) {
         if (sw != null) {
             sw.setText(resId);
             // 重置安全检查（防止系统主题覆写）
@@ -49,7 +49,7 @@ public class SettingsFragment extends Fragment {
         }
     }
 
-    private void safeSetSwitchText(MaterialSwitch sw, CharSequence text) {
+    private void safeSetSwitchText(SwitchCompat sw, CharSequence text) {
         if (sw != null) {
             sw.setText(text);
             if (sw.getText() == null) {
@@ -59,10 +59,10 @@ public class SettingsFragment extends Fragment {
     }
 
     private Spinner carModelSpinner;
-    private MaterialSwitch channelSwitch;
-    private MaterialSwitch ttsEnabledSwitch;
+    private SwitchCompat channelSwitch;
+    private SwitchCompat ttsEnabledSwitch;
     private TextInputEditText ttsUrlInput;
-    private MaterialSwitch autoPlaySwitch;
+    private SwitchCompat autoPlaySwitch;
 
     private ConfigLoader configLoader;
     private VoicePlayer voicePlayer;
@@ -81,8 +81,8 @@ public class SettingsFragment extends Fragment {
         Spinner channelSpinner;
         SeekBar volumeSeekBar;
         TextView volumeText;
-        MaterialSwitch noiseSwitch;
-        MaterialSwitch voiceSwitch;
+        SwitchCompat noiseSwitch;
+        SwitchCompat voiceSwitch;
         boolean updating; // 防止循环回调
     }
 
