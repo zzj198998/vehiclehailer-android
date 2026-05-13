@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,7 +19,7 @@ import com.egogame.vehiclehailer.VehicleHailerApp;
 import com.egogame.vehiclehailer.engine.VoicePlayer;
 import com.egogame.vehiclehailer.model.VoiceItem;
 import com.egogame.vehiclehailer.model.VoiceItem.VoiceTab;
-import com.google.android.material.tabs.TabLayout;
+import com.google.android.material.chip.ChipGroup;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,9 +30,10 @@ public class VoiceListFragment extends Fragment {
     private VoiceAdapter voiceAdapter;
     private List<VoiceItem> allVoiceItems;
     private List<VoiceItem> filteredVoiceItems;
-    private TabLayout tabLayout;
+    private ChipGroup chipGroup;
     private EditText searchInput;
     private VoicePlayer voicePlayer;
+    private int selectedTabPosition = 0;
 
     @Nullable
     @Override
@@ -51,7 +51,7 @@ public class VoiceListFragment extends Fragment {
             allVoiceItems = new ArrayList<>();
         }
 
-        tabLayout = view.findViewById(R.id.tab_layout);
+        chipGroup = view.findViewById(R.id.tab_layout);
         searchInput = view.findViewById(R.id.search_input);
         voiceRecycler = view.findViewById(R.id.voice_recycler);
 
@@ -60,18 +60,15 @@ public class VoiceListFragment extends Fragment {
         voiceAdapter = new VoiceAdapter(filteredVoiceItems, voicePlayer);
         voiceRecycler.setAdapter(voiceAdapter);
 
-        // Tab切换过滤
-        tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-                filterVoiceItems(tab.getPosition(), searchInput.getText().toString());
+        // Chip点击切换过滤
+        chipGroup.setOnCheckedStateChangeListener((group, checkedIds) -> {
+            int position = 0;
+            if (!checkedIds.isEmpty()) {
+                int checkedId = checkedIds.get(0);
+                position = group.indexOfChild(group.findViewById(checkedId));
             }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {}
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {}
+            selectedTabPosition = position;
+            filterVoiceItems(position, searchInput.getText().toString());
         });
 
         // 搜索过滤
@@ -81,7 +78,7 @@ public class VoiceListFragment extends Fragment {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                filterVoiceItems(tabLayout.getSelectedTabPosition(), s.toString());
+                filterVoiceItems(selectedTabPosition, s.toString());
             }
 
             @Override
