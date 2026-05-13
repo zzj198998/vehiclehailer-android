@@ -321,9 +321,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
                         android:text="@string/route_desc"
                         android:textColor="#FF6B7280"
                         android:textSize="13sp" />
