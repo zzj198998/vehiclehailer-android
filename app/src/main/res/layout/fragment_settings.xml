@@ -75,14 +75,14 @@
                         android:textColor="#FF1F2937"
                         android:textSize="17sp"
                         android:textStyle="bold" />
-                    <com.google.android.material.materialswitch.MaterialSwitch
+                    <androidx.appcompat.widget.SwitchCompat
                         android:id="@+id/channel_switch"
                         android:layout_width="match_parent"
                         android:layout_height="52dp"
                         android:layout_marginTop="8dp"
                         android:text="@string/setting_channel_inside"
                         android:textSize="15sp"
-                        android:checked="true" />
+                        android:checked="true"  android:textOn="" android:textOff="" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -108,13 +108,13 @@
                         android:textColor="#FF1F2937"
                         android:textSize="17sp"
                         android:textStyle="bold" />
-                    <com.google.android.material.materialswitch.MaterialSwitch
+                    <androidx.appcompat.widget.SwitchCompat
                         android:id="@+id/tts_enabled_switch"
                         android:layout_width="match_parent"
                         android:layout_height="52dp"
                         android:layout_marginTop="8dp"
                         android:text="@string/setting_tts_enabled"
-                        android:textSize="15sp" />
+                        android:textSize="15sp"  android:textOn="" android:textOff="" />
                     <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -155,13 +155,13 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:padding="16dp">
-                    <com.google.android.material.materialswitch.MaterialSwitch
+                    <androidx.appcompat.widget.SwitchCompat
                         android:id="@+id/auto_play_switch"
                         android:layout_width="match_parent"
                         android:layout_height="52dp"
                         android:text="@string/setting_auto_play"
                         android:textSize="15sp"
-                        android:checked="true" />
+                        android:checked="true"  android:textOn="" android:textOff="" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -382,20 +382,20 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="6dp"
                                 android:orientation="horizontal">
-                                <com.google.android.material.materialswitch.MaterialSwitch
+                                <androidx.appcompat.widget.SwitchCompat
                                     android:id="@+id/route_hailing_noise"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/noise_reduction"
-                                    android:textSize="12sp"/>
-                                <com.google.android.material.materialswitch.MaterialSwitch
+                                    android:textSize="12sp" android:textOn="" android:textOff="" />
+                                <androidx.appcompat.widget.SwitchCompat
                                     android:id="@+id/route_hailing_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/voice_enhance"
-                                    android:textSize="12sp"/>
+                                    android:textSize="12sp" android:textOn="" android:textOff="" />
                             </LinearLayout>
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
@@ -462,20 +462,20 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:orientation="horizontal">
-                                <com.google.android.material.materialswitch.MaterialSwitch
+                                <androidx.appcompat.widget.SwitchCompat
                                     android:id="@+id/route_door_noise"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/noise_reduction"
-                                    android:textSize="11sp"/>
-                                <com.google.android.material.materialswitch.MaterialSwitch
+                                    android:textSize="11sp" android:textOn="" android:textOff="" />
+                                <androidx.appcompat.widget.SwitchCompat
                                     android:id="@+id/route_door_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/voice_enhance"
-                                    android:textSize="11sp"/>
+                                    android:textSize="11sp" android:textOn="" android:textOff="" />
                             </LinearLayout>
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
@@ -541,20 +541,20 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:orientation="horizontal">
-                                <com.google.android.material.materialswitch.MaterialSwitch
+                                <androidx.appcompat.widget.SwitchCompat
                                     android:id="@+id/route_lock_noise"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/noise_reduction"
-                                    android:textSize="11sp"/>
-                                <com.google.android.material.materialswitch.MaterialSwitch
+                                    android:textSize="11sp" android:textOn="" android:textOff="" />
+                                <androidx.appcompat.widget.SwitchCompat
                                     android:id="@+id/route_lock_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/voice_enhance"
-                                    android:textSize="11sp"/>
+                                    android:textSize="11sp" android:textOn="" android:textOff="" />
                             </LinearLayout>
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
@@ -627,20 +627,20 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:orientation="horizontal">
-                                <com.google.android.material.materialswitch.MaterialSwitch
+                                <androidx.appcompat.widget.SwitchCompat
                                     android:id="@+id/route_soundwave_noise"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/noise_reduction"
-                                    android:textSize="11sp"/>
-                                <com.google.android.material.materialswitch.MaterialSwitch
+                                    android:textSize="11sp" android:textOn="" android:textOff="" />
+                                <androidx.appcompat.widget.SwitchCompat
                                     android:id="@+id/route_soundwave_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/voice_enhance"
-                                    android:textSize="11sp"/>
+                                    android:textSize="11sp" android:textOn="" android:textOff="" />
                             </LinearLayout>
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
@@ -706,20 +706,20 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="4dp"
                                 android:orientation="horizontal">
-                                <com.google.android.material.materialswitch.MaterialSwitch
+                                <androidx.appcompat.widget.SwitchCompat
                                     android:id="@+id/route_custom_noise"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/noise_reduction"
-                                    android:textSize="11sp"/>
-                                <com.google.android.material.materialswitch.MaterialSwitch
+                                    android:textSize="11sp" android:textOn="" android:textOff="" />
+                                <androidx.appcompat.widget.SwitchCompat
                                     android:id="@+id/route_custom_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/voice_enhance"
-                                    android:textSize="11sp"/>
+                                    android:textSize="11sp" android:textOn="" android:textOff="" />
                             </LinearLayout>
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
