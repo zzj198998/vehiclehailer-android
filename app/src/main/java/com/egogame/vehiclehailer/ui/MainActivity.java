@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
 
     private FragmentManager fragmentManager;
 
-    // 侧边栏导航按钮
-    private TextView navVoice, navMonitor, navTrigger, navAudioLib, navSettings;
+    // 侧边栏导航按钮（LinearLayout容器，内部包含图标+文字）
+    private View navVoice, navMonitor, navTrigger, navAudioLib, navSettings;
     private View[] navButtons;
 
     // 记录当前选中的Fragment
@@ -146,16 +146,24 @@ public class MainActivity extends AppCompatActivity {
      */
     private void updateNavSelection(int selectedIndex) {
         int accentColor = ContextCompat.getColor(this, R.color.primary_light);
-        int grayColor = ContextCompat.getColor(this, R.color.gray_400);
+        int grayColor = ContextCompat.getColor(this, R.color.text_hint);
         for (int i = 0; i < navButtons.length; i++) {
-            TextView tv = (TextView) navButtons[i];
-            if (i == selectedIndex) {
-                tv.setTextColor(accentColor);
-                tv.setBackgroundResource(R.drawable.sidebar_item_selected);
-            } else {
-                tv.setTextColor(grayColor);
-                tv.setBackgroundResource(R.drawable.sidebar_item_normal);
+            View item = navButtons[i];
+            // 从LinearLayout容器中找出图标TextView（第1个）和文字TextView（第2个）
+            if (item instanceof ViewGroup) {
+                ViewGroup vg = (ViewGroup) item;
+                if (vg.getChildCount() >= 2) {
+                    if (vg.getChildAt(0) instanceof TextView) {
+                        ((TextView) vg.getChildAt(0)).setTextColor(i == selectedIndex ? accentColor : grayColor);
+                    }
+                    if (vg.getChildAt(1) instanceof TextView) {
+                        ((TextView) vg.getChildAt(1)).setTextColor(i == selectedIndex ? accentColor : grayColor);
+                    }
+                }
             }
+            item.setBackgroundResource(i == selectedIndex
+                    ? R.drawable.sidebar_item_selected
+                    : R.drawable.sidebar_item_normal);
         }
     }
 
