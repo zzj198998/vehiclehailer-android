@@ -81,7 +81,6 @@
                         android:layout_height="52dp"
                         android:layout_marginTop="8dp"
                         android:text="@string/setting_channel_inside"
-                        android:textColor="#FF1F2937"
                         android:textSize="15sp"
                         android:checked="true" />
                 </LinearLayout>
@@ -115,7 +114,6 @@
                         android:layout_height="52dp"
                         android:layout_marginTop="8dp"
                         android:text="@string/setting_tts_enabled"
-                        android:textColor="#FF1F2937"
                         android:textSize="15sp" />
                     <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
@@ -162,7 +160,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="52dp"
                         android:text="@string/setting_auto_play"
-                        android:textColor="#FF1F2937"
                         android:textSize="15sp"
                         android:checked="true" />
                 </LinearLayout>
@@ -391,16 +388,14 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/noise_reduction"
-                                    android:textSize="12sp"
-                                    android:textColor="#FF1F2937"/>
+                                    android:textSize="12sp"/>
                                 <com.google.android.material.materialswitch.MaterialSwitch
                                     android:id="@+id/route_hailing_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/voice_enhance"
-                                    android:textSize="12sp"
-                                    android:textColor="#FF1F2937"/>
+                                    android:textSize="12sp"/>
                             </LinearLayout>
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
@@ -473,16 +468,14 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/noise_reduction"
-                                    android:textSize="11sp"
-                                    android:textColor="#FF1F2937"/>
+                                    android:textSize="11sp"/>
                                 <com.google.android.material.materialswitch.MaterialSwitch
                                     android:id="@+id/route_door_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/voice_enhance"
-                                    android:textSize="11sp"
-                                    android:textColor="#FF1F2937"/>
+                                    android:textSize="11sp"/>
                             </LinearLayout>
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
@@ -554,16 +547,14 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/noise_reduction"
-                                    android:textSize="11sp"
-                                    android:textColor="#FF1F2937"/>
+                                    android:textSize="11sp"/>
                                 <com.google.android.material.materialswitch.MaterialSwitch
                                     android:id="@+id/route_lock_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/voice_enhance"
-                                    android:textSize="11sp"
-                                    android:textColor="#FF1F2937"/>
+                                    android:textSize="11sp"/>
                             </LinearLayout>
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
@@ -642,16 +633,14 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/noise_reduction"
-                                    android:textSize="11sp"
-                                    android:textColor="#FF1F2937"/>
+                                    android:textSize="11sp"/>
                                 <com.google.android.material.materialswitch.MaterialSwitch
                                     android:id="@+id/route_soundwave_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/voice_enhance"
-                                    android:textSize="11sp"
-                                    android:textColor="#FF1F2937"/>
+                                    android:textSize="11sp"/>
                             </LinearLayout>
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
@@ -723,16 +712,14 @@
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/noise_reduction"
-                                    android:textSize="11sp"
-                                    android:textColor="#FF1F2937"/>
+                                    android:textSize="11sp"/>
                                 <com.google.android.material.materialswitch.MaterialSwitch
                                     android:id="@+id/route_custom_voice"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:text="@string/voice_enhance"
-                                    android:textSize="11sp"
-                                    android:textColor="#FF1F2937"/>
+                                    android:textSize="11sp"/>
                             </LinearLayout>
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
