@@ -26,7 +26,6 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_add_voice"
-            style="@style/Widget.Material3.Button"
             android:layout_width="wrap_content"
             android:layout_height="44dp"
             android:text="+ 添加"
@@ -79,7 +78,6 @@
 
                     <com.google.android.material.chip.Chip
                         android:id="@+id/chip_all"
-                        style="@style/Widget.Material3.Chip.Filter"
                         android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:text="全部"
@@ -92,11 +90,11 @@
 
                     <com.google.android.material.chip.Chip
                         android:id="@+id/chip_system"
-                        style="@style/Widget.Material3.Chip.Filter"
                         android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:text="系统"
                         android:textSize="14sp"
+                        android:textColor="#FF1F2937"
                         app:chipBackgroundColor="#FFF3F4F6"
                         app:chipStrokeColor="#FFE5E7EB"
                         app:chipStrokeWidth="0dp"
@@ -104,11 +102,11 @@
 
                     <com.google.android.material.chip.Chip
                         android:id="@+id/chip_blocked"
-                        style="@style/Widget.Material3.Chip.Filter"
                         android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:text="已屏蔽"
                         android:textSize="14sp"
+                        android:textColor="#FF1F2937"
                         app:chipBackgroundColor="#FFF3F4F6"
                         app:chipStrokeColor="#FFE5E7EB"
                         app:chipStrokeWidth="0dp"
