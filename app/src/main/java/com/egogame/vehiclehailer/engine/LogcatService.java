@@ -35,8 +35,7 @@ public class LogcatService extends Service {
 
         // 启动Logcat监听
         VehicleHailerApp app = VehicleHailerApp.getInstance();
-        logcatMonitor = new LogcatMonitor(app.getVehicleStateManager());
-        logcatMonitor.setOnLogMatchedListener(matchedLine -> {
+        logcatMonitor = new LogcatMonitor(app.getVehicleStateManager(), matchedLine -> {
             Log.d(TAG, "Logcat匹配: " + matchedLine);
         });
         logcatMonitor.start();
@@ -54,6 +53,20 @@ public class LogcatService extends Service {
 
         startForeground(NOTIFICATION_ID, notification);
         return START_STICKY;
+    }
+
+    /**
+     * 安全启动前台服务，兼容 API 34+ 的前台服务类型要求
+     */
+    public static void startSafe(Context context) {
+        Intent intent = new Intent(context, LogcatService.class);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+            // Android 14+ 需要指定前台服务类型，FGS 权限已在 Manifest 声明
+            context.startForegroundService(intent);
+        } else {
+            // 低版本 Android，startService 即可
+            context.startService(intent);
+        }
     }
 
     @Override
@@ -85,9 +98,19 @@ public class LogcatService extends Service {
         }
     }
 
+    /**
+     * 启动前台服务，自动适配不同 Android 版本：
+     * - Android 14+（API 34）：使用 startForegroundService + dataSync 权限
+     * - Android 8+（API 26）：使用 startForegroundService
+     * - Android 7 及以下（API < 26）：使用 startService
+     */
     public static void start(Context context) {
         Intent intent = new Intent(context, LogcatService.class);
-        context.startForegroundService(intent);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            context.startForegroundService(intent);
+        } else {
+            context.startService(intent);
+        }
     }
 
     public static void stop(Context context) {
