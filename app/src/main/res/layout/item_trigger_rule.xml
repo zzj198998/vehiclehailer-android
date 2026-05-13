@@ -1,1 +1,60 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGFuZHJvaWR4LmNhcmR2aWV3LndpZGdldC5DYXJkVmlldyB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICB4bWxuczphcHA9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMtYXV0byIKICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgIGFuZHJvaWQ6bGF5b3V0X21hcmdpbkJvdHRvbT0iOGRwIgogICAgYXBwOmNhcmRCYWNrZ3JvdW5kQ29sb3I9IkBjb2xvci9iYWNrZ3JvdW5kX2NhcmQiCiAgICBhcHA6Y2FyZENvcm5lclJhZGl1cz0iMTJkcCIKICAgIGFwcDpjYXJkRWxldmF0aW9uPSIxZHAiCiAgICBhcHA6Y2FyZFVzZUNvbXBhdFBhZGRpbmc9InRydWUiPgoKICAgIDxMaW5lYXJMYXlvdXQKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgIGFuZHJvaWQ6b3JpZW50YXRpb249Imhvcml6b250YWwiCiAgICAgICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXJfdmVydGljYWwiCiAgICAgICAgYW5kcm9pZDpwYWRkaW5nPSIxMmRwIj4KCiAgICAgICAgPCEtLSDop4TliJnkv6Hmga8gLS0+CiAgICAgICAgPExpbmVhckxheW91dAogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0iMGRwIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2VpZ2h0PSIxIgogICAgICAgICAgICBhbmRyb2lkOm9yaWVudGF0aW9uPSJ2ZXJ0aWNhbCI+CgogICAgICAgICAgICA8IS0tIOWxnuaAp+WQjSAtLT4KICAgICAgICAgICAgPFRleHRWaWV3CiAgICAgICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3J1bGVfcHJvcGVydHkiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOnRleHRTaXplPSIxNHNwIgogICAgICAgICAgICAgICAgYW5kcm9pZDp0ZXh0U3R5bGU9ImJvbGQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOnRleHRDb2xvcj0iQGNvbG9yL3RleHRfcHJpbWFyeSIgLz4KCiAgICAgICAgICAgIDwhLS0g5p2h5Lu277yI5pen5YC84oaS5paw5YC877yJIC0tPgogICAgICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvcnVsZV9jb25kaXRpb24iCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0id3JhcF9jb250ZW50IgogICAgICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOnRleHRTaXplPSIxMnNwIgogICAgICAgICAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9IkBjb2xvci90ZXh0X3NlY29uZGFyeSIgLz4KCiAgICAgICAgICAgIDwhLS0g6Z+z6aKR5L+h5oGvIC0tPgogICAgICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvcnVsZV92b2ljZSIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IndyYXBfY29udGVudCIKICAgICAgICAgICAgICAgIGFuZHJvaWQ6dGV4dFNpemU9IjExc3AiCiAgICAgICAgICAgICAgICBhbmRyb2lkOnRleHRDb2xvcj0iQGNvbG9yL3RleHRfaGludCIgLz4KICAgICAgICA8L0xpbmVhckxheW91dD4KCiAgICAgICAgPCEtLSDlkK/nlKgv56aB55So5byA5YWzIC0tPgogICAgICAgIDxhbmRyb2lkeC5hcHBjb21wYXQud2lkZ2V0LlN3aXRjaENvbXBhdAogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL3J1bGVfZW5hYmxlX3N3aXRjaCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9IndyYXBfY29udGVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6cGFkZGluZ1N0YXJ0PSI4ZHAiIC8+CgogICAgPC9MaW5lYXJMYXlvdXQ+CjwvYW5kcm9pZHguY2FyZHZpZXcud2lkZ2V0LkNhcmRWaWV3Pgo=
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardBackgroundColor="@color/background_card"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="1dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp">
+
+        <!-- 规则信息 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- 属性名 -->
+            <TextView
+                android:id="@+id/rule_property"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary" />
+
+            <!-- 条件（旧值→新值） -->
+            <TextView
+                android:id="@+id/rule_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary" />
+
+            <!-- 音频信息 -->
+            <TextView
+                android:id="@+id/rule_voice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:textColor="@color/text_hint" />
+        </LinearLayout>
+
+        <!-- 启用/禁用开关 -->
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/rule_enable_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

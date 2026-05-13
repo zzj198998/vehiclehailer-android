@@ -1,1 +1,150 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLQogIOi9puacuuaoquWxj+iHqumAguW6lOW4g+WxgAogIOS+p+i+ueagjyA8LT4g5YaF5a655Yy6ID0gMTo2CiAg5rex6Imy5L6n6L655qCPICsg55m96Imy5Li75YaF5a655Yy6Ci0tPgo8TGluZWFyTGF5b3V0IHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCIKICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9Im1hdGNoX3BhcmVudCIKICAgIGFuZHJvaWQ6b3JpZW50YXRpb249Imhvcml6b250YWwiCiAgICBhbmRyb2lkOmJhY2tncm91bmQ9IkBjb2xvci9iYWNrZ3JvdW5kIj4KCiAgICA8IS0tID09PT09PT09PT0g5bem5L6n5rex6Imy5L6n6L655qCPID09PT09PT09PT0gLS0+CiAgICA8TGluZWFyTGF5b3V0CiAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9uYXZfc2lkZWJhciIKICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0iMGRwIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0ibWF0Y2hfcGFyZW50IgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMSIKICAgICAgICBhbmRyb2lkOm9yaWVudGF0aW9uPSJ2ZXJ0aWNhbCIKICAgICAgICBhbmRyb2lkOmJhY2tncm91bmQ9IkBjb2xvci9iYWNrZ3JvdW5kX3NpZGViYXIiCiAgICAgICAgYW5kcm9pZDpwYWRkaW5nVG9wPSIxMmRwIgogICAgICAgIGFuZHJvaWQ6cGFkZGluZ1N0YXJ0PSI0ZHAiCiAgICAgICAgYW5kcm9pZDpwYWRkaW5nRW5kPSI0ZHAiCiAgICAgICAgYW5kcm9pZDplbGV2YXRpb249IjRkcCI+CgogICAgICAgIDwhLS0gTG9nb+WMuiAtLT4KICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSIwZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMS41IgogICAgICAgICAgICBhbmRyb2lkOmdyYXZpdHk9ImNlbnRlciIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0PSLwn5qXIgogICAgICAgICAgICBhbmRyb2lkOnRleHRTaXplPSIyNHNwIiAvPgoKICAgICAgICA8IS0tIEFwcOWQjeensCAtLT4KICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJ3cmFwX2NvbnRlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6Z3Jhdml0eT0iY2VudGVyIgogICAgICAgICAgICBhbmRyb2lkOnRleHQ9IkBzdHJpbmcvYXBwX25hbWUiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dENvbG9yPSIjRkZGIgogICAgICAgICAgICBhbmRyb2lkOnRleHRTaXplPSIxMXNwIgogICAgICAgICAgICBhbmRyb2lkOnRleHRTdHlsZT0iYm9sZCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfbWFyZ2luQm90dG9tPSI4ZHAiIC8+CgogICAgICAgIDwhLS0g5YiG6ZqU57q/IC0tPgogICAgICAgIDxWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSIyOGRwIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IjFkcCIKICAgICAgICAgICAgYW5kcm9pZDpiYWNrZ3JvdW5kPSIjRkY0QjU1NjMiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2dyYXZpdHk9ImNlbnRlcl9ob3Jpem9udGFsIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9tYXJnaW5Cb3R0b209IjhkcCIgLz4KCiAgICAgICAgPCEtLSA15Liq5a+86Iiq5oyJ6ZKuIC0tPgogICAgICAgIDxUZXh0VmlldwogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL25hdl92b2ljZSIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSIwZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMSIKICAgICAgICAgICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6ZHJhd2FibGVUb3A9IkBhbmRyb2lkOmRyYXdhYmxlL2ljX21lZGlhX3BsYXkiCiAgICAgICAgICAgIGFuZHJvaWQ6ZHJhd2FibGVQYWRkaW5nPSIzZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dD0iQHN0cmluZy90YWJfdm9pY2UiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dENvbG9yPSJAY29sb3IvcHJpbWFyeV9saWdodCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0U2l6ZT0iMTBzcCIKICAgICAgICAgICAgYW5kcm9pZDpiYWNrZ3JvdW5kPSJAZHJhd2FibGUvc2lkZWJhcl9pdGVtX3NlbGVjdGVkIgogICAgICAgICAgICBhbmRyb2lkOmNsaWNrYWJsZT0idHJ1ZSIKICAgICAgICAgICAgYW5kcm9pZDpmb2N1c2FibGU9InRydWUiIC8+CgogICAgICAgIDxUZXh0VmlldwogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL25hdl9tb25pdG9yIgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF93aWR0aD0ibWF0Y2hfcGFyZW50IgogICAgICAgICAgICBhbmRyb2lkOmxheW91dF9oZWlnaHQ9IjBkcCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2VpZ2h0PSIxIgogICAgICAgICAgICBhbmRyb2lkOmdyYXZpdHk9ImNlbnRlciIKICAgICAgICAgICAgYW5kcm9pZDpkcmF3YWJsZVRvcD0iQGFuZHJvaWQ6ZHJhd2FibGUvaWNfbWVudV9pbmZvX2RldGFpbHMiCiAgICAgICAgICAgIGFuZHJvaWQ6ZHJhd2FibGVQYWRkaW5nPSIzZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dD0iQHN0cmluZy90YWJfbW9uaXRvciIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9IiNGRjlDQTNBRiIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0U2l6ZT0iMTBzcCIKICAgICAgICAgICAgYW5kcm9pZDpiYWNrZ3JvdW5kPSJAZHJhd2FibGUvc2lkZWJhcl9pdGVtX25vcm1hbCIKICAgICAgICAgICAgYW5kcm9pZDpjbGlja2FibGU9InRydWUiCiAgICAgICAgICAgIGFuZHJvaWQ6Zm9jdXNhYmxlPSJ0cnVlIiAvPgoKICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9uYXZfdHJpZ2dlciIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSIwZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMSIKICAgICAgICAgICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6ZHJhd2FibGVUb3A9IkBhbmRyb2lkOmRyYXdhYmxlL2ljX21lbnVfbXlwbGFjZXMiCiAgICAgICAgICAgIGFuZHJvaWQ6ZHJhd2FibGVQYWRkaW5nPSIzZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dD0iQHN0cmluZy90YWJfdHJpZ2dlciIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0Q29sb3I9IiNGRjlDQTNBRiIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0U2l6ZT0iMTBzcCIKICAgICAgICAgICAgYW5kcm9pZDpiYWNrZ3JvdW5kPSJAZHJhd2FibGUvc2lkZWJhcl9pdGVtX25vcm1hbCIKICAgICAgICAgICAgYW5kcm9pZDpjbGlja2FibGU9InRydWUiCiAgICAgICAgICAgIGFuZHJvaWQ6Zm9jdXNhYmxlPSJ0cnVlIiAvPgoKICAgICAgICA8VGV4dFZpZXcKICAgICAgICAgICAgYW5kcm9pZDppZD0iQCtpZC9uYXZfYXVkaW9fbGlicmFyeSIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSIwZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMSIKICAgICAgICAgICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6ZHJhd2FibGVUb3A9IkBhbmRyb2lkOmRyYXdhYmxlL2ljX21lbnVfZ2FsbGVyeSIKICAgICAgICAgICAgYW5kcm9pZDpkcmF3YWJsZVBhZGRpbmc9IjNkcCIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0PSJAc3RyaW5nL25hdl9hdWRpb19saWJyYXJ5IgogICAgICAgICAgICBhbmRyb2lkOnRleHRDb2xvcj0iI0ZGOUNBM0FGIgogICAgICAgICAgICBhbmRyb2lkOnRleHRTaXplPSIxMHNwIgogICAgICAgICAgICBhbmRyb2lkOmJhY2tncm91bmQ9IkBkcmF3YWJsZS9zaWRlYmFyX2l0ZW1fbm9ybWFsIgogICAgICAgICAgICBhbmRyb2lkOmNsaWNrYWJsZT0idHJ1ZSIKICAgICAgICAgICAgYW5kcm9pZDpmb2N1c2FibGU9InRydWUiIC8+CgogICAgICAgIDxUZXh0VmlldwogICAgICAgICAgICBhbmRyb2lkOmlkPSJAK2lkL25hdl9zZXR0aW5ncyIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2lkdGg9Im1hdGNoX3BhcmVudCIKICAgICAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSIwZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dlaWdodD0iMSIKICAgICAgICAgICAgYW5kcm9pZDpncmF2aXR5PSJjZW50ZXIiCiAgICAgICAgICAgIGFuZHJvaWQ6ZHJhd2FibGVUb3A9IkBhbmRyb2lkOmRyYXdhYmxlL2ljX21lbnVfcHJlZmVyZW5jZXMiCiAgICAgICAgICAgIGFuZHJvaWQ6ZHJhd2FibGVQYWRkaW5nPSIzZHAiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dD0iQHN0cmluZy90YWJfc2V0dGluZ3MiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dENvbG9yPSIjRkY5Q0EzQUYiCiAgICAgICAgICAgIGFuZHJvaWQ6dGV4dFNpemU9IjEwc3AiCiAgICAgICAgICAgIGFuZHJvaWQ6YmFja2dyb3VuZD0iQGRyYXdhYmxlL3NpZGViYXJfaXRlbV9ub3JtYWwiCiAgICAgICAgICAgIGFuZHJvaWQ6Y2xpY2thYmxlPSJ0cnVlIgogICAgICAgICAgICBhbmRyb2lkOmZvY3VzYWJsZT0idHJ1ZSIgLz4KCiAgICAgICAgPCEtLSDniYjmnKzlj7cgLS0+CiAgICAgICAgPFRleHRWaWV3CiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSJtYXRjaF9wYXJlbnQiCiAgICAgICAgICAgIGFuZHJvaWQ6bGF5b3V0X2hlaWdodD0id3JhcF9jb250ZW50IgogICAgICAgICAgICBhbmRyb2lkOmdyYXZpdHk9ImNlbnRlciIKICAgICAgICAgICAgYW5kcm9pZDp0ZXh0PSJ2MS4wIgogICAgICAgICAgICBhbmRyb2lkOnRleHRDb2xvcj0iI0ZGNkI3MjgwIgogICAgICAgICAgICBhbmRyb2lkOnRleHRTaXplPSI5c3AiCiAgICAgICAgICAgIGFuZHJvaWQ6cGFkZGluZ1RvcD0iNmRwIgogICAgICAgICAgICBhbmRyb2lkOnBhZGRpbmdCb3R0b209IjZkcCIgLz4KCiAgICA8L0xpbmVhckxheW91dD4KCiAgICA8IS0tIOWPs+S+p+eZveiJsuWGheWuueWMuiAtLT4KICAgIDxGcmFtZUxheW91dAogICAgICAgIGFuZHJvaWQ6aWQ9IkAraWQvZnJhZ21lbnRfY29udGFpbmVyIgogICAgICAgIGFuZHJvaWQ6bGF5b3V0X3dpZHRoPSIwZHAiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfaGVpZ2h0PSJtYXRjaF9wYXJlbnQiCiAgICAgICAgYW5kcm9pZDpsYXlvdXRfd2VpZ2h0PSI2IiAvPgoKPC9MaW5lYXJMYXlvdXQ+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  车机横屏自适应布局
+  侧边栏 <-> 内容区 = 1:6
+  深色侧边栏 + 白色主内容区
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/background">
+
+    <!-- ========== 左侧深色侧边栏 ========== -->
+    <LinearLayout
+        android:id="@+id/nav_sidebar"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/background_sidebar"
+        android:paddingTop="12dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:elevation="4dp">
+
+        <!-- Logo区 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="🚗"
+            android:textSize="24sp" />
+
+        <!-- App名称 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#FFF"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- 分隔线 -->
+        <View
+            android:layout_width="28dp"
+            android:layout_height="1dp"
+            android:background="#FF4B5563"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp" />
+
+        <!-- 5个导航按钮 -->
+        <TextView
+            android:id="@+id/nav_voice"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_media_play"
+            android:drawablePadding="3dp"
+            android:text="@string/tab_voice"
+            android:textColor="@color/primary_light"
+            android:textSize="10sp"
+            android:background="@drawable/sidebar_item_selected"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/nav_monitor"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_menu_info_details"
+            android:drawablePadding="3dp"
+            android:text="@string/tab_monitor"
+            android:textColor="#FF9CA3AF"
+            android:textSize="10sp"
+            android:background="@drawable/sidebar_item_normal"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/nav_trigger"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_menu_myplaces"
+            android:drawablePadding="3dp"
+            android:text="@string/tab_trigger"
+            android:textColor="#FF9CA3AF"
+            android:textSize="10sp"
+            android:background="@drawable/sidebar_item_normal"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/nav_audio_library"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_menu_gallery"
+            android:drawablePadding="3dp"
+            android:text="@string/nav_audio_library"
+            android:textColor="#FF9CA3AF"
+            android:textSize="10sp"
+            android:background="@drawable/sidebar_item_normal"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/nav_settings"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@android:drawable/ic_menu_preferences"
+            android:drawablePadding="3dp"
+            android:text="@string/tab_settings"
+            android:textColor="#FF9CA3AF"
+            android:textSize="10sp"
+            android:background="@drawable/sidebar_item_normal"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- 版本号 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="v1.0"
+            android:textColor="#FF6B7280"
+            android:textSize="9sp"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp" />
+
+    </LinearLayout>
+
+    <!-- 右侧白色内容区 -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6" />
+
+</LinearLayout>

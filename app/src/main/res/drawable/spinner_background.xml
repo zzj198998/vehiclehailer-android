@@ -1,1 +1,7 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHNoYXBlIHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCI+CiAgICA8c29saWQgYW5kcm9pZDpjb2xvcj0iQGNvbG9yL3doaXRlIiAvPgogICAgPHN0cm9rZSBhbmRyb2lkOndpZHRoPSIxZHAiIGFuZHJvaWQ6Y29sb3I9IkBjb2xvci9ncmF5XzIwMCIgLz4KICAgIDxjb3JuZXJzIGFuZHJvaWQ6cmFkaXVzPSI4ZHAiIC8+CiAgICA8cGFkZGluZyBhbmRyb2lkOmxlZnQ9IjEyZHAiIGFuZHJvaWQ6cmlnaHQ9IjEyZHAiIGFuZHJvaWQ6dG9wPSI4ZHAiIGFuZHJvaWQ6Ym90dG9tPSI4ZHAiIC8+Cjwvc2hhcGU+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/white" />
+    <stroke android:width="1dp" android:color="@color/gray_200" />
+    <corners android:radius="8dp" />
+    <padding android:left="12dp" android:right="12dp" android:top="8dp" android:bottom="8dp" />
+</shape>
