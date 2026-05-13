@@ -14,6 +14,9 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <!-- 防止休眠 -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- Android 14 (API 34) 前台服务类型权限 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
     <!-- 外放声道控制 -->
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
 
