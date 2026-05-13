@@ -143,7 +143,7 @@
             android:textColorHint="#FF9CA3AF"
             android:textColor="#FF1F2937"
             android:textSize="15sp"
-            android:background="@"
+            android:background="#FFFFFFFF"
             android:drawableStart="@android:drawable/ic_menu_search"
             android:drawablePadding="12dp"
             android:drawableTint="#FF9CA3AF" />
