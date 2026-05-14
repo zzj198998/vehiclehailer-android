@@ -118,7 +118,6 @@
     <!-- 联动管理 -->
     <string name="tab_trigger">联动触发</string>
     <string name="tab_audio_library">音频库</string>
-    <string name="tab_settings">设置</string>
     <string name="version_short">v1.0</string>
     <string name="status_offline">离线</string>
     <string name="status_connected">已连接</string>
