@@ -1,1 +1,225 @@
-cGFja2FnZSBjb20uZWdvZ2FtZS52ZWhpY2xlaGFpbGVyLnNlcnZpY2U7CgppbXBvcnQgYW5kcm9pZC5hcHAuTm90aWZpY2F0aW9uOwppbXBvcnQgYW5kcm9pZC5hcHAuTm90aWZpY2F0aW9uQ2hhbm5lbDsKaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbk1hbmFnZXI7CmltcG9ydCBhbmRyb2lkLmFwcC5TZXJ2aWNlOwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudDsKaW1wb3J0IGFuZHJvaWQubWVkaWEuQXVkaW9Gb3JtYXQ7CmltcG9ydCBhbmRyb2lkLm1lZGlhLkF1ZGlvUmVjb3JkOwppbXBvcnQgYW5kcm9pZC5tZWRpYS5BdWRpb1RyYWNrOwppbXBvcnQgYW5kcm9pZC5tZWRpYS5NZWRpYVJlY29yZGVyOwppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZDsKaW1wb3J0IGFuZHJvaWQub3MuSUJpbmRlcjsKaW1wb3J0IGFuZHJvaWQudXRpbC5Mb2c7CgppbXBvcnQgYW5kcm9pZHguY29yZS5hcHAuTm90aWZpY2F0aW9uQ29tcGF0OwoKaW1wb3J0IGNvbS5lZ29nYW1lLnZlaGljbGVoYWlsZXIuUjsKCmltcG9ydCBqYXZhLmlvLkZpbGU7CmltcG9ydCBqYXZhLmlvLkZpbGVJbnB1dFN0cmVhbTsKaW1wb3J0IGphdmEuaW8uRmlsZU91dHB1dFN0cmVhbTsKaW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb247CgovKioKICog5b2V6Z+z5pyN5YqhIC0g5Y+C6ICD6bG86JuL5ZaK6K+dIEF1ZGlvUmVjb3JkU2VydmljZSDlrp7njrAKICog5pSv5oyB5a6e5pe25ZaK6K+d5ZKM5b2V6Z+z5paH5Lu25L+d5a2YCiAqLwpwdWJsaWMgY2xhc3MgQXVkaW9SZWNvcmRTZXJ2aWNlIGV4dGVuZHMgU2VydmljZSB7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgVEFHID0gIkF1ZGlvUmVjb3JkU2VydmljZSI7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBTdHJpbmcgQ0hBTk5FTF9JRCA9ICJhdWRpb19yZWNvcmRfY2hhbm5lbCI7CiAgICBwcml2YXRlIHN0YXRpYyBmaW5hbCBpbnQgTk9USUZJQ0FUSU9OX0lEID0gMTAwMTsKCiAgICBwdWJsaWMgc3RhdGljIGZpbmFsIFN0cmluZyBBQ1RJT05fU1RBUlRfUkVDT1JESU5HID0gImNvbS5lZ29nYW1lLnZlaGljbGVoYWlsZXIuU1RBUlRfUkVDT1JESU5HIjsKICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIEFDVElPTl9TVE9QX1JFQ09SRElORyA9ICJjb20uZWdvZ2FtZS52ZWhpY2xlaGFpbGVyLlNUT1BfUkVDT1JESU5HIjsKICAgIHB1YmxpYyBzdGF0aWMgZmluYWwgU3RyaW5nIEFDVElPTl9TVEFSVF9SRUFMX1RJTUUgPSAiY29tLmVnb2dhbWUudmVoaWNsZWhhaWxlci5TVEFSVF9SRUFMX1RJTUUiOwogICAgcHVibGljIHN0YXRpYyBmaW5hbCBTdHJpbmcgQUNUSU9OX1NUT1BfUkVBTF9USU1FID0gImNvbS5lZ29nYW1lLnZlaGljbGVoYWlsZXIuU1RPUF9SRUFMX1RJTUUiOwogICAgcHVibGljIHN0YXRpYyBmaW5hbCBTdHJpbmcgRVhUUkFfU0FWRV9QQVRIID0gInNhdmVfcGF0aCI7CgogICAgcHJpdmF0ZSBBdWRpb1JlY29yZCBhdWRpb1JlY29yZDsKICAgIHByaXZhdGUgQXVkaW9UcmFjayBhdWRpb1RyYWNrOwogICAgcHJpdmF0ZSBib29sZWFuIGlzUmVjb3JkaW5nID0gZmFsc2U7CiAgICBwcml2YXRlIFRocmVhZCByZWNvcmRpbmdUaHJlYWQ7CiAgICBwcml2YXRlIFRocmVhZCBwbGF5YmFja1RocmVhZDsKICAgIHByaXZhdGUgU3RyaW5nIHNhdmVGaWxlUGF0aDsKICAgIHByaXZhdGUgdm9sYXRpbGUgYm9vbGVhbiBpc1JlYWxUaW1lTW9kZSA9IGZhbHNlOwoKICAgIEBPdmVycmlkZQogICAgcHVibGljIHZvaWQgb25DcmVhdGUoKSB7CiAgICAgICAgc3VwZXIub25DcmVhdGUoKTsKICAgICAgICBjcmVhdGVOb3RpZmljYXRpb25DaGFubmVsKCk7CiAgICAgICAgc3RhcnRGb3JlZ3JvdW5kKE5PVElGSUNBVElPTl9JRCwgY3JlYXRlTm90aWZpY2F0aW9uKCLlvZXpn7PmnI3liqHov5DooYzkuK0iKSk7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgaW50IG9uU3RhcnRDb21tYW5kKEludGVudCBpbnRlbnQsIGludCBmbGFncywgaW50IHN0YXJ0SWQpIHsKICAgICAgICBpZiAoaW50ZW50ID09IG51bGwpIHJldHVybiBTVEFSVF9TVElDS1k7CiAgICAgICAgU3RyaW5nIGFjdGlvbiA9IGludGVudC5nZXRBY3Rpb24oKTsKICAgICAgICBpZiAoYWN0aW9uID09IG51bGwpIHJldHVybiBTVEFSVF9TVElDS1k7CgogICAgICAgIHN3aXRjaCAoYWN0aW9uKSB7CiAgICAgICAgICAgIGNhc2UgQUNUSU9OX1NUQVJUX1JFQ09SRElORzoKICAgICAgICAgICAgICAgIHNhdmVGaWxlUGF0aCA9IGludGVudC5nZXRTdHJpbmdFeHRyYShFWFRSQV9TQVZFX1BBVEgpOwogICAgICAgICAgICAgICAgc3RhcnRSZWNvcmRpbmcoKTsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICBjYXNlIEFDVElPTl9TVE9QX1JFQ09SRElORzoKICAgICAgICAgICAgICAgIHN0b3BSZWNvcmRpbmcoKTsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICBjYXNlIEFDVElPTl9TVEFSVF9SRUFMX1RJTUU6CiAgICAgICAgICAgICAgICBpc1JlYWxUaW1lTW9kZSA9IHRydWU7CiAgICAgICAgICAgICAgICBzdGFydFJlYWxUaW1lVm9pY2UoKTsKICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICBjYXNlIEFDVElPTl9TVE9QX1JFQUxfVElNRToKICAgICAgICAgICAgICAgIGlzUmVhbFRpbWVNb2RlID0gZmFsc2U7CiAgICAgICAgICAgICAgICBzdG9wUmVhbFRpbWVWb2ljZSgpOwogICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgfQogICAgICAgIHJldHVybiBTVEFSVF9TVElDS1k7CiAgICB9CgogICAgcHJpdmF0ZSB2b2lkIHN0YXJ0UmVjb3JkaW5nKCkgewogICAgICAgIGlmIChpc1JlY29yZGluZykgcmV0dXJuOwogICAgICAgIGlzUmVjb3JkaW5nID0gdHJ1ZTsKCiAgICAgICAgaW50IHNhbXBsZVJhdGUgPSA0NDEwMDsKICAgICAgICBpbnQgYnVmZmVyU2l6ZSA9IEF1ZGlvUmVjb3JkLmdldE1pbkJ1ZmZlclNpemUoc2FtcGxlUmF0ZSwKICAgICAgICAgICAgICAgIEF1ZGlvRm9ybWF0LkNIQU5ORUxfSU5fTU9OTywgQXVkaW9Gb3JtYXQuRU5DT0RJTkdfUENNXzE2QklUKTsKCiAgICAgICAgYXVkaW9SZWNvcmQgPSBuZXcgQXVkaW9SZWNvcmQoTWVkaWFSZWNvcmRlci5BdWRpb1NvdXJjZS5NSUMsCiAgICAgICAgICAgICAgICBzYW1wbGVSYXRlLCBBdWRpb0Zvcm1hdC5DSEFOTkVMX0lOX01PTk8sCiAgICAgICAgICAgICAgICBBdWRpb0Zvcm1hdC5FTkNPRElOR19QQ01fMTZCSVQsIGJ1ZmZlclNpemUpOwoKICAgICAgICBGaWxlIG91dHB1dEZpbGUgPSBuZXcgRmlsZShzYXZlRmlsZVBhdGggIT0gbnVsbCA/IHNhdmVGaWxlUGF0aCA6CiAgICAgICAgICAgICAgICBnZXRFeHRlcm5hbEZpbGVzRGlyKG51bGwpICsgIi9yZWNvcmRpbmdzL3ZvaWNlXyIgKyBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSArICIucGNtIik7CiAgICAgICAgb3V0cHV0RmlsZS5nZXRQYXJlbnRGaWxlKCkubWtkaXJzKCk7CgogICAgICAgIHJlY29yZGluZ1RocmVhZCA9IG5ldyBUaHJlYWQoKCkgLT4gewogICAgICAgICAgICBhdWRpb1JlY29yZC5zdGFydFJlY29yZGluZygpOwogICAgICAgICAgICB0cnkgKEZpbGVPdXRwdXRTdHJlYW0gZm9zID0gbmV3IEZpbGVPdXRwdXRTdHJlYW0ob3V0cHV0RmlsZSkpIHsKICAgICAgICAgICAgICAgIGJ5dGVbXSBidWZmZXIgPSBuZXcgYnl0ZVtidWZmZXJTaXplXTsKICAgICAgICAgICAgICAgIHdoaWxlIChpc1JlY29yZGluZykgewogICAgICAgICAgICAgICAgICAgIGludCByZWFkID0gYXVkaW9SZWNvcmQucmVhZChidWZmZXIsIDAsIGJ1ZmZlci5sZW5ndGgpOwogICAgICAgICAgICAgICAgICAgIGlmIChyZWFkID4gMCkgewogICAgICAgICAgICAgICAgICAgICAgICBmb3Mud3JpdGUoYnVmZmVyLCAwLCByZWFkKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKElPRXhjZXB0aW9uIGUpIHsKICAgICAgICAgICAgICAgIExvZy5lKFRBRywgIuW9lemfs+WGmeWFpeWksei0pSIsIGUpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGF1ZGlvUmVjb3JkLnN0b3AoKTsKICAgICAgICAgICAgYXVkaW9SZWNvcmQucmVsZWFzZSgpOwogICAgICAgICAgICBhdWRpb1JlY29yZCA9IG51bGw7CiAgICAgICAgfSk7CiAgICAgICAgcmVjb3JkaW5nVGhyZWFkLnN0YXJ0KCk7CiAgICAgICAgTG9nLmQoVEFHLCAi5b2V6Z+z5bey5byA5aeL77yM5L+d5a2Y6IezOiAiICsgb3V0cHV0RmlsZS5nZXRBYnNvbHV0ZVBhdGgoKSk7CiAgICB9CgogICAgcHJpdmF0ZSB2b2lkIHN0b3BSZWNvcmRpbmcoKSB7CiAgICAgICAgaXNSZWNvcmRpbmcgPSBmYWxzZTsKICAgICAgICBpZiAocmVjb3JkaW5nVGhyZWFkICE9IG51bGwpIHsKICAgICAgICAgICAgdHJ5IHsgcmVjb3JkaW5nVGhyZWFkLmpvaW4oMTAwMCk7IH0gY2F0Y2ggKEludGVycnVwdGVkRXhjZXB0aW9uIGlnbm9yZWQpIHt9CiAgICAgICAgICAgIHJlY29yZGluZ1RocmVhZCA9IG51bGw7CiAgICAgICAgfQogICAgICAgIExvZy5kKFRBRywgIuW9lemfs+W3suWBnOatoiIpOwogICAgfQoKICAgIHByaXZhdGUgdm9pZCBzdGFydFJlYWxUaW1lVm9pY2UoKSB7CiAgICAgICAgLy8g5a6e5pe25ZaK6K+d77ya5b2V6Z+z5bm256uL5Y2z5pKt5pS+5Yiw5aSW5pS+CiAgICAgICAgaW50IHNhbXBsZVJhdGUgPSA0NDEwMDsKICAgICAgICBpbnQgYnVmZmVyU2l6ZSA9IEF1ZGlvUmVjb3JkLmdldE1pbkJ1ZmZlclNpemUoc2FtcGxlUmF0ZSwKICAgICAgICAgICAgICAgIEF1ZGlvRm9ybWF0LkNIQU5ORUxfSU5fTU9OTywgQXVkaW9Gb3JtYXQuRU5DT0RJTkdfUENNXzE2QklUKTsKCiAgICAgICAgYXVkaW9SZWNvcmQgPSBuZXcgQXVkaW9SZWNvcmQoTWVkaWFSZWNvcmRlci5BdWRpb1NvdXJjZS5NSUMsCiAgICAgICAgICAgICAgICBzYW1wbGVSYXRlLCBBdWRpb0Zvcm1hdC5DSEFOTkVMX0lOX01PTk8sCiAgICAgICAgICAgICAgICBBdWRpb0Zvcm1hdC5FTkNPRElOR19QQ01fMTZCSVQsIGJ1ZmZlclNpemUpOwoKICAgICAgICBhdWRpb1RyYWNrID0gbmV3IEF1ZGlvVHJhY2suQnVpbGRlcigpCiAgICAgICAgICAgICAgICAuc2V0QXVkaW9BdHRyaWJ1dGVzKG5ldyBhbmRyb2lkLm1lZGlhLkF1ZGlvQXR0cmlidXRlcy5CdWlsZGVyKCkKICAgICAgICAgICAgICAgICAgICAgICAgLnNldFVzYWdlKGFuZHJvaWQubWVkaWEuQXVkaW9BdHRyaWJ1dGVzLlVTQUdFX01FRElBKQogICAgICAgICAgICAgICAgICAgICAgICAuc2V0Q29udGVudFR5cGUoYW5kcm9pZC5tZWRpYS5BdWRpb0F0dHJpYnV0ZXMuQ09OVEVOVF9UWVBFX1NQRUVDSCkKICAgICAgICAgICAgICAgICAgICAgICAgLmJ1aWxkKCkpCiAgICAgICAgICAgICAgICAuc2V0QXVkaW9Gb3JtYXQobmV3IEF1ZGlvRm9ybWF0LkJ1aWxkZXIoKQogICAgICAgICAgICAgICAgICAgICAgICAuc2V0RW5jb2RpbmcoQXVkaW9Gb3JtYXQuRU5DT0RJTkdfUENNXzE2QklUKQogICAgICAgICAgICAgICAgICAgICAgICAuc2V0U2FtcGxlUmF0ZShzYW1wbGVSYXRlKQogICAgICAgICAgICAgICAgICAgICAgICAuc2V0Q2hhbm5lbE1hc2soQXVkaW9Gb3JtYXQuQ0hBTk5FTF9PVVRfTU9OTykKICAgICAgICAgICAgICAgICAgICAgICAgLmJ1aWxkKCkpCiAgICAgICAgICAgICAgICAuc2V0QnVmZmVyU2l6ZUluQnl0ZXMoYnVmZmVyU2l6ZSkKICAgICAgICAgICAgICAgIC5idWlsZCgpOwoKICAgICAgICBhdWRpb1JlY29yZC5zdGFydFJlY29yZGluZygpOwogICAgICAgIGF1ZGlvVHJhY2sucGxheSgpOwoKICAgICAgICBwbGF5YmFja1RocmVhZCA9IG5ldyBUaHJlYWQoKCkgLT4gewogICAgICAgICAgICBieXRlW10gYnVmZmVyID0gbmV3IGJ5dGVbYnVmZmVyU2l6ZV07CiAgICAgICAgICAgIHdoaWxlIChpc1JlYWxUaW1lTW9kZSkgewogICAgICAgICAgICAgICAgaW50IHJlYWQgPSBhdWRpb1JlY29yZC5yZWFkKGJ1ZmZlciwgMCwgYnVmZmVyLmxlbmd0aCk7CiAgICAgICAgICAgICAgICBpZiAocmVhZCA+IDApIHsKICAgICAgICAgICAgICAgICAgICBhdWRpb1RyYWNrLndyaXRlKGJ1ZmZlciwgMCwgcmVhZCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9KTsKICAgICAgICBwbGF5YmFja1RocmVhZC5zdGFydCgpOwogICAgICAgIExvZy5kKFRBRywgIuWunuaXtuWWiuivneW3suW8gOWniyIpOwogICAgfQoKICAgIHByaXZhdGUgdm9pZCBzdG9wUmVhbFRpbWVWb2ljZSgpIHsKICAgICAgICBpc1JlYWxUaW1lTW9kZSA9IGZhbHNlOwogICAgICAgIGlmIChwbGF5YmFja1RocmVhZCAhPSBudWxsKSB7CiAgICAgICAgICAgIHRyeSB7IHBsYXliYWNrVGhyZWFkLmpvaW4oMTAwMCk7IH0gY2F0Y2ggKEludGVycnVwdGVkRXhjZXB0aW9uIGlnbm9yZWQpIHt9CiAgICAgICAgICAgIHBsYXliYWNrVGhyZWFkID0gbnVsbDsKICAgICAgICB9CiAgICAgICAgaWYgKGF1ZGlvUmVjb3JkICE9IG51bGwpIHsKICAgICAgICAgICAgYXVkaW9SZWNvcmQuc3RvcCgpOwogICAgICAgICAgICBhdWRpb1JlY29yZC5yZWxlYXNlKCk7CiAgICAgICAgICAgIGF1ZGlvUmVjb3JkID0gbnVsbDsKICAgICAgICB9CiAgICAgICAgaWYgKGF1ZGlvVHJhY2sgIT0gbnVsbCkgewogICAgICAgICAgICBhdWRpb1RyYWNrLnN0b3AoKTsKICAgICAgICAgICAgYXVkaW9UcmFjay5yZWxlYXNlKCk7CiAgICAgICAgICAgIGF1ZGlvVHJhY2sgPSBudWxsOwogICAgICAgIH0KICAgICAgICBMb2cuZChUQUcsICLlrp7ml7blloror53lt7LlgZzmraIiKTsKICAgIH0KCiAgICBwcml2YXRlIHZvaWQgY3JlYXRlTm90aWZpY2F0aW9uQ2hhbm5lbCgpIHsKICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTykgewogICAgICAgICAgICBOb3RpZmljYXRpb25DaGFubmVsIGNoYW5uZWwgPSBuZXcgTm90aWZpY2F0aW9uQ2hhbm5lbCgKICAgICAgICAgICAgICAgICAgICBDSEFOTkVMX0lELCAi5b2V6Z+z5pyN5YqhIiwgTm90aWZpY2F0aW9uTWFuYWdlci5JTVBPUlRBTkNFX0xPVyk7CiAgICAgICAgICAgIE5vdGlmaWNhdGlvbk1hbmFnZXIgbWFuYWdlciA9IGdldFN5c3RlbVNlcnZpY2UoTm90aWZpY2F0aW9uTWFuYWdlci5jbGFzcyk7CiAgICAgICAgICAgIGlmIChtYW5hZ2VyICE9IG51bGwpIG1hbmFnZXIuY3JlYXRlTm90aWZpY2F0aW9uQ2hhbm5lbChjaGFubmVsKTsKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBOb3RpZmljYXRpb24gY3JlYXRlTm90aWZpY2F0aW9uKFN0cmluZyB0ZXh0KSB7CiAgICAgICAgcmV0dXJuIG5ldyBOb3RpZmljYXRpb25Db21wYXQuQnVpbGRlcih0aGlzLCBDSEFOTkVMX0lEKQogICAgICAgICAgICAgICAgLnNldENvbnRlbnRUaXRsZSgi5peg5b+D6L2m5py65ZaK6K+dIikKICAgICAgICAgICAgICAgIC5zZXRDb250ZW50VGV4dCh0ZXh0KQogICAgICAgICAgICAgICAgLnNldFNtYWxsSWNvbihhbmRyb2lkLlIuZHJhd2FibGUuaWNfbWVkaWFfcGxheSkKICAgICAgICAgICAgICAgIC5zZXRPbmdvaW5nKHRydWUpCiAgICAgICAgICAgICAgICAuYnVpbGQoKTsKICAgIH0KCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBJQmluZGVyIG9uQmluZChJbnRlbnQgaW50ZW50KSB7IHJldHVybiBudWxsOyB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBvbkRlc3Ryb3koKSB7CiAgICAgICAgc3RvcFJlY29yZGluZygpOwogICAgICAgIHN0b3BSZWFsVGltZVZvaWNlKCk7CiAgICAgICAgc3VwZXIub25EZXN0cm95KCk7CiAgICB9Cn0K
+package com.egogame.vehiclehailer.service;
+
+import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.Service;
+import android.content.Intent;
+import android.media.AudioFormat;
+import android.media.AudioRecord;
+import android.media.AudioTrack;
+import android.media.MediaRecorder;
+import android.os.Build;
+import android.os.IBinder;
+import android.util.Log;
+
+import androidx.core.app.NotificationCompat;
+
+import com.egogame.vehiclehailer.R;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+/**
+ * 录音服务 - 参考鱼蛋喊话 AudioRecordService 实现
+ * 支持实时喊话和录音文件保存
+ */
+public class AudioRecordService extends Service {
+    private static final String TAG = "AudioRecordService";
+    private static final String CHANNEL_ID = "audio_record_channel";
+    private static final int NOTIFICATION_ID = 1001;
+
+    public static final String ACTION_START_RECORDING = "com.egogame.vehiclehailer.START_RECORDING";
+    public static final String ACTION_STOP_RECORDING = "com.egogame.vehiclehailer.STOP_RECORDING";
+    public static final String ACTION_START_REAL_TIME = "com.egogame.vehiclehailer.START_REAL_TIME";
+    public static final String ACTION_STOP_REAL_TIME = "com.egogame.vehiclehailer.STOP_REAL_TIME";
+    public static final String EXTRA_SAVE_PATH = "save_path";
+
+    private AudioRecord audioRecord;
+    private AudioTrack audioTrack;
+    private boolean isRecording = false;
+    private Thread recordingThread;
+    private Thread playbackThread;
+    private String saveFilePath;
+    private volatile boolean isRealTimeMode = false;
+
+    // 同步锁对象：防止多个线程同时操作录音/停止
+    private final Object recordingLock = new Object();
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        createNotificationChannel();
+        startForeground(NOTIFICATION_ID, createNotification("录音服务运行中"));
+    }
+
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        if (intent == null) return START_STICKY;
+        String action = intent.getAction();
+        if (action == null) return START_STICKY;
+
+        switch (action) {
+            case ACTION_START_RECORDING:
+                saveFilePath = intent.getStringExtra(EXTRA_SAVE_PATH);
+                startRecording();
+                break;
+            case ACTION_STOP_RECORDING:
+                stopRecording();
+                break;
+            case ACTION_START_REAL_TIME:
+                isRealTimeMode = true;
+                startRealTimeVoice();
+                break;
+            case ACTION_STOP_REAL_TIME:
+                isRealTimeMode = false;
+                stopRealTimeVoice();
+                break;
+        }
+        return START_STICKY;
+    }
+
+    private void startRecording() {
+        synchronized (recordingLock) {
+            if (isRecording) return;
+            isRecording = true;
+        }
+
+        int sampleRate = 44100;
+        int bufferSize = AudioRecord.getMinBufferSize(sampleRate,
+                AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT);
+
+        audioRecord = new AudioRecord(MediaRecorder.AudioSource.MIC,
+                sampleRate, AudioFormat.CHANNEL_IN_MONO,
+                AudioFormat.ENCODING_PCM_16BIT, bufferSize);
+
+        File outputFile = new File(saveFilePath != null ? saveFilePath :
+                getExternalFilesDir(null) + "/recordings/voice_" + System.currentTimeMillis() + ".pcm");
+        outputFile.getParentFile().mkdirs();
+
+        recordingThread = new Thread(() -> {
+            audioRecord.startRecording();
+            try (FileOutputStream fos = new FileOutputStream(outputFile)) {
+                byte[] buffer = new byte[bufferSize];
+                while (isRecording) {
+                    int read = audioRecord.read(buffer, 0, buffer.length);
+                    if (read > 0) {
+                        fos.write(buffer, 0, read);
+                    }
+                }
+            } catch (IOException e) {
+                Log.e(TAG, "录音写入失败", e);
+            }
+            audioRecord.stop();
+            audioRecord.release();
+            audioRecord = null;
+        });
+        recordingThread.start();
+        Log.d(TAG, "录音已开始，保存至: " + outputFile.getAbsolutePath());
+    }
+
+    private void stopRecording() {
+        synchronized (recordingLock) {
+            isRecording = false;
+        }
+        if (recordingThread != null) {
+            try { recordingThread.join(1000); } catch (InterruptedException ignored) {}
+            recordingThread = null;
+        }
+        Log.d(TAG, "录音已停止");
+    }
+
+    private void startRealTimeVoice() {
+        synchronized (recordingLock) {
+            if (isRealTimeMode) return;
+            isRealTimeMode = true;
+        }
+        // 实时喊话：录音并立即播放到外放
+        int sampleRate = 44100;
+        int bufferSize = AudioRecord.getMinBufferSize(sampleRate,
+                AudioFormat.CHANNEL_IN_MONO, AudioFormat.ENCODING_PCM_16BIT);
+
+        audioRecord = new AudioRecord(MediaRecorder.AudioSource.MIC,
+                sampleRate, AudioFormat.CHANNEL_IN_MONO,
+                AudioFormat.ENCODING_PCM_16BIT, bufferSize);
+
+        audioTrack = new AudioTrack.Builder()
+                .setAudioAttributes(new android.media.AudioAttributes.Builder()
+                        .setUsage(android.media.AudioAttributes.USAGE_MEDIA)
+                        .setContentType(android.media.AudioAttributes.CONTENT_TYPE_SPEECH)
+                        .build())
+                .setAudioFormat(new AudioFormat.Builder()
+                        .setEncoding(AudioFormat.ENCODING_PCM_16BIT)
+                        .setSampleRate(sampleRate)
+                        .setChannelMask(AudioFormat.CHANNEL_OUT_MONO)
+                        .build())
+                .setBufferSizeInBytes(bufferSize)
+                .build();
+
+        audioRecord.startRecording();
+        audioTrack.play();
+
+        playbackThread = new Thread(() -> {
+            byte[] buffer = new byte[bufferSize];
+            while (isRealTimeMode) {
+                int read = audioRecord.read(buffer, 0, buffer.length);
+                if (read > 0) {
+                    audioTrack.write(buffer, 0, read);
+                }
+            }
+        });
+        playbackThread.start();
+        Log.d(TAG, "实时喊话已开始");
+    }
+
+    private void stopRealTimeVoice() {
+        synchronized (recordingLock) {
+            isRealTimeMode = false;
+        }
+        if (playbackThread != null) {
+            try { playbackThread.join(1000); } catch (InterruptedException ignored) {}
+            playbackThread = null;
+        }
+        if (audioRecord != null) {
+            audioRecord.stop();
+            audioRecord.release();
+            audioRecord = null;
+        }
+        if (audioTrack != null) {
+            audioTrack.stop();
+            audioTrack.release();
+            audioTrack = null;
+        }
+        Log.d(TAG, "实时喊话已停止");
+    }
+
+    private void createNotificationChannel() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            NotificationChannel channel = new NotificationChannel(
+                    CHANNEL_ID, "录音服务", NotificationManager.IMPORTANCE_LOW);
+            NotificationManager manager = getSystemService(NotificationManager.class);
+            if (manager != null) manager.createNotificationChannel(channel);
+        }
+    }
+
+    private Notification createNotification(String text) {
+        return new NotificationCompat.Builder(this, CHANNEL_ID)
+                .setContentTitle("无心车机喊话")
+                .setContentText(text)
+                .setSmallIcon(android.R.drawable.ic_media_play)
+                .setOngoing(true)
+                .build();
+    }
+
+    @Override
+    public IBinder onBind(Intent intent) { return null; }
+
+    @Override
+    public void onDestroy() {
+        stopRecording();
+        stopRealTimeVoice();
+        super.onDestroy();
+    }
+}

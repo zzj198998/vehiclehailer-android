@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -25,8 +26,8 @@ public class VehicleStateManager {
     // propertyName -> 编译后的正则表达式Pattern缓存
     private final Map<String, Pattern> patternCache = new HashMap<>();
 
-    // 状态变化监听器
-    private OnPropertyChangeListener listener;
+    // 状态变化监听器（支持多个 - 线程安全）
+    private final List<OnPropertyChangeListener> listeners = new CopyOnWriteArrayList<>();
 
     public interface OnPropertyChangeListener {
         void onPropertyChanged(String propertyName, String oldValue, String newValue);
@@ -38,8 +39,20 @@ public class VehicleStateManager {
         initDefaults();
     }
 
-    public void setOnPropertyChangeListener(OnPropertyChangeListener listener) {
-        this.listener = listener;
+    /**
+     * 添加属性变化监听器
+     */
+    public void addListener(OnPropertyChangeListener listener) {
+        if (listener != null && !listeners.contains(listener)) {
+            listeners.add(listener);
+        }
+    }
+
+    /**
+     * 移除属性变化监听器
+     */
+    public void removeListener(OnPropertyChangeListener listener) {
+        listeners.remove(listener);
     }
 
     private void initDefaults() {
@@ -77,8 +90,10 @@ public class VehicleStateManager {
     public void setPropertyValue(String propertyName, String value) {
         String oldValue = stateMap.get(propertyName);
         stateMap.put(propertyName, value);
-        if (listener != null && !value.equals(oldValue)) {
-            listener.onPropertyChanged(propertyName, oldValue, value);
+        if (!value.equals(oldValue)) {
+            for (OnPropertyChangeListener l : listeners) {
+                l.onPropertyChanged(propertyName, oldValue, value);
+            }
         }
     }
 
@@ -121,8 +136,10 @@ public class VehicleStateManager {
                 String oldValue = stateMap.get(reg.getPropertyName());
                 stateMap.put(reg.getPropertyName(), mappedValue);
 
-                if (listener != null && !mappedValue.equals(oldValue)) {
-                    listener.onPropertyChanged(reg.getPropertyName(), oldValue, mappedValue);
+                if (!mappedValue.equals(oldValue)) {
+                    for (OnPropertyChangeListener l : listeners) {
+                        l.onPropertyChanged(reg.getPropertyName(), oldValue, mappedValue);
+                    }
                 }
 
                 // 同时更新UI展示值
