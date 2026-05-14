@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 音频通道选择 -->
+    <string-array name="audio_channels">
+        <item>车内</item>
+        <item>车外</item>
+        <item>双通道</item>
+    </string-array>
+    <string-array name="audio_channels_value">
+        <item>INSIDE</item>
+        <item>OUTSIDE</item>
+        <item>BOTH</item>
+    </string-array>
+
+    <!-- 固定车外的通道（仅车外） -->
+    <string-array name="audio_channels_fixed">
+        <item>车外（固定）</item>
+    </string-array>
+</resources>

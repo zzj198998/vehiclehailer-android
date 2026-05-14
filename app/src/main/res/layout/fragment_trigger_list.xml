@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#FFF9FAFB"
+    android:padding="12dp">
+
+    <!-- 左侧卡片：标题 + 规则列表 -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="14dp"
+        app:cardElevation="0dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="#FFE5E7EB"
+        app:cardBackgroundColor="#FFFFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- 标题行 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/trigger_title"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#FF1F2937" />
+
+                <Button
+                    android:id="@+id/trigger_enable_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:text="@string/trigger_enable"
+                    android:textSize="13sp"
+                    android:textAllCaps="false"
+                    android:backgroundTint="#FF2563EB"
+                    android:textColor="#FFFFFFFF" />
+
+            </LinearLayout>
+
+            <!-- 操作按钮行 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp">
+
+                <Button
+                    android:id="@+id/trigger_reset"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/trigger_reset"
+                    android:textSize="13sp"
+                    android:textAllCaps="false"
+                    app:cornerRadius="19dp"
+                    android:backgroundTint="#FFF3F4F6"
+                    android:textColor="#FF6B7280" />
+
+                <Button
+                    android:id="@+id/trigger_add"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/trigger_add_rule"
+                    android:textSize="13sp"
+                    android:textAllCaps="false"
+                    app:cornerRadius="19dp"
+                    android:backgroundTint="#FF2563EB"
+                    android:textColor="#FFFFFFFF" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FFE5E7EB" />
+
+            <!-- 规则列表 -->
+            <ListView
+                android:id="@+id/trigger_rule_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:divider="#FFE5E7EB"
+                android:dividerHeight="1dp"
+                android:paddingTop="8dp" />
+
+            <!-- 空状态提示 -->
+            <TextView
+                android:id="@+id/trigger_empty_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/trigger_rule_empty"
+                android:textSize="16sp"
+                android:textColor="#FF9CA3AF"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- 右侧卡片：测试区域面板 -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_marginStart="8dp"
+        app:cardCornerRadius="14dp"
+        app:cardElevation="0dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="#FFE5E7EB"
+        app:cardBackgroundColor="#FFFFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/trigger_test_hint"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FF1F2937"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="模拟车辆属性变化，测试联动规则是否符合预期"
+                android:textSize="13sp"
+                android:textColor="#FF6B7280"
+                android:layout_marginBottom="16dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FFE5E7EB"
+                android:layout_marginBottom="16dp" />
+
+            <!-- 属性选择 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="选择属性"
+                android:textSize="14sp"
+                android:textColor="#FF1F2937"
+                android:layout_marginBottom="6dp" />
+
+            <Spinner
+                android:id="@+id/trigger_test_property"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="@drawable/spinner_background"
+                android:layout_marginBottom="16dp" />
+
+            <!-- 属性值 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预期值"
+                android:textSize="14sp"
+                android:textColor="#FF1F2937"
+                android:layout_marginBottom="6dp" />
+
+            <Spinner
+                android:id="@+id/trigger_test_value"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="@drawable/spinner_background"
+                android:layout_marginBottom="20dp" />
+
+            <!-- 测试按钮 -->
+            <Button
+                android:id="@+id/trigger_test_btn"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/trigger_test"
+                android:textSize="15sp"
+                android:textAllCaps="false"
+                app:cornerRadius="24dp"
+                android:backgroundTint="#FF2563EB"
+                android:textColor="#FFFFFFFF"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/trigger_test_result"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:text="🔎 测试结果将显示在这里"
+                android:textSize="13sp"
+                android:textColor="#FF6B7280"
+                android:padding="12dp"
+                android:background="#FFF9FAFB" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

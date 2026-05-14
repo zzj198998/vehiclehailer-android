@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础主题 - 使用AppCompat替代Material3，降低资源依赖 -->
+    <style name="Theme.VehicleHailer" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/secondary</item>
+        <item name="colorControlNormal">@color/gray_400</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <!-- ActionBar覆盖主题，替代 ThemeOverlay.Material3.Dark.ActionBar -->
+    <style name="ThemeOverlay.VehicleHailer.Dark.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:background">@color/primary_dark</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+
+    <!-- Widget基style，所有Widget.*子style必须有此基定义 -->
+    <style name="Widget" />
+
+    <!-- 车辆属性按钮组样式 - 自定义，不依赖任何父主题 -->
+    <style name="Widget.VehiclePropertyButton" parent="Widget">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- 语音卡片样式 -->
+    <style name="Widget.VoiceCard" parent="Widget" />
+
+    <!-- 状态标签样式 -->
+    <style name="Widget.StatusBadge" parent="Widget">
+        <item name="android:textSize">11sp</item>
+    </style>
+</resources>
