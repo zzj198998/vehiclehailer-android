@@ -403,6 +403,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
+                        android:text="@string/voice_item_default"
+                        android:textColor="#FF9CA3AF"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
