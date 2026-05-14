@@ -45,9 +45,6 @@ public class AudioRecordService extends Service {
     private String saveFilePath;
     private volatile boolean isRealTimeMode = false;
 
-    // 同步锁对象：防止多个线程同时操作录音/停止
-    private final Object recordingLock = new Object();
-
     @Override
     public void onCreate() {
         super.onCreate();
@@ -82,10 +79,8 @@ public class AudioRecordService extends Service {
     }
 
     private void startRecording() {
-        synchronized (recordingLock) {
-            if (isRecording) return;
-            isRecording = true;
-        }
+        if (isRecording) return;
+        isRecording = true;
 
         int sampleRate = 44100;
         int bufferSize = AudioRecord.getMinBufferSize(sampleRate,
@@ -121,9 +116,7 @@ public class AudioRecordService extends Service {
     }
 
     private void stopRecording() {
-        synchronized (recordingLock) {
-            isRecording = false;
-        }
+        isRecording = false;
         if (recordingThread != null) {
             try { recordingThread.join(1000); } catch (InterruptedException ignored) {}
             recordingThread = null;
@@ -132,10 +125,6 @@ public class AudioRecordService extends Service {
     }
 
     private void startRealTimeVoice() {
-        synchronized (recordingLock) {
-            if (isRealTimeMode) return;
-            isRealTimeMode = true;
-        }
         // 实时喊话：录音并立即播放到外放
         int sampleRate = 44100;
         int bufferSize = AudioRecord.getMinBufferSize(sampleRate,
@@ -175,9 +164,7 @@ public class AudioRecordService extends Service {
     }
 
     private void stopRealTimeVoice() {
-        synchronized (recordingLock) {
-            isRealTimeMode = false;
-        }
+        isRealTimeMode = false;
         if (playbackThread != null) {
             try { playbackThread.join(1000); } catch (InterruptedException ignored) {}
             playbackThread = null;

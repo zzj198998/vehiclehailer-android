@@ -1,1 +1,107 @@
-cGFja2FnZSBjb20uZWdvZ2FtZS52ZWhpY2xlaGFpbGVyLnVpOwoKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlOwppbXBvcnQgYW5kcm9pZC50ZXh0LkVkaXRhYmxlOwppbXBvcnQgYW5kcm9pZC50ZXh0LlRleHRXYXRjaGVyOwppbXBvcnQgYW5kcm9pZC52aWV3LkxheW91dEluZmxhdGVyOwppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXc7CmltcG9ydCBhbmRyb2lkLnZpZXcuVmlld0dyb3VwOwppbXBvcnQgYW5kcm9pZC53aWRnZXQuRWRpdFRleHQ7CgppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5Ob25OdWxsOwppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5OdWxsYWJsZTsKaW1wb3J0IGFuZHJvaWR4LmZyYWdtZW50LmFwcC5GcmFnbWVudDsKaW1wb3J0IGFuZHJvaWR4LnJlY3ljbGVydmlldy53aWRnZXQuTGluZWFyTGF5b3V0TWFuYWdlcjsKaW1wb3J0IGFuZHJvaWR4LnJlY3ljbGVydmlldy53aWRnZXQuUmVjeWNsZXJWaWV3OwoKaW1wb3J0IGNvbS5lZ29nYW1lLnZlaGljbGVoYWlsZXIuUjsKaW1wb3J0IGNvbS5lZ29nYW1lLnZlaGljbGVoYWlsZXIuVmVoaWNsZUhhaWxlckFwcDsKaW1wb3J0IGNvbS5lZ29nYW1lLnZlaGljbGVoYWlsZXIuZW5naW5lLlZvaWNlUGxheWVyOwppbXBvcnQgY29tLmVnb2dhbWUudmVoaWNsZWhhaWxlci5tb2RlbC5Wb2ljZUl0ZW07CmltcG9ydCBjb20uZWdvZ2FtZS52ZWhpY2xlaGFpbGVyLm1vZGVsLlZvaWNlSXRlbS5Wb2ljZVRhYjsKaW1wb3J0IGNvbS5nb29nbGUuYW5kcm9pZC5tYXRlcmlhbC5jaGlwLkNoaXA7CmltcG9ydCBjb20uZ29vZ2xlLmFuZHJvaWQubWF0ZXJpYWwuY2hpcC5DaGlwR3JvdXA7CgppbXBvcnQgamF2YS51dGlsLkFycmF5TGlzdDsKaW1wb3J0IGphdmEudXRpbC5MaXN0OwoKcHVibGljIGNsYXNzIFZvaWNlTGlzdEZyYWdtZW50IGV4dGVuZHMgRnJhZ21lbnQgewoKICAgIHByaXZhdGUgUmVjeWNsZXJWaWV3IHZvaWNlUmVjeWNsZXI7CiAgICBwcml2YXRlIFZvaWNlQWRhcHRlciB2b2ljZUFkYXB0ZXI7CiAgICBwcml2YXRlIExpc3Q8Vm9pY2VJdGVtPiBhbGxWb2ljZUl0ZW1zOwogICAgcHJpdmF0ZSBMaXN0PFZvaWNlSXRlbT4gZmlsdGVyZWRWb2ljZUl0ZW1zOwogICAgcHJpdmF0ZSBDaGlwR3JvdXAgY2hpcEdyb3VwOwogICAgcHJpdmF0ZSBFZGl0VGV4dCBzZWFyY2hJbnB1dDsKICAgIHByaXZhdGUgVm9pY2VQbGF5ZXIgdm9pY2VQbGF5ZXI7CgogICAgQE51bGxhYmxlCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBWaWV3IG9uQ3JlYXRlVmlldyhATm9uTnVsbCBMYXlvdXRJbmZsYXRlciBpbmZsYXRlciwgQE51bGxhYmxlIFZpZXdHcm91cCBjb250YWluZXIsIEBOdWxsYWJsZSBCdW5kbGUgc2F2ZWRJbnN0YW5jZVN0YXRlKSB7CiAgICAgICAgcmV0dXJuIGluZmxhdGVyLmluZmxhdGUoUi5sYXlvdXQuZnJhZ21lbnRfdm9pY2VfbGlzdCwgY29udGFpbmVyLCBmYWxzZSk7CiAgICB9CgogICAgQE92ZXJyaWRlCiAgICBwdWJsaWMgdm9pZCBvblZpZXdDcmVhdGVkKEBOb25OdWxsIFZpZXcgdmlldywgQE51bGxhYmxlIEJ1bmRsZSBzYXZlZEluc3RhbmNlU3RhdGUpIHsKICAgICAgICBzdXBlci5vblZpZXdDcmVhdGVkKHZpZXcsIHNhdmVkSW5zdGFuY2VTdGF0ZSk7CgogICAgICAgIHZvaWNlUGxheWVyID0gVmVoaWNsZUhhaWxlckFwcC5nZXRJbnN0YW5jZSgpLmdldFZvaWNlUGxheWVyKCk7CiAgICAgICAgYWxsVm9pY2VJdGVtcyA9IFZlaGljbGVIYWlsZXJBcHAuZ2V0SW5zdGFuY2UoKS5nZXRDb25maWdMb2FkZXIoKS5nZXRWb2ljZUl0ZW1zKCk7CiAgICAgICAgaWYgKGFsbFZvaWNlSXRlbXMgPT0gbnVsbCkgewogICAgICAgICAgICBhbGxWb2ljZUl0ZW1zID0gbmV3IEFycmF5TGlzdDw+KCk7CiAgICAgICAgfQoKICAgICAgICBjaGlwR3JvdXAgPSB2aWV3LmZpbmRWaWV3QnlJZChSLmlkLnRhYl9sYXlvdXQpOwogICAgICAgIHNlYXJjaElucHV0ID0gdmlldy5maW5kVmlld0J5SWQoUi5pZC5zZWFyY2hfaW5wdXQpOwogICAgICAgIHZvaWNlUmVjeWNsZXIgPSB2aWV3LmZpbmRWaWV3QnlJZChSLmlkLnZvaWNlX3JlY3ljbGVyKTsKCiAgICAgICAgdm9pY2VSZWN5Y2xlci5zZXRMYXlvdXRNYW5hZ2VyKG5ldyBMaW5lYXJMYXlvdXRNYW5hZ2VyKGdldENvbnRleHQoKSkpOwogICAgICAgIGZpbHRlcmVkVm9pY2VJdGVtcyA9IG5ldyBBcnJheUxpc3Q8PihhbGxWb2ljZUl0ZW1zKTsKICAgICAgICB2b2ljZUFkYXB0ZXIgPSBuZXcgVm9pY2VBZGFwdGVyKGZpbHRlcmVkVm9pY2VJdGVtcywgdm9pY2VQbGF5ZXIpOwogICAgICAgIHZvaWNlUmVjeWNsZXIuc2V0QWRhcHRlcih2b2ljZUFkYXB0ZXIpOwoKICAgICAgICAvLyBDaGlw6YCJ5Lit5YiH5o2i6L+H5ruk77yI5Y+C6ICD5Zu+77ya6Ieq5a6a5LmJ6Z+z5pWIL+ezu+e7n+mfs+aViC/lhajpg6jvvIkKICAgICAgICBjaGlwR3JvdXAuc2V0T25DaGVja2VkU3RhdGVDaGFuZ2VMaXN0ZW5lcigoZ3JvdXAsIGNoZWNrZWRJZHMpIC0+IHsKICAgICAgICAgICAgaW50IHBvc2l0aW9uID0gMDsKICAgICAgICAgICAgaWYgKGNoZWNrZWRJZHMgIT0gbnVsbCAmJiAhY2hlY2tlZElkcy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgIGludCBpZCA9IGNoZWNrZWRJZHMuZ2V0KDApOwogICAgICAgICAgICAgICAgaWYgKGlkID09IFIuaWQuY2hpcF9jdXN0b20pIHBvc2l0aW9uID0gMTsKICAgICAgICAgICAgICAgIGVsc2UgaWYgKGlkID09IFIuaWQuY2hpcF9zeXN0ZW0pIHBvc2l0aW9uID0gMjsKICAgICAgICAgICAgfQogICAgICAgICAgICBmaWx0ZXJWb2ljZUl0ZW1zKHBvc2l0aW9uLCBzZWFyY2hJbnB1dC5nZXRUZXh0KCkudG9TdHJpbmcoKSk7CiAgICAgICAgfSk7CgogICAgICAgIC8vIOm7mOiupOmAieS4rSLoh6rlrprkuYnpn7PmlYgiCiAgICAgICAgY2hpcEdyb3VwLmNoZWNrKFIuaWQuY2hpcF9jdXN0b20pOwoKICAgICAgICAvLyDmkJzntKLov4fmu6QKICAgICAgICBzZWFyY2hJbnB1dC5hZGRUZXh0Q2hhbmdlZExpc3RlbmVyKG5ldyBUZXh0V2F0Y2hlcigpIHsKICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIHB1YmxpYyB2b2lkIGJlZm9yZVRleHRDaGFuZ2VkKENoYXJTZXF1ZW5jZSBzLCBpbnQgc3RhcnQsIGludCBjb3VudCwgaW50IGFmdGVyKSB7fQoKICAgICAgICAgICAgQE92ZXJyaWRlCiAgICAgICAgICAgIHB1YmxpYyB2b2lkIG9uVGV4dENoYW5nZWQoQ2hhclNlcXVlbmNlIHMsIGludCBzdGFydCwgaW50IGJlZm9yZSwgaW50IGNvdW50KSB7CiAgICAgICAgICAgICAgICBpbnQgcG9zaXRpb24gPSAwOwogICAgICAgICAgICAgICAgaW50IGNoZWNrZWRJZCA9IGNoaXBHcm91cC5nZXRDaGVja2VkQ2hpcElkKCk7CiAgICAgICAgICAgICAgICBpZiAoY2hlY2tlZElkID09IFIuaWQuY2hpcF9jdXN0b20pIHBvc2l0aW9uID0gMTsKICAgICAgICAgICAgICAgIGVsc2UgaWYgKGNoZWNrZWRJZCA9PSBSLmlkLmNoaXBfc3lzdGVtKSBwb3NpdGlvbiA9IDI7CiAgICAgICAgICAgICAgICBmaWx0ZXJWb2ljZUl0ZW1zKHBvc2l0aW9uLCBzLnRvU3RyaW5nKCkpOwogICAgICAgICAgICB9CgogICAgICAgICAgICBAT3ZlcnJpZGUKICAgICAgICAgICAgcHVibGljIHZvaWQgYWZ0ZXJUZXh0Q2hhbmdlZChFZGl0YWJsZSBzKSB7fQogICAgICAgIH0pOwogICAgfQoKICAgIHByaXZhdGUgdm9pZCBmaWx0ZXJWb2ljZUl0ZW1zKGludCBjaGlwUG9zaXRpb24sIFN0cmluZyBxdWVyeSkgewogICAgICAgIGZpbHRlcmVkVm9pY2VJdGVtcy5jbGVhcigpOwogICAgICAgIGZvciAoVm9pY2VJdGVtIGl0ZW0gOiBhbGxWb2ljZUl0ZW1zKSB7CiAgICAgICAgICAgIC8vIGNoaXBQb3NpdGlvbjogMD3lhajpg6gsIDE96Ieq5a6a5LmJ6Z+z5pWIKENVU1RPTSksIDI957O757uf6Z+z5pWIKFNZU1RFTSkKICAgICAgICAgICAgaWYgKGNoaXBQb3NpdGlvbiA9PSAxICYmIGl0ZW0uZ2V0VGFiKCkgIT0gVm9pY2VUYWIuQ1VTVE9NKSBjb250aW51ZTsKICAgICAgICAgICAgaWYgKGNoaXBQb3NpdGlvbiA9PSAyICYmIGl0ZW0uZ2V0VGFiKCkgIT0gVm9pY2VUYWIuU1lTVEVNKSBjb250aW51ZTsKICAgICAgICAgICAgaWYgKCFxdWVyeS5pc0VtcHR5KCkgJiYgIWl0ZW0uZ2V0TmFtZSgpLnRvTG93ZXJDYXNlKCkuY29udGFpbnMocXVlcnkudG9Mb3dlckNhc2UoKSkpIGNvbnRpbnVlOwogICAgICAgICAgICBmaWx0ZXJlZFZvaWNlSXRlbXMuYWRkKGl0ZW0pOwogICAgICAgIH0KICAgICAgICB2b2ljZUFkYXB0ZXIubm90aWZ5RGF0YVNldENoYW5nZWQoKTsKICAgIH0KfQo=
+package com.egogame.vehiclehailer.ui;
+
+import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.EditText;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.egogame.vehiclehailer.R;
+import com.egogame.vehiclehailer.VehicleHailerApp;
+import com.egogame.vehiclehailer.engine.VoicePlayer;
+import com.egogame.vehiclehailer.model.VoiceItem;
+import com.egogame.vehiclehailer.model.VoiceItem.VoiceTab;
+import com.google.android.material.chip.Chip;
+import com.google.android.material.chip.ChipGroup;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class VoiceListFragment extends Fragment {
+
+    private RecyclerView voiceRecycler;
+    private VoiceAdapter voiceAdapter;
+    private List<VoiceItem> allVoiceItems;
+    private List<VoiceItem> filteredVoiceItems;
+    private ChipGroup chipGroup;
+    private EditText searchInput;
+    private VoicePlayer voicePlayer;
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_voice_list, container, false);
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        voicePlayer = VehicleHailerApp.getInstance().getVoicePlayer();
+        allVoiceItems = VehicleHailerApp.getInstance().getConfigLoader().getVoiceItems();
+        if (allVoiceItems == null) {
+            allVoiceItems = new ArrayList<>();
+        }
+
+        chipGroup = view.findViewById(R.id.tab_layout);
+        searchInput = view.findViewById(R.id.search_input);
+        voiceRecycler = view.findViewById(R.id.voice_recycler);
+
+        voiceRecycler.setLayoutManager(new LinearLayoutManager(getContext()));
+        filteredVoiceItems = new ArrayList<>(allVoiceItems);
+        voiceAdapter = new VoiceAdapter(filteredVoiceItems, voicePlayer);
+        voiceRecycler.setAdapter(voiceAdapter);
+
+        // Chip选中切换过滤（参考图：自定义音效/系统音效/全部）
+        chipGroup.setOnCheckedStateChangeListener((group, checkedIds) -> {
+            int position = 0;
+            if (checkedIds != null && !checkedIds.isEmpty()) {
+                int id = checkedIds.get(0);
+                if (id == R.id.chip_custom) position = 1;
+                else if (id == R.id.chip_system) position = 2;
+            }
+            filterVoiceItems(position, searchInput.getText().toString());
+        });
+
+        // 默认选中"自定义音效"
+        chipGroup.check(R.id.chip_custom);
+
+        // 搜索过滤
+        searchInput.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                int position = 0;
+                int checkedId = chipGroup.getCheckedChipId();
+                if (checkedId == R.id.chip_custom) position = 1;
+                else if (checkedId == R.id.chip_system) position = 2;
+                filterVoiceItems(position, s.toString());
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {}
+        });
+    }
+
+    private void filterVoiceItems(int chipPosition, String query) {
+        filteredVoiceItems.clear();
+        for (VoiceItem item : allVoiceItems) {
+            // chipPosition: 0=全部, 1=自定义音效(CUSTOM), 2=系统音效(SYSTEM)
+            if (chipPosition == 1 && item.getTab() != VoiceTab.CUSTOM) continue;
+            if (chipPosition == 2 && item.getTab() != VoiceTab.SYSTEM) continue;
+            if (!query.isEmpty() && !item.getName().toLowerCase().contains(query.toLowerCase())) continue;
+            filteredVoiceItems.add(item);
+        }
+        voiceAdapter.notifyDataSetChanged();
+    }
+}
