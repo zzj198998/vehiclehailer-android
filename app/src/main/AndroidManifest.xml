@@ -1,1 +1,59 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPG1hbmlmZXN0IHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCIKICAgIHhtbG5zOnRvb2xzPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS90b29scyIKICAgIHBhY2thZ2U9ImNvbS5lZ29nYW1lLnZlaGljbGVoYWlsZXIiPgoKICAgIDwhLS0g6K+75Y+W57O757uf5pel5b+X77yIQ0FO5L+h5Y+355uR5ZCs5b+F6ZyA77yJIC0tPgogICAgPHVzZXMtcGVybWlzc2lvbiBhbmRyb2lkOm5hbWU9ImFuZHJvaWQucGVybWlzc2lvbi5SRUFEX0xPR1MiIC8+CiAgICA8IS0tIOW9lemfs+adg+mZkO+8iOivremfs+ivhuWIqy9UVFPlpIfnlKggKyDlrp7ml7blloror53vvIkgLS0+CiAgICA8dXNlcy1wZXJtaXNzaW9uIGFuZHJvaWQ6bmFtZT0iYW5kcm9pZC5wZXJtaXNzaW9uLlJFQ09SRF9BVURJTyIgLz4KICAgIDwhLS0g572R57uc6K6/6Zeu77yIVFRT5Zyo57q/55Sf5oiQ5o6l5Y+j77yJIC0tPgogICAgPHVzZXMtcGVybWlzc2lvbiBhbmRyb2lkOm5hbWU9ImFuZHJvaWQucGVybWlzc2lvbi5JTlRFUk5FVCIgLz4KICAgIDwhLS0g5oKs5rWu56qX5p2D6ZmQIC0tPgogICAgPHVzZXMtcGVybWlzc2lvbiBhbmRyb2lkOm5hbWU9ImFuZHJvaWQucGVybWlzc2lvbi5TWVNURU1fQUxFUlRfV0lORE9XIiAvPgogICAgPCEtLSDlkI7lj7DpgJrnn6XmoI/mkq3mlL4gLS0+CiAgICA8dXNlcy1wZXJtaXNzaW9uIGFuZHJvaWQ6bmFtZT0iYW5kcm9pZC5wZXJtaXNzaW9uLkZPUkVHUk9VTkRfU0VSVklDRSIgLz4KICAgIDx1c2VzLXBlcm1pc3Npb24gYW5kcm9pZDpuYW1lPSJhbmRyb2lkLnBlcm1pc3Npb24uRk9SRUdST1VORF9TRVJWSUNFX01JQ1JPUEhPTkUiIC8+CiAgICA8dXNlcy1wZXJtaXNzaW9uIGFuZHJvaWQ6bmFtZT0iYW5kcm9pZC5wZXJtaXNzaW9uLlBPU1RfTk9USUZJQ0FUSU9OUyIgLz4KICAgIDwhLS0g6Ziy5q2i5LyR55ygIC0tPgogICAgPHVzZXMtcGVybWlzc2lvbiBhbmRyb2lkOm5hbWU9ImFuZHJvaWQucGVybWlzc2lvbi5XQUtFX0xPQ0siIC8+CiAgICA8IS0tIOWkluaUvuWjsOmBk+aOp+WItiAtLT4KICAgIDx1c2VzLXBlcm1pc3Npb24gYW5kcm9pZDpuYW1lPSJhbmRyb2lkLnBlcm1pc3Npb24uTU9ESUZZX0FVRElPX1NFVFRJTkdTIiAvPgoKICAgIDxhcHBsaWNhdGlvbgogICAgICAgIGFuZHJvaWQ6bmFtZT0iLlZlaGljbGVIYWlsZXJBcHAiCiAgICAgICAgYW5kcm9pZDphbGxvd0JhY2t1cD0idHJ1ZSIKICAgICAgICBhbmRyb2lkOmljb249IkBtaXBtYXAvaWNfbGF1bmNoZXIiCiAgICAgICAgYW5kcm9pZDpsYWJlbD0iQHN0cmluZy9hcHBfbmFtZSIKICAgICAgICBhbmRyb2lkOnN1cHBvcnRzUnRsPSJ0cnVlIgogICAgICAgIGFuZHJvaWQ6dGhlbWU9IkBzdHlsZS9UaGVtZS5WZWhpY2xlSGFpbGVyIgogICAgICAgIGFuZHJvaWQ6dXNlc0NsZWFydGV4dFRyYWZmaWM9InRydWUiCiAgICAgICAgdG9vbHM6dGFyZ2V0QXBpPSIzNCI+CgogICAgICAgIDxhY3Rpdml0eQogICAgICAgICAgICBhbmRyb2lkOm5hbWU9Ii51aS5NYWluQWN0aXZpdHkiCiAgICAgICAgICAgIGFuZHJvaWQ6ZXhwb3J0ZWQ9InRydWUiCiAgICAgICAgICAgIGFuZHJvaWQ6c2NyZWVuT3JpZW50YXRpb249ImxhbmRzY2FwZSIKICAgICAgICAgICAgYW5kcm9pZDpjb25maWdDaGFuZ2VzPSJvcmllbnRhdGlvbnxzY3JlZW5TaXplIgogICAgICAgICAgICBhbmRyb2lkOnRoZW1lPSJAc3R5bGUvVGhlbWUuVmVoaWNsZUhhaWxlciI+CiAgICAgICAgICAgIDxpbnRlbnQtZmlsdGVyPgogICAgICAgICAgICAgICAgPGFjdGlvbiBhbmRyb2lkOm5hbWU9ImFuZHJvaWQuaW50ZW50LmFjdGlvbi5NQUlOIiAvPgogICAgICAgICAgICAgICAgPGNhdGVnb3J5IGFuZHJvaWQ6bmFtZT0iYW5kcm9pZC5pbnRlbnQuY2F0ZWdvcnkuTEFVTkNIRVIiIC8+CiAgICAgICAgICAgIDwvaW50ZW50LWZpbHRlcj4KICAgICAgICA8L2FjdGl2aXR5PgoKICAgICAgICA8IS0tIOWQjuWPsOacjeWKoeeUqOS6juS/neaMgWxvZ2NhdOebkeWQrCAtLT4KICAgICAgICA8c2VydmljZQogICAgICAgICAgICBhbmRyb2lkOm5hbWU9Ii5lbmdpbmUuTG9nY2F0U2VydmljZSIKICAgICAgICAgICAgYW5kcm9pZDpmb3JlZ3JvdW5kU2VydmljZVR5cGU9ImRhdGFTeW5jIgogICAgICAgICAgICBhbmRyb2lkOmV4cG9ydGVkPSJmYWxzZSIgLz4KCiAgICAgICAgPCEtLSDlvZXpn7PmnI3liqHvvIjliY3lj7BTZXJ2aWNl77yM5pSv5oyB5a6e5pe25ZaK6K+d5ZKM5b2V6Z+z5L+d5a2Y77yJIC0tPgogICAgICAgIDxzZXJ2aWNlCiAgICAgICAgICAgIGFuZHJvaWQ6bmFtZT0iLnNlcnZpY2UuQXVkaW9SZWNvcmRTZXJ2aWNlIgogICAgICAgICAgICBhbmRyb2lkOmZvcmVncm91bmRTZXJ2aWNlVHlwZT0ibWljcm9waG9uZSIKICAgICAgICAgICAgYW5kcm9pZDpleHBvcnRlZD0iZmFsc2UiIC8+CgogICAgPC9hcHBsaWNhdGlvbj4KCjwvbWFuaWZlc3Q+Cg==
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.egogame.vehiclehailer">
+
+    <!-- 读取系统日志（CAN信号监听必需） -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!-- 录音权限（语音识别/TTS备用 + 实时喊话） -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 网络访问（TTS在线生成接口） -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 悬浮窗权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 后台通知栏播放 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- 防止休眠 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 外放声道控制 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:name=".VehicleHailerApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VehicleHailer"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="34">
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.VehicleHailer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 后台服务用于保持logcat监听 -->
+        <service
+            android:name=".engine.LogcatService"
+            android:foregroundServiceType="dataSync"
+            android:exported="false" />
+
+        <!-- 录音服务（前台Service，支持实时喊话和录音保存） -->
+        <service
+            android:name=".service.AudioRecordService"
+            android:foregroundServiceType="microphone"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
