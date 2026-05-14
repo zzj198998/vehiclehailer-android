@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFEFF6FF" />
+            <corners android:radius="0dp" />
+        </shape>
+    </item>
+    <!-- 左侧选中指示线（4dp蓝色竖条） -->
+    <item android:left="0dp" android:top="4dp" android:bottom="4dp" android:width="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF3B82F6" />
+            <corners android:topRightRadius="2dp" android:bottomRightRadius="2dp" />
+        </shape>
+    </item>
+</layer-list>
