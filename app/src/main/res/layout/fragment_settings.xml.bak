@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
@@ -135,7 +134,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="@string/setting_tts_url"
-                            android:text="@string/tts_default_url"
+                            android:text="https://app.sk3a.cn/tts/generate"
                             android:textColor="#FF1F2937"
                             android:textSize="14sp"
                             android:textColorHint="#FF9CA3AF" />
@@ -166,113 +165,6 @@
                         android:textColor="#FF1F2937"
                         android:textSize="15sp"
                         android:checked="true" />
-                </LinearLayout>
-            </com.google.android.material.card.MaterialCardView>
-
-            <!-- 激活状态 + 有效期 -->
-            <com.google.android.material.card.MaterialCardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="12dp"
-                app:cardCornerRadius="14dp"
-                app:cardElevation="0dp"
-                app:strokeWidth="1dp"
-                app:strokeColor="#FFE5E7EB"
-                app:cardBackgroundColor="#FFFFFFFF">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/setting_activation"
-                        android:textColor="#FF1F2937"
-                        android:textSize="17sp"
-                        android:textStyle="bold"
-                        android:layout_marginBottom="8dp" />
-                    <TextView
-                        android:id="@+id/activation_status"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/activation_active"
-                        android:textColor="#FF22C55E"
-                        android:textSize="15sp"
-                        android:layout_marginBottom="4dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/activation_features"
-                        android:textColor="#FF6B7280"
-                        android:textSize="12sp" />
-                </LinearLayout>
-            </com.google.android.material.card.MaterialCardView>
-
-            <!-- 日志权限 + 车内/车外音设置 -->
-            <com.google.android.material.card.MaterialCardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="12dp"
-                app:cardCornerRadius="14dp"
-                app:cardElevation="0dp"
-                app:strokeWidth="1dp"
-                app:strokeColor="#FFE5E7EB"
-                app:cardBackgroundColor="#FFFFFFFF">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="16dp">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/setting_permissions"
-                        android:textColor="#FF1F2937"
-                        android:textSize="17sp"
-                        android:textStyle="bold"
-                        android:layout_marginBottom="12dp" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:gravity="center_vertical"
-                        android:layout_marginBottom="12dp">
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/setting_log_permission"
-                            android:textColor="#FF1F2937"
-                            android:textSize="14sp" />
-                        <com.google.android.material.materialswitch.MaterialSwitch
-                            android:id="@+id/log_permission_switch"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:checked="true" />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal"
-                        android:gravity="center_vertical">
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/car_audio_inside"
-                            android:id="@+id/car_audio_status"
-                            android:textColor="#FF1F2937"
-                            android:textSize="14sp" />
-                        <com.google.android.material.materialswitch.MaterialSwitch
-                            android:id="@+id/car_audio_switch"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:checked="true" />
-                    </LinearLayout>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -388,7 +280,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/float_ball_title"
+                        android:text="悬浮球控制"
                         android:textColor="#FF1F2937"
                         android:textSize="17sp"
                         android:textStyle="bold"
@@ -406,7 +298,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="@string/float_ball_enable"
+                            android:text="启用悬浮球"
                             android:textColor="#FF1F2937"
                             android:textSize="14sp" />
 
@@ -429,7 +321,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="@string/float_ball_record"
+                            android:text="录音喊话"
                             android:textColor="#FF1F2937"
                             android:textSize="14sp" />
 
@@ -443,7 +335,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/float_ball_desc"
+                        android:text="悬浮球可拖拽 · 单击录音 · 双击切换喊话 · 长按停止"
                         android:textColor="#FF9CA3AF"
                         android:textSize="11sp" />
 
@@ -452,7 +344,6 @@
 
             <!-- 版本信息 -->
             <TextView
-                android:id="@+id/version_info"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -568,7 +459,7 @@
                                     android:id="@+id/route_hailing_volume_text"
                                     android:layout_width="36dp"
                                     android:layout_height="wrap_content"
-                                    tools:text="80%"
+                                    android:text="80%"
                                     android:textColor="#FF1F2937"
                                     android:textSize="12sp"
                                     android:gravity="end"/>
@@ -650,7 +541,7 @@
                                     android:id="@+id/route_door_volume_text"
                                     android:layout_width="40dp"
                                     android:layout_height="wrap_content"
-                                    tools:text="60%"
+                                    android:text="60%"
                                     android:textColor="#FF1F2937"
                                     android:textSize="12sp"
                                     android:gravity="end"/>
@@ -731,7 +622,7 @@
                                     android:id="@+id/route_lock_volume_text"
                                     android:layout_width="40dp"
                                     android:layout_height="wrap_content"
-                                    tools:text="70%"
+                                    android:text="70%"
                                     android:textColor="#FF1F2937"
                                     android:textSize="12sp"
                                     android:gravity="end"/>
@@ -819,7 +710,163 @@
                                     android:id="@+id/route_soundwave_volume_text"
                                     android:layout_width="40dp"
                                     android:layout_height="wrap_content"
-                                    tools:text="50%"
+                                    android:text="50%"
+                                    android:textColor="#FF1F2937"
+                                    android:textSize="12sp"
+                                    android:gravity="end"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- 5. 自定义音效 -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardBackgroundColor="#FFFFFFFF"
+                        app:cardElevation="0dp"
+                        app:strokeColor="#FFE5E7EB"
+                        app:strokeWidth="1dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="14dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/route_custom"
+                                android:textColor="#FF1F2937"
+                                android:textSize="15sp"
+                                android:textStyle="bold"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+                                android:orientation="horizontal"
+                                android:gravity="center_vertical">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/volume"
+                                    android:textColor="#FF1F2937"
+                                    android:textSize="13sp"/>
+                                <SeekBar
+                                    android:id="@+id/route_custom_volume"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginHorizontal="8dp"
+                                    android:max="100"
+                                    android:progress="70"/>
+                                <TextView
+                                    android:id="@+id/route_custom_volume_text"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="70%"
+                                    android:textColor="#FF1F2937"
+                                    android:textSize="12sp"
+                                    android:gravity="end"/>
+                            </LinearLayout>
+                            <Spinner
+                                android:id="@+id/route_custom_channel"
+                                android:layout_width="match_parent"
+                                android:layout_height="36dp"
+                                android:layout_marginTop="4dp"/>
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- 试听测试按钮 -->
+                    <Button
+                        android:id="@+id/route_preview_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/route_preview"
+                        android:textSize="15sp"
+                        android:textAllCaps="false"
+                        app:cornerRadius="24dp"
+                        android:backgroundTint="#FF2563EB"
+                        android:textColor="#FFFFFFFF" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:orientation="horizontal">
+                                <com.google.android.material.materialswitch.MaterialSwitch
+                                    android:id="@+id/route_lock_noise"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="@string/noise_reduction"
+                                    android:textSize="11sp"
+                                    android:textColor="#FF1F2937"/>
+                                <com.google.android.material.materialswitch.MaterialSwitch
+                                    android:id="@+id/route_lock_voice"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="@string/voice_enhance"
+                                    android:textSize="11sp"
+                                    android:textColor="#FF1F2937"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- 4. 模拟声浪 -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        app:cardCornerRadius="12dp"
+                        app:cardBackgroundColor="#FFFFFFFF"
+                        app:cardElevation="0dp"
+                        app:strokeColor="#FFE5E7EB"
+                        app:strokeWidth="1dp">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="14dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/route_soundwave"
+                                android:textColor="#FF1F2937"
+                                android:textSize="15sp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/soundwave_channel_hint"
+                                android:textColor="#FF6B7280"
+                                android:textSize="11sp"/>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+                                android:orientation="horizontal"
+                                android:gravity="center_vertical">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/volume"
+                                    android:textColor="#FF1F2937"
+                                    android:textSize="13sp"/>
+                                <SeekBar
+                                    android:id="@+id/route_soundwave_volume"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginHorizontal="8dp"
+                                    android:max="100"
+                                    android:progress="50"/>
+                                <TextView
+                                    android:id="@+id/route_soundwave_volume_text"
+                                    android:layout_width="40dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="50%"
                                     android:textColor="#FF1F2937"
                                     android:textSize="12sp"
                                     android:gravity="end"/>
@@ -896,12 +943,12 @@
                                     android:layout_weight="1"
                                     android:layout_marginHorizontal="8dp"
                                     android:max="100"
-                                    android:progress="70"/>
+                                    android:progress="60"/>
                                 <TextView
                                     android:id="@+id/route_custom_volume_text"
                                     android:layout_width="40dp"
                                     android:layout_height="wrap_content"
-                                    tools:text="70%"
+                                    android:text="60%"
                                     android:textColor="#FF1F2937"
                                     android:textSize="12sp"
                                     android:gravity="end"/>
@@ -936,39 +983,174 @@
                         </LinearLayout>
                     </com.google.android.material.card.MaterialCardView>
 
-                    <!-- 试听测试按钮 -->
-                    <Button
-                        android:id="@+id/route_preview_btn"
-                        android:layout_width="match_parent"
-                        android:layout_height="48dp"
-                        android:layout_marginTop="16dp"
-                        android:text="@string/route_preview"
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- 激活状态 + 有效期 -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="14dp"
+                app:cardElevation="0dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="#FFE5E7EB"
+                app:cardBackgroundColor="#FFFFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="激活状态"
+                        android:textColor="#FF1F2937"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp" />
+
+                    <TextView
+                        android:id="@+id/activation_status"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="✅ 已激活 （永久有效）"
+                        android:textColor="#FF22C55E"
                         android:textSize="15sp"
-                        android:textAllCaps="false"
-                        app:cornerRadius="24dp"
-                        android:backgroundTint="#FF2563EB"
-                        android:textColor="#FFFFFFFF" />
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="4dp"
-                                android:orientation="horizontal">
-                                <com.google.android.material.materialswitch.MaterialSwitch
-                                    android:id="@+id/route_lock_noise"
-                                    android:layout_width="0dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:text="@string/noise_reduction"
-                                    android:textSize="11sp"
-                                    android:textColor="#FF1F2937"/>
-                                <com.google.android.material.materialswitch.MaterialSwitch
-                                    android:id="@+id/route_lock_voice"
-                                    android:layout_width="0dp"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:text="@string/voice_enhance"
-                                    android:textSize="11sp"
-                                    android:textColor="#FF1F2937"/>
-                            </LinearLayout>
-                        </LinearLayout>
-                    </com.google.android.material.card.MaterialCardView>
+                        android:layout_marginBottom="4dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="支持车外联动、实时喊话、模拟声浪"
+                        android:textColor="#FF6B7280"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- 日志权限 + 车内/车外音设置 -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="14dp"
+                app:cardElevation="0dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="#FFE5E7EB"
+                app:cardBackgroundColor="#FFFFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="权限设置"
+                        android:textColor="#FF1F2937"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="12dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="12dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="日志权限"
+                            android:textColor="#FF1F2937"
+                            android:textSize="14sp" />
+
+                        <com.google.android.material.materialswitch.MaterialSwitch
+                            android:id="@+id/log_permission_switch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="车内音（已开启）"
+                            android:id="@+id/car_audio_status"
+                            android:textColor="#FF1F2937"
+                            android:textSize="14sp" />
+
+                        <com.google.android.material.materialswitch.MaterialSwitch
+                            android:id="@+id/car_audio_switch"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- 版本信息 -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="14dp"
+                app:cardElevation="0dp"
+                app:strokeWidth="1dp"
+                app:strokeColor="#FFE5E7EB"
+                app:cardBackgroundColor="#FFFFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="版本信息"
+                        android:textColor="#FF1F2937"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="4dp" />
+
+                    <TextView
+                        android:id="@+id/version_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Version: 20260110170810"
+                        android:textColor="#FF6B7280"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:text="每个音频通道均支持独立调节音量、降噪和人声增强"
+                android:textColor="#FF6B7280"
+                android:textSize="11sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -111,7 +111,7 @@ public class AudioLibraryFragment extends Fragment {
         if (uri == null) return;
 
         // 获取文件名
-        String displayName = "未知音频";
+        String displayName = getString(R.string.audio_unknown_name);
         try (android.database.Cursor cursor = requireContext().getContentResolver()
                 .query(uri, null, null, null, null)) {
             if (cursor != null && cursor.moveToFirst()) {
@@ -124,10 +124,10 @@ public class AudioLibraryFragment extends Fragment {
 
         AudioLibraryManager.AudioItem item = libraryManager.addAudio(currentCategory, uri, displayName);
         if (item != null) {
-            Toast.makeText(requireContext(), "已添加: " + item.name, Toast.LENGTH_SHORT).show();
+            Toast.makeText(requireContext(), getString(R.string.audio_add_success, item.name), Toast.LENGTH_SHORT).show();
             refreshList();
         } else {
-            Toast.makeText(requireContext(), "添加失败", Toast.LENGTH_SHORT).show();
+            Toast.makeText(requireContext(), getString(R.string.audio_add_fail), Toast.LENGTH_SHORT).show();
         }
     }
 }

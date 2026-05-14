@@ -117,6 +117,11 @@
 
     <!-- 联动管理 -->
     <string name="tab_trigger">联动触发</string>
+    <string name="tab_audio_library">音频库</string>
+    <string name="tab_settings">设置</string>
+    <string name="version_short">v1.0</string>
+    <string name="status_offline">离线</string>
+    <string name="status_connected">已连接</string>
     <string name="trigger_title">联动规则管理</string>
     <string name="trigger_enable">启用联动</string>
     <string name="trigger_disable">禁用联动</string>
@@ -148,4 +153,77 @@
     <string name="trigger_test_playing">正在测试播放…</string>
     <string name="trigger_status_enabled">已启用</string>
     <string name="trigger_status_disabled">已禁用</string>
+    <string name="trigger_add_feature_wip">规则编辑功能开发中</string>
+    <string name="trigger_voice_info">音频#%d %s%s</string>
+
+    <!-- 喊话列表页 -->
+    <string name="btn_add_voice">添加喊话</string>
+    <string name="filter_category">分类筛选</string>
+    <string name="filter_system">系统音效</string>
+    <string name="filter_custom">自定义</string>
+    <string name="filter_all">全部</string>
+    <string name="search_voice_hint">搜索喊话名称…</string>
+
+    <!-- 监控页 -->
+    <string name="monitor_log_title">联动触发日志</string>
+
+    <!-- 分类导航 -->
+    <string name="category_title">分类</string>
+    <string name="audio_management_title">音频资源管理</string>
+
+    <!-- 联动测试区域 -->
+    <string name="test_select_property">选择属性</string>
+    <string name="test_expected_value">预期值</string>
+    <string name="test_result_placeholder">测试结果将显示在这里</string>
+    <string name="test_desc">模拟车辆属性变化，测试联动规则是否符合预期</string>
+
+    <!-- 按钮 -->
+    <string name="btn_test">测试</string>
+
+    <!-- 悬浮球 -->
+    <string name="float_ball_title">悬浮球控制</string>
+    <string name="float_ball_enable">启用悬浮球</string>
+    <string name="float_ball_record">录音喊话</string>
+    <string name="float_ball_desc">悬浮球可拖拽 · 单击录音 · 双击切换喊话 · 长按停止</string>
+
+    <!-- 导航图标中文描述（无障碍辅助） -->
+    <string name="nav_icon_voice">语音喊话</string>
+    <string name="nav_icon_monitor">车辆状态</string>
+    <string name="nav_icon_trigger">联动触发</string>
+    <string name="nav_icon_audio">音频库</string>
+    <string name="nav_icon_settings">设置</string>
+
+    <!-- TTS设置 -->
+    <string name="tts_default_url">https://app.sk3a.cn/tts/generate</string>
+
+    <!-- 设置页运行时动态文字 -->
+    <string name="activation_status">✅ 已激活（永久有效 · %d/%d/%d）</string>
+    <string name="car_audio_inside">车内音（已开启）</string>
+    <string name="car_audio_outside">车外音（已开启）</string>
+    <string name="car_model_switched">已切换至: %s</string>
+    <string name="float_ball_shown">悬浮球已显示</string>
+    <string name="float_ball_hidden">悬浮球已隐藏</string>
+    <string name="recording">录音中…</string>
+    <string name="real_time_voice_on">实时喊话已开启</string>
+    <string name="permission_overlay_needed">需要悬浮窗权限才能显示悬浮球</string>
+    <string name="permission_record_granted">录音权限已获取</string>
+    <string name="permission_record_needed">需要录音权限才能使用喊话功能</string>
+    <string name="adb_copied">✅ 已复制: %s</string>
+    <string name="all_stopped">已停止所有录音操作</string>
+    <!-- 激活状态卡片 -->
+    <string name="setting_activation">激活状态</string>
+    <string name="activation_active">✅ 已激活（永久有效）</string>
+    <string name="activation_features">支持车外联动、实时喊话、模拟声浪</string>
+    <!-- 权限设置卡片 -->
+    <string name="setting_permissions">权限设置</string>
+    <string name="setting_log_permission">日志权限</string>
+    <!-- MainActivity -->
+    <string name="car_signal_connected">车辆信号已连接</string>
+    <string name="connection_obd_buy">请购买ELM327蓝牙适配器插入OBD接口</string>
+    <string name="connection_logcat_guide">请到设置页查看并复制adb命令</string>
+    <string name="dialog_never_show">不再提示</string>
+    <!-- MonitorFragment -->
+    <string name="monitor_update_time">更新: %s</string>
+    <!-- AudioLibraryFragment -->
+    <string name="audio_unknown_name">未知音频</string>
 </resources>

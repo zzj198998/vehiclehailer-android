@@ -76,8 +76,8 @@
                 android:layout_width="40dp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
- android:textColor="#FF2563EB"
- android:textSize="12sp" />
+                android:textColor="#FF2563EB"
+                android:textSize="12sp" />
 
         </LinearLayout>
 

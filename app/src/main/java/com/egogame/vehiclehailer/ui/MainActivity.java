@@ -7,7 +7,9 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -32,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
 
     private FragmentManager fragmentManager;
 
-    // 侧边栏导航按钮
-    private TextView navVoice, navMonitor, navTrigger, navAudioLib, navSettings;
+    // 侧边栏导航按钮（XML中是LinearLayout，内含ImageView+TextView）
+    private LinearLayout navVoice, navMonitor, navTrigger, navAudioLib, navSettings;
     private View[] navButtons;
 
     // 底部连接状态
@@ -140,13 +142,15 @@ public class MainActivity extends AppCompatActivity {
         int accentColor = ContextCompat.getColor(this, R.color.primary_light);
         int grayColor = ContextCompat.getColor(this, R.color.gray_400);
         for (int i = 0; i < navButtons.length; i++) {
-            TextView tv = (TextView) navButtons[i];
+            LinearLayout navItem = (LinearLayout) navButtons[i];
+            // 导航按钮内部：第0个子View是ImageView，第1个子View是TextView
+            TextView tv = (TextView) navItem.getChildAt(1);
             if (i == selectedIndex) {
                 tv.setTextColor(accentColor);
-                tv.setBackgroundResource(R.drawable.sidebar_item_selected);
+                navItem.setBackgroundResource(R.drawable.sidebar_item_selected);
             } else {
                 tv.setTextColor(grayColor);
-                tv.setBackgroundResource(R.drawable.sidebar_item_normal);
+                navItem.setBackgroundResource(R.drawable.sidebar_item_normal);
             }
         }
     }
@@ -159,10 +163,10 @@ public class MainActivity extends AppCompatActivity {
         isConnected = connected;
         runOnUiThread(() -> {
             if (connected) {
-                connectionStatus.setText("已连接");
+                connectionStatus.setText(R.string.status_connected);
                 connectionStatus.setTextColor(0xFF22C55E);
             } else {
-                connectionStatus.setText("离线");
+                connectionStatus.setText(R.string.status_offline);
                 connectionStatus.setTextColor(0xFFEF4444);
             }
         });
@@ -184,9 +188,9 @@ public class MainActivity extends AppCompatActivity {
         vehicleEventTrigger.addRules(triggerRuleConfig.getSystemRules());
 
         VehicleStateManager stateManager = app.getVehicleStateManager();
-        stateManager.setOnPropertyChangeListener(vehicleEventTrigger);
+        stateManager.addListener(vehicleEventTrigger);
 
-        android.util.Log.d("MainActivity", "车辆事件联动引擎初始化完成，共 "
+        Log.d("MainActivity", "车辆事件联动引擎初始化完成，共 "
                 + triggerRuleConfig.getSystemRules().size() + " 条默认规则");
     }
 
@@ -195,7 +199,8 @@ public class MainActivity extends AppCompatActivity {
      */
     private void startLogcatMonitoring() {
         VehicleHailerApp app = VehicleHailerApp.getInstance();
-        logcatMonitor = new LogcatMonitor(app.getVehicleStateManager(), matchedLine -> {
+        logcatMonitor = new LogcatMonitor(app.getVehicleStateManager());
+        logcatMonitor.setOnLogMatchedListener(matchedLine -> {
             runOnUiThread(() -> {
                 if (!isConnected) {
                     isConnected = true;
@@ -203,7 +208,7 @@ public class MainActivity extends AppCompatActivity {
                     if (vehicleEventTrigger != null) {
                         vehicleEventTrigger.setMasterEnabled(true);
                     }
-                    Toast.makeText(this, "车辆信号已连接", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, R.string.car_signal_connected, Toast.LENGTH_SHORT).show();
                 }
                 if (monitorFragment != null && monitorFragment.isVisible()) {
                     monitorFragment.onVehicleStateChanged();
@@ -258,12 +263,12 @@ public class MainActivity extends AppCompatActivity {
                 .setTitle(R.string.connection_dialog_title)
                 .setMessage(R.string.connection_dialog_message)
                 .setPositiveButton(R.string.connection_dialog_obd, (dialog, which) -> {
-                    Toast.makeText(this, "请购买ELM327蓝牙适配器插入OBD接口", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, R.string.connection_obd_buy, Toast.LENGTH_LONG).show();
                 })
                 .setNegativeButton(R.string.connection_dialog_logcat, (dialog, which) -> {
-                    Toast.makeText(this, "请到设置页查看并复制adb命令", Toast.LENGTH_LONG).show();
+                    Toast.makeText(this, R.string.connection_logcat_guide, Toast.LENGTH_LONG).show();
                 })
-                .setNeutralButton("不再提示", (dialog, which) -> {})
+                .setNeutralButton(R.string.dialog_never_show, (dialog, which) -> {})
                 .setOnDismissListener(dialog -> {
                     prefs.edit().putBoolean("connection_dialog_shown", true).apply();
                 })

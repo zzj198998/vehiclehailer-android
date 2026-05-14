@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="8dp"
@@ -20,7 +21,7 @@
         android:padding="12dp"
         android:gravity="center_vertical">
 
-        <!-- 序号圆形 -->
+        <!-- 序号圆形（默认绿色，代码层根据状态切换背景：green=待播放、blue=播放中、orange=已阻塞） -->
         <TextView
             android:id="@+id/voice_id"
             android:layout_width="36dp"
@@ -30,7 +31,8 @@
             android:textSize="11sp"
             android:textStyle="bold"
             android:background="@drawable/circle_indicator_green"
-            android:text="1001" />
+            android:contentDescription="@string/voice_status_idle"
+            tools:text="01" />
 
         <!-- 音效信息 -->
         <LinearLayout

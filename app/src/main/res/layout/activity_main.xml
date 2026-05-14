@@ -7,11 +7,11 @@
     <!-- ========== 左侧导航栏（70dp固定宽度，白底） ========== -->
     <LinearLayout
         android:id="@+id/nav_sidebar"
-        android:layout_width="70dp"
+        android:layout_width="64dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="#FFFFFFFF"
-        android:paddingTop="20dp"
+        android:paddingTop="16dp"
         android:paddingBottom="12dp"
         android:elevation="2dp">
 
@@ -21,27 +21,28 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="📢"
-            android:textSize="26sp"
-            android:layout_marginBottom="2dp" />
+            android:textSize="24sp"
+            android:layout_marginBottom="1dp"
+            android:importantForAccessibility="no" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="喊话器"
+            android:text="@string/app_name"
             android:textColor="#FF1F2937"
             android:textSize="10sp"
             android:textStyle="bold"
-            android:layout_marginBottom="12dp" />
+            android:layout_marginBottom="10dp" />
 
         <View
-            android:layout_width="28dp"
+            android:layout_width="24dp"
             android:layout_height="1dp"
             android:background="#FFE5E7EB"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="6dp" />
+            android:layout_marginBottom="4dp" />
 
-        <!-- 导航按钮 -->
+        <!-- 导航按钮 — 喊话（默认选中） -->
         <LinearLayout
             android:id="@+id/nav_voice"
             android:layout_width="match_parent"
@@ -52,20 +53,20 @@
             android:background="@drawable/sidebar_item_selected"
             android:clickable="true"
             android:focusable="true"
+            android:contentDescription="@string/tab_voice"
             android:paddingVertical="4dp">
 
-            <TextView
+            <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:gravity="center"
-                android:text="▶"
-                android:textSize="16sp"
-                android:textColor="#FF3B82F6" />
+                android:src="@android:drawable/ic_media_play"
+                android:tint="#FF3B82F6"
+                android:contentDescription="@string/nav_icon_voice" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="喊话"
+                android:text="@string/tab_voice"
                 android:textColor="#FF3B82F6"
                 android:textSize="10sp"
                 android:textStyle="bold"
@@ -82,19 +83,20 @@
             android:background="@drawable/sidebar_item_normal"
             android:clickable="true"
             android:focusable="true"
+            android:contentDescription="@string/tab_monitor"
             android:paddingVertical="4dp">
 
-            <TextView
+            <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:gravity="center"
-                android:text="📊"
-                android:textSize="16sp" />
+                android:src="@android:drawable/ic_menu_view"
+                android:tint="#FF6B7280"
+                android:contentDescription="@string/nav_icon_monitor" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="监控"
+                android:text="@string/tab_monitor"
                 android:textColor="#FF6B7280"
                 android:textSize="10sp"
                 android:layout_marginTop="2dp" />
@@ -110,19 +112,20 @@
             android:background="@drawable/sidebar_item_normal"
             android:clickable="true"
             android:focusable="true"
+            android:contentDescription="@string/tab_trigger"
             android:paddingVertical="4dp">
 
-            <TextView
+            <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:gravity="center"
-                android:text="📋"
-                android:textSize="16sp" />
+                android:src="@android:drawable/ic_menu_edit"
+                android:tint="#FF6B7280"
+                android:contentDescription="@string/nav_icon_trigger" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="规则"
+                android:text="@string/tab_trigger"
                 android:textColor="#FF6B7280"
                 android:textSize="10sp"
                 android:layout_marginTop="2dp" />
@@ -138,19 +141,20 @@
             android:background="@drawable/sidebar_item_normal"
             android:clickable="true"
             android:focusable="true"
+            android:contentDescription="@string/tab_audio_library"
             android:paddingVertical="4dp">
 
-            <TextView
+            <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:gravity="center"
-                android:text="🎵"
-                android:textSize="16sp" />
+                android:src="@android:drawable/ic_menu_gallery"
+                android:tint="#FF6B7280"
+                android:contentDescription="@string/nav_icon_audio" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="音频库"
+                android:text="@string/tab_audio_library"
                 android:textColor="#FF6B7280"
                 android:textSize="10sp"
                 android:layout_marginTop="2dp" />
@@ -166,32 +170,33 @@
             android:background="@drawable/sidebar_item_normal"
             android:clickable="true"
             android:focusable="true"
+            android:contentDescription="@string/tab_settings"
             android:paddingVertical="4dp">
 
-            <TextView
+            <ImageView
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:gravity="center"
-                android:text="⚙"
-                android:textSize="16sp" />
+                android:src="@android:drawable/ic_menu_preferences"
+                android:tint="#FF6B7280"
+                android:contentDescription="@string/nav_icon_settings" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="设置"
+                android:text="@string/tab_settings"
                 android:textColor="#FF6B7280"
                 android:textSize="10sp"
                 android:layout_marginTop="2dp" />
         </LinearLayout>
 
-        <!-- 底部版本和状态 -->
+        <!-- 底部版本和状态 — 加大字号便于车机远距离查看 -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="v1.0"
+            android:text="@string/version_short"
             android:textColor="#FF9CA3AF"
-            android:textSize="8sp"
+            android:textSize="9sp"
             android:paddingTop="6dp"
             android:paddingBottom="2dp" />
 
@@ -200,9 +205,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="离线"
+            android:text="@string/status_offline"
             android:textColor="#FFEF4444"
-            android:textSize="8sp"
+            android:textSize="9sp"
             android:paddingBottom="4dp" />
 
     </LinearLayout>

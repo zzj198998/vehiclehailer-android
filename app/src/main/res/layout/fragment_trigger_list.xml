@@ -11,7 +11,7 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="3"
+        android:layout_weight="2"
         android:layout_marginEnd="8dp"
         app:cardCornerRadius="14dp"
         app:cardElevation="0dp"
@@ -123,7 +123,7 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:layout_marginStart="8dp"
         app:cardCornerRadius="14dp"
         app:cardElevation="0dp"
@@ -149,7 +149,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="模拟车辆属性变化，测试联动规则是否符合预期"
+                android:text="@string/test_desc"
                 android:textSize="13sp"
                 android:textColor="#FF6B7280"
                 android:layout_marginBottom="16dp" />
@@ -164,7 +164,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="选择属性"
+                android:text="@string/test_select_property"
                 android:textSize="14sp"
                 android:textColor="#FF1F2937"
                 android:layout_marginBottom="6dp" />
@@ -180,7 +180,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="预期值"
+                android:text="@string/test_expected_value"
                 android:textSize="14sp"
                 android:textColor="#FF1F2937"
                 android:layout_marginBottom="6dp" />
@@ -211,7 +211,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="top"
-                android:text="🔎 测试结果将显示在这里"
+                android:text="@string/test_result_placeholder"
                 android:textSize="13sp"
                 android:textColor="#FF6B7280"
                 android:padding="12dp"

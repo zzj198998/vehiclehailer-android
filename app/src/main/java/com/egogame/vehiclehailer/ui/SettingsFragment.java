@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -152,7 +153,7 @@ public class SettingsFragment extends Fragment {
                 }
                 isInitial = false;
 
-                Toast.makeText(getContext(), "已切换至: " + selected.getDisplayName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), getString(R.string.car_model_switched, selected.getDisplayName()), Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -183,7 +184,7 @@ public class SettingsFragment extends Fragment {
             int year = cal.get(Calendar.YEAR);
             int month = cal.get(Calendar.MONTH) + 1;
             int day = cal.get(Calendar.DAY_OF_MONTH);
-            activationStatus.setText("✅ 已激活（永久有效 · " + year + "/" + month + "/" + day + "）");
+            activationStatus.setText(getString(R.string.activation_status, year, month, day));
         }
 
         // 日志权限开关
@@ -191,10 +192,10 @@ public class SettingsFragment extends Fragment {
         if (logPermissionSwitch != null) {
             logPermissionSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
                 if (isChecked) {
-                    android.util.Log.d("SettingsFragment", "日志权限已开启");
+                    Log.d("SettingsFragment", "日志权限已开启");
                     // TODO: 实际实现日志权限授予逻辑
                 } else {
-                    android.util.Log.d("SettingsFragment", "日志权限已关闭");
+                    Log.d("SettingsFragment", "日志权限已关闭");
                 }
             });
         }
@@ -205,14 +206,14 @@ public class SettingsFragment extends Fragment {
         if (carAudioSwitch != null && carAudioStatus != null) {
             carAudioSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
                 if (isChecked) {
-                    carAudioStatus.setText("车内音（已开启）");
+                    carAudioStatus.setText(R.string.car_audio_inside);
                     // 同步到声道切换开关
                     if (channelSwitch != null) {
                         channelSwitch.setChecked(true);
                         channelSwitch.setText(R.string.setting_channel_inside);
                     }
                 } else {
-                    carAudioStatus.setText("车外音（已开启）");
+                    carAudioStatus.setText(R.string.car_audio_outside);
                     // 同步到声道切换开关
                     if (channelSwitch != null) {
                         channelSwitch.setChecked(false);
@@ -244,7 +245,7 @@ public class SettingsFragment extends Fragment {
             ClipData clip = ClipData.newPlainText("adb_command", commandText);
             clipboard.setPrimaryClip(clip);
             adbCopiedHint.setText(R.string.connection_adb_copied);
-            Toast.makeText(getContext(), "✅ 已复制: " + commandText, Toast.LENGTH_LONG).show();
+            Toast.makeText(getContext(), getString(R.string.adb_copied, commandText), Toast.LENGTH_LONG).show();
         });
 
         // ===== 悬浮球控制绑定 =====
@@ -332,10 +333,10 @@ public class SettingsFragment extends Fragment {
                 // 长按：停止所有录音和喊话
                 stopRecording();
                 stopRealTimeVoice();
-                Toast.makeText(requireContext(), "已停止所有录音操作", Toast.LENGTH_SHORT).show();
+                Toast.makeText(requireContext(), R.string.all_stopped, Toast.LENGTH_SHORT).show();
             }
         });
-        Toast.makeText(requireContext(), "悬浮球已显示", Toast.LENGTH_SHORT).show();
+        Toast.makeText(requireContext(), R.string.float_ball_shown, Toast.LENGTH_SHORT).show();
     }
 
     private void hideFloatBall() {
@@ -348,7 +349,7 @@ public class SettingsFragment extends Fragment {
         if (realTimeVoiceSwitch != null) {
             realTimeVoiceSwitch.setChecked(false);
         }
-        Toast.makeText(requireContext(), "悬浮球已隐藏", Toast.LENGTH_SHORT).show();
+        Toast.makeText(requireContext(), R.string.float_ball_hidden, Toast.LENGTH_SHORT).show();
     }
 
     private void startRecording() {
@@ -359,7 +360,7 @@ public class SettingsFragment extends Fragment {
         if (floatBallManager != null) {
             floatBallManager.setRecordingStatus(true);
         }
-        Toast.makeText(requireContext(), "录音中...", Toast.LENGTH_SHORT).show();
+        Toast.makeText(requireContext(), R.string.recording, Toast.LENGTH_SHORT).show();
     }
 
     private void stopRecording() {
@@ -379,7 +380,7 @@ public class SettingsFragment extends Fragment {
         if (floatBallManager != null) {
             floatBallManager.setRecordingStatus(true);
         }
-        Toast.makeText(requireContext(), "实时喊话已开启", Toast.LENGTH_SHORT).show();
+        Toast.makeText(requireContext(), R.string.real_time_voice_on, Toast.LENGTH_SHORT).show();
     }
 
     private void stopRealTimeVoice() {
@@ -403,7 +404,7 @@ public class SettingsFragment extends Fragment {
                     floatBallSwitch.setChecked(true);
                 }
             } else {
-                Toast.makeText(requireContext(), "需要悬浮窗权限才能显示悬浮球", Toast.LENGTH_LONG).show();
+                Toast.makeText(requireContext(), R.string.permission_overlay_needed, Toast.LENGTH_LONG).show();
             }
         }
     }
@@ -420,9 +421,9 @@ public class SettingsFragment extends Fragment {
                     // 来自录音喊话开关的请求，重新触发开启
                     realTimeVoiceSwitch.setChecked(true);
                 }
-                Toast.makeText(requireContext(), "录音权限已获取", Toast.LENGTH_SHORT).show();
+                Toast.makeText(requireContext(), R.string.permission_record_granted, Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(requireContext(), "需要录音权限才能使用喊话功能", Toast.LENGTH_LONG).show();
+                Toast.makeText(requireContext(), R.string.permission_record_needed, Toast.LENGTH_LONG).show();
             }
         }
     }
@@ -602,7 +603,7 @@ public class SettingsFragment extends Fragment {
         eventTrigger.setVoiceMap(
                 VehicleHailerApp.getInstance().getConfigLoader().getVoiceItems());
 
-        android.util.Log.d("SettingsFragment", "车型切换至 [" + newModel.getDisplayName()
+        Log.d("SettingsFragment", "车型切换至 [" + newModel.getDisplayName()
                 + "]，已加载 " + ruleConfig.getSystemRules().size() + " 条联动规则");
     }
 }

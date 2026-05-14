@@ -1,5 +1,6 @@
 package com.egogame.vehiclehailer.ui;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -116,7 +117,7 @@ public class TriggerListFragment extends Fragment {
         // 添加规则
         addBtn.setOnClickListener(v -> {
             // TODO: 打开规则编辑页面
-            Toast.makeText(getContext(), "规则编辑功能开发中", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(), R.string.trigger_add_feature_wip, Toast.LENGTH_SHORT).show();
         });
 
         // 设置测试用Spinner
@@ -131,7 +132,7 @@ public class TriggerListFragment extends Fragment {
     private void refreshRules() {
         currentRules = eventTrigger.getRules();
         if (ruleAdapter == null) {
-            ruleAdapter = new RuleListAdapter(getLayoutInflater(), currentRules);
+            ruleAdapter = new RuleListAdapter(getLayoutInflater(), eventTrigger, currentRules);
             ruleListView.setAdapter(ruleAdapter);
         } else {
             ruleAdapter.updateRules(currentRules);
@@ -201,10 +202,12 @@ public class TriggerListFragment extends Fragment {
      */
     private static class RuleListAdapter extends android.widget.BaseAdapter {
         private final LayoutInflater inflater;
+        private final VehicleEventTrigger eventTrigger;
         private List<TriggerRule> rules;
 
-        RuleListAdapter(LayoutInflater inflater, List<TriggerRule> rules) {
+        RuleListAdapter(LayoutInflater inflater, VehicleEventTrigger eventTrigger, List<TriggerRule> rules) {
             this.inflater = inflater;
+            this.eventTrigger = eventTrigger;
             this.rules = new ArrayList<>(rules);
         }
 
@@ -236,16 +239,22 @@ public class TriggerListFragment extends Fragment {
             android.widget.Switch enableSwitch = convertView.findViewById(R.id.rule_enable_switch);
 
             propertyText.setText(rule.getPropertyName());
-            String condition = (rule.getOldValue() != null ? rule.getOldValue() : "任意")
+            Context ctx = inflater.getContext();
+            String condition = (rule.getOldValue() != null ? rule.getOldValue() : ctx.getString(R.string.trigger_any_value))
                     + " → " + rule.getNewValue();
             conditionText.setText(condition);
-            voiceText.setText("音频#" + rule.getVoiceId()
-                    + (rule.isExterior() ? " 车外" : " 车内")
-                    + (rule.getDelayMs() > 0 ? " +" + rule.getDelayMs() + "ms" : ""));
+            String exteriorText = rule.isExterior()
+                    ? ctx.getString(R.string.trigger_channel_exterior)
+                    : ctx.getString(R.string.trigger_channel_interior);
+            String delayText = rule.getDelayMs() > 0 ? " +" + rule.getDelayMs() + "ms" : "";
+            voiceText.setText(ctx.getString(R.string.trigger_voice_info, rule.getVoiceId(), exteriorText, delayText));
+            // 先清除监听器再设置checked，避免复用视图时触发回调
+            enableSwitch.setOnCheckedChangeListener(null);
             enableSwitch.setChecked(rule.isEnabled());
             enableSwitch.setOnCheckedChangeListener((buttonView, isChecked) -> {
-                // 启用/禁用规则
-                // 注意：这里通过外部holder引用比较麻烦，简化处理
+                eventTrigger.setRuleEnabled(rule.getVoiceId(), isChecked);
+                // 刷新视图，确保开关状态与实际同步
+                updateRules(eventTrigger.getRules());
             });
 
             return convertView;

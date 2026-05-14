@@ -79,7 +79,7 @@ public class MonitorFragment extends Fragment {
         // 动态添加分类Chip
         catalogChipGroup.removeAllViews();
         Chip allChip = new Chip(getContext());
-        allChip.setText("全部");
+        allChip.setText(R.string.filter_all);
         allChip.setChecked(true);
         allChip.setClickable(true);
         allChip.setCheckable(true);
@@ -136,7 +136,7 @@ public class MonitorFragment extends Fragment {
         }
         updateConnectionStatus(true);
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss", Locale.getDefault());
-        updateTime.setText("更新: " + sdf.format(new Date()));
+        updateTime.setText(getString(R.string.monitor_update_time, sdf.format(new Date())));
     }
 
     private void updateConnectionStatus(boolean connected) {
