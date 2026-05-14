@@ -1,19 +1,16 @@
 #!/bin/sh
-# Gradle startup script
 APP_NAME="Gradle"
 APP_BASE_NAME=$(basename "$0")
 DIRNAME=$(dirname "$0")
 
 # Use the maximum available, or set MAX_FD != -1 to use that value.
 MAX_FD="maximum"
-
 warn () {
-    echo "$*"
+    echo "$**"
 }
-
 die () {
     echo
-    echo "$*"
+    echo "$**"
     echo
     exit 1
 }
@@ -33,11 +30,5 @@ else
     which java >/dev/null 2>&1 || die "ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH."
 fi
 
-# Setup the Gradle environment
-GRADLE_OPTS=""
-
-# Add default JVM options here.
-DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
-
-# Use gradle from our local installation
-exec "$DIRNAME/gradlew" "$@"
+# Use java to run the Gradle wrapper jar
+exec "$JAVACMD" -jar "$DIRNAME/gradle/wrapper/gradle-wrapper.jar" "$@"
