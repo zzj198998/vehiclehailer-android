@@ -1,0 +1,432 @@
+"id","text","traditional","english","russian"
+"#索引","中文","繁体","英语","俄语"
+"App_Name","鱼蛋喊话","魚蛋喊話","Fish Sound","Рогатка Юдан"
+"Login_Tip","提醒：为了您更好的使用本软件，请完成以下设置","提醒：為了您更好的使用本軟件，請完成以下設置","Reminder: For better use of this software, please complete the following settings","Напоминание: Для лучшего использования этого программного обеспечения выполните следующие настройки"
+"App_Desc","支持车外喊话、实时喊话、模拟声浪","支持車外喊話、實時喊話、模擬聲浪","Support external shouting, real-time shouting, simulated sound waves","Поддержка наружного оповещения, реального оповещения, имитации звуковых волн"
+"Setting_Car","车型设置","車型設置","Car Model Settings","Настройки модели автомобиля"
+"Setting_Log","日志权限","日誌權限","Log Permission","Права на журналы"
+"Setting_Activate","激活软件","激活軟件","Activate Software","Активировать программное обеспечение"
+"Setting_Language","语言","語言","Language","Язык"
+"Setting_InnerSpeaker","车内音响","車內音響","Inner Speaker","Внутренняя扬声器"
+"Setting_OuterSpeaker","车外音响","車外音響","Outer Speaker","Внешняя扬声器"
+"Setting_SpeakerUnKnown","未设置","未設置","Not Set","Не задано"
+"Login_Helper","*如果不会操作，请查看相关视频教程","*如果不會操作，請查看相關視頻教程","*If you don't know how to operate, please check the relevant video tutorial","*Если вы не знаете, как управлять, обратитесь к соответствующему видеоруководству"
+"CheckUpdateBtn","检查更新","檢查更新","Check for Updates","Проверить наличие обновлений"
+"Car_Deepal","深蓝汽车","深藍汽車","Deepal Auto","Автомобиль Deepal"
+"Car_OuShang","欧尚汽车","歐尚汽車","Oushang Auto","Автомобиль Oushang"
+"Car_Jili","吉利汽车","吉利汽車","Geely Auto","Автомобиль Geely"
+"Car_Mazda","马自达","馬自達","Mazda","Мазда"
+"Car_QiYuan","启源汽车","啟源汽車","QiYuan Auto","Автомобиль QiYuan"
+"Car_YiPai007","东风奕派","東風奕派","YiPai Auto","Автомобиль YiPai"
+"Car_UnKnown","未设置","未設置","Not Set","Не задано"
+"Log_Granted","日志权限：已授予","日誌權限：已授予","Log Permission: Granted","Права на журналы: Предоставлено"
+"Log_Denied","日志权限：未授予","日誌權限：未授予","Log Permission: Denied","Права на журналы: Отказано"
+"Setting_Finish","设置完毕","設置完畢","Settings Completed","Настройки завершены"
+"ActivateBtn","激活","激活","Activate","Активировать"
+"Activate_RefreshBtn","刷新状态","刷新狀態","Refresh Status","Обновить статус"
+"Activate_NO","激活状态: 未激活","激活狀態: 未激活","Activation Status: Not Activated","Статус активации: Не активировано"
+"Activate_Status","激活状态:{0}","激活狀態:{0}","Activation Status: {0}","Статус активации: {0}"
+"Activate_YES","已激活","已激活","Activated","Активировано"
+"Activate_NOT","未激活","未激活","Not Activated","Не активировано"
+"Activate_UnUsed","未使用","未使用","Not Used","Не используется"
+"Activate_Expired","已过期","已過期","Expired","Просрочено"
+"Activate_Unknown","未知","未知","Unknown","Неизвестно"
+"Activate_Time_Unknown","剩余时间: 未知","剩餘時間: 未知","Remaining Time: Unknown","Оставшееся время: Неизвестно"
+"Activate_Time_Permanent","剩余时间: 永久有效","剩餘時間: 永久有效","Remaining Time: Permanent","Оставшееся время: Постоянно"
+"Activate_Time_Expired","剩余时间: 已过期","剩餘時間: 已過期","Remaining Time: Expired","Оставшееся время: Просрочено"
+"Activate_Time_Format","剩余时间: {0}天{1}小时{2}分钟","剩餘時間: {0}天{1}小時{2}分鐘","Remaining Time: {0}d {1}h {2}m","Оставшееся время: {0}д {1}ч {2}м"
+"Activate_Status_Error","获取激活状态失败：","獲取激活狀態失敗：","Failed to get activation status:","Не удалось получить статус активации:"
+"Activate_Status_Success","获取激活状态成功","獲取激活狀態成功","Successfully obtained activation status","Статус активации успешно получен"
+"FloatBallBtn","悬浮球","懸浮球","Floating Ball","Плавающий мяч"
+"ShoutBtn","直接喊话","直接喊話","Direct Shout","Прямое оповещение"
+"StopPlayBtn","停止音频","停止音頻","Stop Audio","Остановить аудио"
+"NoCardTips","点击右上角‘添加喊话’新增卡片","點擊右上角‘添加喊話’新增卡片","Click 'Add Shout' in the upper right corner to add a new card","Нажмите «Добавить оповещение» в правом верхнем углу, чтобы добавить новую карту"
+"SettingBtn","设置","設置","Settings","Настройки"
+"AddCardBtn","添加喊话","添加喊話","Add Shout","Добавить оповещение"
+"InCarVolumeText","车内音量设置","車內音量設置","In-Car Volume Settings","Настройки громкости внутри автомобиля"
+"SimulatePedalText","模拟踏板","模擬踏板","Simulate Pedal","Имитация педали"
+"SimulateExternalText","车外播放","車外播放","External Playback","Внешняя проигрывание"
+"SimulateStartText","开始","開始","Start","Начать"
+"SimulateStopText","停止","停止","Stop","Остановить"
+"SimulatePedalBtnText","踏板","踏板","Pedal","Педаль"
+"SimulateMinRPMText","最小转速","最小轉速","Minimum RPM","Минимальные обороты"
+"SimulateMaxRPMText","最大转速","最大轉速","Maximum RPM","Максимальные обороты"
+"SimulateRandomRPMJitterText","随机转速抖动","随机转速抖动","Random RPM Jitter","Случайные колебания оборотов"
+"SimulatePedalCoefficientText","踏板转换系数","踏板轉換係數","Pedal Conversion Coefficient","Коэффициент преобразования педали"
+"SimulateSpeedCoefficientText","速度转换系数","速度轉換係數","Speed Conversion Coefficient","Коэффициент преобразования скорости"
+"SimulateCarName_i4German","德系 I4风格","德系 I4風格","German I4 Style","Немецкий стиль I4"
+"SimulateCarName_i6German","德系 I6风格(1)","德系 I6風格(1)","German I6 Style (1)","Немецкий стиль I6 (1)"
+"SimulateCarName_i6German2","德系 I6风格(2)","德系 I6風格(2)","German I6 Style (2)","Немецкий стиль I6 (2)"
+"SimulateCarName_Rotary_x8","转子引擎风格 X8","轉子引擎風格 X8","Rotary Engine Style X8","Стиль ротарного двигателя X8"
+"SimulateCarName_V8_American","美式V8风格","美式V8風格","American V8 Style","Американский стиль V8"
+"SimulateCarName_V8_Italian","意式V8风格","意式V8風格","Italian V8 Style","Итальянский стиль V8"
+
+
+"Car_Model","车型","車型","Car Model","Модель автомобиля"
+"SoftIntro","鱼蛋喊话是一款适用于新能源车的车外喊话软件，只要有外放喇叭就可以快乐的玩耍！
+
+(1)软件功能：
+1.车外喊话：实时喊话、文字转语音、U盘导入自定义音频、录音保存，支持悬浮快捷操作。
+2.模拟声浪：内置多个油车声浪模式，支持油门联动，支持外放声浪等等。
+
+(2)软件用法：
+进入软件请先到设置里设置喇叭通道，不同车型不一样，设置完成后进入对应的标签即可。
+模拟声浪和档位音效需要读取日志权限，所以需要授予本应用日志权限，
+adb shell pm grant com.egogame.deepalbox android.permission.READ_LOGS
+如果不会操作，等后续出的傻瓜化软件。
+
+<color=yellow>(3)声明：
+请保证在安全的场所，安全的时机使用本软件，开车不规范亲人两行泪，遵守交通规则遵守法规，请勿用于任何违法行为，本软件已申请软著，受国家保护，盗用或破解以及二次创作将追究违法行为。</color>
+
+","魚蛋喊話是一款適用於新能源車的車外喊話軟件，只要有外放喇叭就可以快樂的玩耍！
+
+(1)軟件功能：
+1.車外喊話：實時喊話、文字轉語音、U盤導入自定義音頻、錄音保存，支持懸浮快捷操作。
+2.模擬聲浪：內置多個油車聲浪模式，支持油門聯動，支持外放声浪等等。
+
+(2)軟件用法：
+進入軟件請先到設置裏設置喇叭通道，不同車型不一樣，設置完成後進入對應的標籤即可。
+模擬聲浪和檔位音效需要讀取日誌權限，所以需要授予本應用日誌權限，
+adb shell pm grant com.egogame.deepalbox android.permission.READ_LOGS
+如果不會操作，等後續出的傻瓜化軟件。
+
+<color=yellow>(3)聲明：
+請保證在安全的場所，安全的時機使用本軟件，開車不規範親人兩行淚，遵守交通規則遵守法規，請勿用於任何違法行為，本軟件已申請軟著，受國家保護，盜用或破解以及二次創作將追究違法行為。</color>
+
+","Fish Sound is a vehicle external horn software suitable for new energy vehicles. You can have fun as long as you have external speakers!
+
+(1) Software Features:
+1. External Horn: Real-time shouting, text-to-speech, USB drive import of custom audio, recording and saving, supporting floating shortcut operations.
+2. Simulated Sound Waves: Built-in multiple gasoline car sound wave modes, supporting accelerator linkage, external sound wave playback, etc.
+
+(2) Software Usage:
+After entering the software, please first set the speaker channel in the settings. Different car models have different settings. After setting, enter the corresponding tab.
+Simulated sound waves and gear sound effects require log reading permission, so you need to grant this application log permission:
+adb shell pm grant com.egogame.deepalbox android.permission.READ_LOGS
+If you don't know how to operate, wait for the subsequent user-friendly software.
+
+<color=yellow>(3) Declaration:
+Please ensure that you use this software in a safe place and at a safe time. Irregular driving will bring sorrow to your loved ones. Obey traffic rules and regulations. Do not use it for any illegal activities. This software has applied for software copyright and is protected by the state. Theft, cracking and secondary creation will be investigated for illegal acts.</color>
+
+","Рогатка Юдан - это программное обеспечение для наружного оповещения для электромобилей. Вы можете получить удовольствие, если у вас есть наружные динамики!
+
+(1) Функции программного обеспечения:
+1. Наружное оповещение: реальное время оповещения, текст в речь, импорт пользовательского аудио с USB-накопителя, запись и сохранение, поддержка плавающих быстрых операций.
+2. Имитация звуковых волн: встроенные режимы звуковых волн нескольких бензиновых автомобилей, поддержка связи с газом, воспроизведение наружных звуковых волн и т.д.
+
+(2) Использование программного обеспечения:
+После запуска программного обеспечения сначала настройте канал динамика в настройках. Разные модели автомобилей имеют разные настройки. После настройки перейдите на соответствующую вкладку.
+Для имитации звуковых волн и звуковых эффектов передач требуется разрешение на чтение журналов, поэтому вам нужно предоставить этому приложению разрешение на чтение журналов:
+adb shell pm grant com.egogame.deepalbox android.permission.READ_LOGS
+Если вы не знаете, как это сделать, подождите последующего удобного программного обеспечения.
+
+<color=yellow>(3) Объявление:
+Пожалуйста, убедитесь, что вы используете это программное обеспечение в безопасном месте и в безопасное время. Нерабочий режим вождения принесет горе вашим близким. Соблюдайте дорожные правила и нормы. Не используйте его для любых незаконных действий. Это программное обеспечение зарегистрировано авторским правом и защищено государством. Украденные, взломанные и вторичные создания будут расследованы как незаконные действия.</color>
+
+"
+"Activate_Title","激活软件","激活軟件","Activate Software","Активировать программное обеспечение"
+"Activate_Desc","该软件部分功能免费，激活可以获得软件全部功能。
+因车型太多适配工作很耗费精力，希望谅解！","該軟件部分功能免費，激活可以獲得軟件全部功能。
+因車型太多適配工作很耗費精力，希望諒解！","Some functions of this software are free. Activation can unlock all functions.
+Due to the large number of car models, adaptation work is very labor-intensive. Thank you for your understanding!","Некоторые функции этого программного обеспечения бесплатны. Активация разблокирует все функции.
+Из-за большого количества моделей автомобилей адаптационная работа очень трудоемка. Благодарим вас за понимание!
+"
+"Activate_EnterTip","请输入订单号或激活码","請輸入訂單號或激活碼","Please enter order number or activation code","Пожалуйста, введите номер заказа или код активации"
+"Activate_EnterHolder","请输入订单号或激活码","請輸入訂單號或激活碼","Please enter order number or activation code","Пожалуйста, введите номер заказа или код активации"
+"Activate_Trial","试用","試用","Trial","Пробный период"
+"Activate_ActivateBtn","激活","激活","Activate","Активировать"
+"Activate_GetCodeBtn","获取激活码","獲取激活碼","Get Activation Code","Получить код активации"
+"Activate_ClickGetCodeTip","点击获取激活码","點擊獲取激活碼","Click to get activation code","Нажмите, чтобы получить код активации"
+"Activate_Tip","*请输入激活码，或手机扫描二维码进行激活！","*請輸入激活碼，或手機掃描二維碼進行激活！","*Please enter the activation code or scan the QR code with your phone to activate!","*Пожалуйста, введите код активации или отсканируйте QR-код с вашего телефона, чтобы активировать!"
+"Activate_GetInfoError","获取激活状态失败","獲取激活狀態失敗","Failed to get activation status","Не удалось получить статус активации"
+"Activate_EnterNumTip","请输入激活码","請輸入激活碼","Please enter activation code","Пожалуйста, введите код активации"
+"Activate_DeviceIDEmpty","设备ID为空，无法激活","設備ID為空，無法激活","Device ID is empty, cannot activate","Идентификатор устройства пуст, невозможно активировать"
+"Activate_ScanQRCode","扫描二维码激活","掃描二維碼激活","Scan QR Code to Activate","Сканируйте QR-код для активации"
+
+"UnknownError","未知错误","未知錯誤","Unknown Error","Неизвестная ошибка"
+
+
+"CloseBtn","关闭","關閉","Close","Закрыть"
+"TextToSpeech","文本转语音","文本轉語音","Text to Speech","Текст в речь"
+"RecordText","录音喊话","錄音喊話","Record Shout","Запись оповещения"
+"AudioImport","音频导入","音頻導入","Audio Import","Импорт аудио"
+"BuyCode_Title","获取激活码说明","獲取激活碼說明","Instructions for Obtaining Activation Code","Инструкции по получению кода активации"
+"BuyCode_Desc","<color=white>如果你喜欢该软件，想解锁软件的所有功能，您可以扫描下方二维码赞助开发者。</color>
+赞助方式：使用支付宝或微信扫描下方二维码，24小时内开发者会激活您的订单，请您回到激活界面输入“订单号”即可激活。
+
+订单号查看方法：
+支付宝->我的->账单->对应的支付记录->订单号。
+微信->我的->账单->对应的支付记录->转账单号。
+
+<color=yellow>请注意，该订单号一经激活就绑定到了你的设备，请您确保订单号不要泄密，这是您唯一的许可编号。如果你恢复出厂设置导致无法激活，请你联系我，我会给你重新恢复。</color>
+
+<color=yellow>特别说明：转账后资格不会立即生效，需要等开发者处理，所以建议24小时后再使用，如果超过24小时仍不可用，可以通过以下方式随时联系我。(QQ:379536859)，付款后请添加我加入售后群。</color>","<color=white>如果你喜歡該軟件，想解鎖軟件的所有功能，您可以掃描下方二維碼贊助開發者。</color>
+贊助方式：使用支付寶或微信掃描下方二維碼，24小時內開發者會激活您的訂單，請您回到激活界面輸入「訂單號」即可激活。
+
+訂單號查看方法：
+支付寶->我的->賬單->對應的支付記錄->訂單號。
+微信->我的->賬單->對應的支付記錄->轉賬單號。
+
+<color=yellow>請注意，該訂單號一經激活就綁定到了你的設備，請您確保訂單號不要洩密，這是您唯一的許可編號。如果你恢復出廠設置導致無法激活，請你聯繫我，我會給你重新恢復。</color>
+
+<color=yellow>特別說明：轉賬後資格不會立即生效，需要等開發者處理，所以建議24小時後再使用，如果超過24小時仍不可用，可以通過以下方式隨時聯繫我。(E-Mail:egostudio@foxmail.com)。</color>","<color=white>If you like this software and want to unlock all functions, you can scan the QR code below to sponsor the developer.</color>
+Sponsorship method: Use Alipay or WeChat to scan the QR code below. The developer will activate your order within 24 hours. Please return to the activation interface and enter the Order Number"" to activate.
+
+How to view order number:
+Alipay->My->Bills->Corresponding payment record->Order Number.
+WeChat->My->Bills->Corresponding payment record->Transfer Order Number.
+
+<color=yellow>Please note that once activated, this order number is bound to your device. Please ensure that the order number is not disclosed. This is your only license number. If you cannot activate after restoring factory settings, please contact me and I will reactivate it for you.</color>
+
+<color=yellow>Special note: The qualification will not take effect immediately after transfer. It needs to be processed by the developer, so it is recommended to use it after 24 hours. If it is still unavailable after 24 hours, you can contact me at any time through the following methods. (E-Mail:egostudio@foxmail.com)</color>","<color=white>Если вам нравится это программное обеспечение и вы хотите разблокировать все функции, вы можете отсканировать QR-код ниже, чтобы спонсировать разработчика.</color>
+Способ спонсорства: используйте Alipay или WeChat, чтобы отсканировать QR-код ниже. Разработчик активирует ваш заказ в течение 24 часов. Пожалуйста, вернитесь на интерфейс активации и введите «Номер заказа», чтобы активировать.
+
+Как просмотреть номер заказа:
+Alipay->Мой->Счета->Соответствующая платежная запись->Номер заказа.
+WeChat->Мой->Счета->Соответствующая платежная запись->Номер перевода.
+
+<color=yellow>Пожалуйста, обратите внимание, что после активации этот номер заказа привязан к вашему устройству. Пожалуйста, убедитесь, что номер заказа не раскрыт. Это ваш единственный лицензионный номер. Если вы не можете активировать после восстановления заводских настроек, пожалуйста, свяжитесь со мной, и я повторно активирую его для вас.</color>
+
+<color=yellow>Особое примечание: квалификация не вступит в силу немедленно после перевода. Ей нужно обработать разработчик, поэтому рекомендуется использовать его через 24 часа. Если он по-прежнему недоступен после 24 часов, вы можете связаться со мной в любое время через следующие методы. (QQ: 379536859), пожалуйста, добавьте меня в группу послепродажного обслуживания после оплаты.</color>
+
+"
+"BuyCode_Group","加入QQ群
+查看使用教程
+(答案:深蓝时光机)","加入QQ群
+查看使用教程
+(答案:深藍時光機)","WeChat Official Account: @Deepal Time Machine","Официальный аккаунт WeChat: @Deepal Time Machine"
+"BuyCode_Price","￥80 永久","￥80 永久","￥80 Permanent","￥80 Постоянно"
+"CovertGas_Title","替换加油键工具","替換加油鍵工具","Replace Fuel Key Tool","Инструмент замены ключа топлива"
+"CovertGas_RateText","请选择采样率","請選擇採樣率","Please select sampling rate","Пожалуйста, выберите частоту дискретизации"
+"CovertGas_PreviewText","预览","預覽","Preview","Предварительный просмотр"
+"CovertGas_Replace1Text","替换加满","替換加滿","Replace Full","Заменить полный"
+"CovertGas_Replace2Text","替换200","替換200","Replace 200","Заменить 200"
+"CovertGas_Replace3Text","替换100","替換100","Replace 100","Заменить 100"
+"CovertGas_PreviewFailText","预览播放失败","預覽播放失敗","Preview playback failed","Предварительный просмотр не удался"
+"CovertGas_CovertFailText","音频转换失败:{0}","音頻轉換失敗:{0}","Audio conversion failed: {0}","Ошибка преобразования аудио: {0}"
+"Alert_Title","提示","提示","Alert","Предупреждение"
+"ConfirmBtn","确定","確定","Confirm","Подтвердить"
+"CancelBtn","取消","取消","Cancel","Отменить"
+"Import_ScanBtn","选择文件","選擇文件","Select File","Выбрать файл"
+"Import_SelectAllBtn","全选","全選","Select All","Выбрать все"
+"Import_ScanAllToggle","全部扫描(时间较久)","全部掃描(時間較久)","Scan All (Time-consuming)","Сканировать все (занимает много времени)"
+"Import_ImportBtn","导入选择","導入選擇","Import Selection","Импортировать выбор"
+"Import_NoDataText","请点击下方按钮扫描数据......","請點擊下方按鈕掃描數據......","Please click the button below to scan data......","Пожалуйста, нажмите кнопку ниже, чтобы сканировать данные......"
+"Import_SuccessText","已成功导入了{0}条音频!","已成功導入了{0}條音頻!","Successfully imported {0} audio files!","Успешно импортировано {0} аудиофайлов!"
+"Import_BrowseText","导入音频文件","導入音頻文件","Import Audio Files","Импортировать аудиофайлы"
+"Import_FileCountText","文件:{0}/{1}","文件:{0}/{1}","Files: {0}/{1}","Файлы: {0}/{1}"
+"Brick_StopAll","停止所有","停止所有","Stop All","Остановить все"
+"Brick_New","新建","新建","New","Новый"
+"Brick_NoData","快去新建属于自己的个性化积木吧","快去新建屬於自己的個性化積木吧","Go create your own personalized building blocks!","Создайте свои собственные персонализированные строительные блоки!"
+"Brick_TabSpace","积木空间","積木空間","Brick Space","Пространство строительных блоков"
+"Brick_TabMySpace","我的积木","我的積木","My Bricks","Мои строительные блоки"
+"Brick_ContextClone","克隆","克隆","Clone","Клонировать"
+"Brick_ContextEdit","编辑","編輯","Edit","Редактировать"
+"Brick_ContextDelete","删除","刪除","Delete","Удалить"
+
+
+"Shout_Title","实时喊话","實時喊話","Real-time Shouting","Реальное время оповещения"
+"Shout_StartText","点击开始喊话","點擊開始喊話","Click to Start Shouting","Нажмите, чтобы начать оповещение"
+"Shout_StopText","点击停止喊话","點擊停止喊話","Click to Stop Shouting","Нажмите, чтобы остановить оповещение"
+"Record_Preview","点击预览录音","點擊預覽錄音","Click to Preview Recording","Нажмите, чтобы просмотреть запись"
+"Record_PreviewShout","直接喊话","直接喊话","Click to Preview Shouting","Нажмите, чтобы просмотреть оповещение"
+"Record_Save","保存","保存","Save","Сохранить"
+"RecordSave_Title","保存音频","保存音頻","Save Audio","Сохранить аудио"
+"RecordSave_NameText","请输入保存的名字","請輸入保存的名字","Please enter a name for saving","Пожалуйста, введите имя для сохранения"
+"RecordSave_EnterHolder","请输入","請輸入","Please enter","Пожалуйста, введите"
+"RecordSave_TitleModifyCard","修改卡片","修改卡片","Modify Card","Изменить карточку"
+"RecordSave_TitleNewCard","新建卡片","新建卡片","New Card","Новая карточка"
+"RecordSave_DefaultName","新音频","新音頻","New Audio","Новое аудио"
+"RecordSave_NoInputAlert","请输入卡片名","請輸入卡片名","Please enter card name","Пожалуйста, введите название карточки"
+"RecordSave_SaveFailAlert","音频保存失败，请重试!","音頻保存失敗，請重試！","Audio save failed, please try again!","Ошибка сохранения аудио, попробуйте еще раз!"
+
+
+
+"Setting_FullScreen","全屏","全屏","Full Screen","Полноэкранный режим"
+"Setting_StatusBar","状态栏","狀態欄","Status Bar","Строка состояния"
+"Setting_DeviceID","设备ID","設備ID","Device ID","Идентификатор устройства"
+"Setting_ActivateInfo","激活信息","激活信息","Activation Info","Информация об активации"
+"Setting_VersionInfo","当前版本","當前版本","Current Version","Текущая версия"
+"Setting_AllowTestVersion","允许测试版","允許測試版","Allow Test Version","Разрешить тестовую версию"
+"Setting_DebugOptions","调试选项","調試選項","Debug Options","Опции отладки"
+"Setting_DebugWarning","请勿随意操作!","請勿隨意操作!","Do not operate randomly!","Не управляйте случайно!"
+"Setting_DebugDownlod","下载配置","下載配置","Download Configuration","Скачать конфигурацию"
+"PrevPageBtn","上一页","上一頁","Previous Page","Предыдущая страница"
+"NextPageBtn","下一页","下一頁","Next Page","Следующая страница"
+"Setting_OutCarVolumeText","车外音响音量设置","車外音響音量設置","External Speaker Volume Settings","Настройки громкости наружных колонок"
+"Setting_InCarVolumeText","车内音响音量设置","車內音響音量設置","In-Car Speaker Volume Settings","Настройки громкости внутренних колонок"
+"Setting_RecordGainText","录音增益(db)","錄音增益(db)","Recording Gain (db)","Усиление записи (db)"
+"Setting_TextToSpeechGainText","文本转语音增益(db)","文本轉語音增益(db)","Text-to-Speech Gain (db)","Усиление текста в речь (db)"
+"Setting_SpeechGainText","喊话增益(db)","喊話增益(db)","Shouting Gain (db)","Усиление оповещения (db)"
+"Setting_MaxAmplitudeText","最大振幅(避免破音)","最大振幅(避免破音)","Maximum Amplitude (Avoid Distortion)","Максимальная амплитуда (избегайте искажений)"
+"Setting_MicrophoneText","麦克风设置","麥克風設置","Microphone Settings","Настройки микрофона"
+"Setting_MediaTypeTextOutside","媒体音频流类型(外放)","媒体音頻流類型(外放)","Media Audio Stream Type (Outside)","Тип медиааудиопотока (наружное)"
+"Setting_MediaTypeTextInside","媒体音频流类型(车内)","媒体音頻流類型(车内)","Media Audio Stream Type (In-Car)","Тип медиааудиопотока (внутреннее)"
+"Setting_MediaFocusText","音频焦点类型","音頻焦點類型","Audio Focus Type","Тип аудиоконцентрации"
+"Setting_ShoutStreamTypeText","喊话音频流类型","喊话音頻流類型","Shout Audio Stream Type","Тип медиааудиопотока для оповещения"
+"Setting_ShoutAutoMute","喊话自动静音","喊话自动靜音","Shout Auto Mute","Автоматическое выключение оповещения"
+"Setting_ShoutAutoMuteDesc","喊话时自动静音(部分车型需要)","喊话時自動靜音(部分車型需要)","Shout Auto Mute (Some vehicles need)","Автоматическое выключение оповещения (некоторые автомобили требуют)"
+"Setting_TestBtn","测试","測試","Test","Тест"
+"Setting_TabDevice","音响设置","音響設置","Speaker Settings","Настройки колонок"
+"Setting_TabVolume","音量设置","音量設置","Volume Settings","Настройки громкости"
+"Setting_TabSystem","系统设置","系統設置","System Settings","Системные настройки"
+"Setting_TabAbout","关于作者","關於作者","About Author","О авторе"
+"Setting_DeviceTabOut","外放音响","外放音響","External Speaker","Наружная колонка"
+"Setting_DeviceTabIn","车内音响","車內音響","In-Car Speaker","Внутренняя колонка"
+"Setting_DeviceNoSelect","当前未选中任何设备","當前未選擇任何設備","No device selected currently","В настоящее время устройство не выбрано"
+"Setting_DeviceIsSelected","当前选中设备：{0}","當前選擇設備：{0}","Currently selected device: {0}","В настоящее время выбранное устройство: {0}"
+"Setting_DeviceName","设备名：{0}({1})","設備名：{0}({1})","Device Name: {0}({1})","Название устройства: {0}({1})"
+"Setting_DeviceType","类型：{0}","類型：{0}","Type: {0}","Тип: {0}"
+"Setting_CarModelChangeAlert","车型已经切换，将退出软件，请重新打开！","車型已經切換，將退出軟件，請重新打開！","Car model has been switched. The software will exit. Please reopen it!","Модель автомобиля была изменена. Программное обеспечение будет закрыто. Пожалуйста, переоткройте его!"
+"Setting_DebugDownloadWarning","若要更新配置，请先勾选‘允许测试版’选项，请在开发者的指导下使用该功能","若要更新配置，請先勾選‘允許測試版’選項，請在開發者的指導下使用該功能","To update the configuration, please first check the 'Allow Test Version' option. Please use this function under the guidance of the developer.","Чтобы обновить конфигурацию, сначала отметьте опцию «Разрешить тестовую версию». Пожалуйста, используйте эту функцию под руководством разработчика."
+"Setting_DebugLogcatBtn","Logcat工具","打開Logcat","Open Logcat","Открыть Logcat"
+"Setting_DebugCarPropsBtn","车辆属性测试","車輛屬性測試","Vehicle Property Test","Тест свойств транспортного средства"
+"Setting_DebugDownloadAlert","确定从服务器更新配置吗？","確定從服務器更新配置嗎？","Are you sure to update the configuration from the server?","Вы уверены, что хотите обновить конфигурацию с сервера?"
+"Setting_DebugDownloading","正在获取文件列表...","正在獲取文件列表...","Getting file list...","Получение списка файлов..."
+"Setting_DebugDownloadProgress","更新进度:{0}","更新進度:{0}","Update progress: {0}","Прогресс обновления: {0}"
+"Setting_DebugDownloadComplete","配置已经重新更新，将退出软件，请重新打开！","配置已經重新更新，將退出軟件，請重新打開！","The configuration has been re-updated. The software will exit. Please reopen it!","Конфигурация была повторно обновлена. Программное обеспечение будет закрыто. Пожалуйста, переоткройте его!"
+"Setting_ShowVoiceBlockAlert","语音积木将在下个版本移除并独立成单独的软件，请知悉","語音積木將在下個版本移除並獨立成單獨的軟件，請知悉","Voice building blocks will be removed in the next version and become a separate software. Please be informed","Голосовые строительные блоки будут удалены в следующей версии и станут отдельным программным обеспечением. Пожалуйста, учтите это"
+"Setting_ShowVoiceBlockToggle","语音积木","語音積木","Voice Building Blocks","Голосовые строительные блоки"
+"Setting_LongTapFloatBall","长按悬浮球","长按懸浮球","Long press floating ball","Долгое нажатие на плавающий"
+"Setting_DoubleTapFloatBall","双击悬浮球","雙擊懸浮球","Double click floating ball","Двойное нажатие на плавающий"
+"Setting_AutoBackDeskTopToggle","自动返回桌面","自動返回桌面","Auto back to desktop","Автоматически вернуться на рабочий стол"
+"Setting_FirstOpenBackToDesktop","软件第一次打开后会自动返回桌面","軟件第一次打開後會自動返回桌面","Software will automatically return to desktop on first open","После первого открытия программное обеспечение автоматически вернется на рабочий стол"
+"Setting_BackToApp","返回应用","返回應用","Back to App","Вернуться в приложение"
+"Setting_AutoBoot","开机自启动","開機自啟動","Auto boot","Автоматический запуск"
+"Setting_DirectShout","直接喊话","直接喊話","Direct Shout","Прямое оповещение"
+"Setting_NothingToDo","什么都不做","什麼都不做","Nothing to do","Ничего не делать"
+
+
+
+"FunBox_TabShout","车外喊话","車外喊話","External Shouting","Наружное оповещение"
+"FunBox_TabSimulate","模拟声浪","模擬聲浪","Simulated Sound Waves","Имитация звуковых волн"
+"FunBox_TabVoice","语音积木","語音積木","Voice Building Blocks","Голосовые строительные блоки"
+"FunBox_TabGuide","使用说明","使用說明","User Guide","Руководство пользователя"
+"FunBox_VoiceTabCustom","自定义音效","自定義音效","Custom Sounds","Пользовательские звуковые эффекты"
+"FunBox_VoiceTabSystem","系统音效","系統音效","System Sounds","Системные звуковые эффекты"
+"FunBox_VoiceTabBlock","积木音效","積木音效","Blocks Sounds","Голосовые строительные блоки"
+"FunBox_CardLoop","循环","循环","Loop","Цикл"
+"FunBox_DeviceCardSelected","已选中","已選中","Selected","Выбрано"
+"Context_Rename","重命名","重新命名","Rename","Переименовать"
+"Context_Delete","删除","刪除","Delete","Удалить"
+"Context_CancelFloat","取消悬浮","取消懸浮","Cancel Floating","Отменить плавающий"
+"Context_OpenFloat","开启悬浮","開啟懸浮","Open Floating","Открыть плавающий"
+"Context_ApplyMaxAmplitude","应用振幅","應用振幅","Apply Amplitude","Применить амплитуду"
+"Context_ConvertGas","替换加油键","替換加油鍵","Replace Fuel Key","Заменить ключ топлива"
+"Alert_ConfirmApplyMaxAmplitude","确定应用振幅吗？","確定應用振幅嗎？","Are you sure to apply amplitude?","Вы уверены, что хотите применить амплитуду?"
+"Alert_ApplyMaxAmplitudeSuccess","振幅限制应用成功","振幅限制應用成功","Amplitude limit applied successfully","Ограничение амплитуды успешно применено"
+"Alert_ApplyMaxAmplitudeFail","应用振幅限制失败: {0}","應用振幅限制失敗: {0}","Failed to apply amplitude limit: {0}","Не удалось применить ограничение амплитуды: {0}"
+"Contact_Desc","我们利用了有限的业余时间设计并制作了该软件，虽然它还不完美，但我会努力听取大家的意见完善到最好。
+<color=yellow>
+目前后续规划的有：
+1、鱼蛋HUD增强：支持自定义显示到HUD的组件，包含巡航红绿灯、胎压等。
+2、鱼蛋桌面：支持分屏、导航、音乐等的桌面软件，卡片组件化，自定义布局展示。</color>
+
+如果有意见、建议，请通过以下方式联系我，如果不适配你车型，也可以联系我适配。
+QQ群：  849847247
+邮箱：egostudio@foxmail.com
+抖音：    @深蓝时光机
+小红书：@深蓝时光机
+公众号：@深蓝时光机
+
+开发者：
+程序：    鱼蛋
+设计师：Astory、鱼蛋
+技术支持：Steve' Yang
+
+感谢：那咋了、朝一等、小付有台Z6、有聪哥、燃油的z6等群友的辛苦测试，也感谢一路上的网友。","我們利用了有限的業餘時間設計並製作了該軟件，雖然它還不完美，但我會努力聽取大家的意見完善到最好。
+<color=yellow>
+目前後續規劃的有：
+1、魚蛋HUD增強：支持自定義顯示到HUD的組件，包含巡航紅綠燈、胎壓等。
+2、魚蛋桌面：支持分屏、導航、音樂等的桌面軟件，卡片組件化，自定義布局展示。</color>
+
+如果有意見、建議，請通過以下方式聯繫我，如果不適配你車型，也可以聯繫我適配。
+QQ群：  849847247
+郵箱：egostudio@foxmail.com
+抖音：    @深藍時光機
+小紅書：@深藍時光機
+公眾號：@深藍時光機
+
+開發者：
+程序：    魚蛋
+設計師：Astory、魚蛋
+技術支持：Steve' Yang
+
+感謝：那咋了、朝一等、小付有台Z6、有聰哥、燃油的z6等群友的辛苦測試，也感謝一路上的網友。","We designed and produced this software using our limited spare time. Although it is not perfect yet, we will try our best to listen to everyone's opinions and improve it to the best.
+<color=yellow>
+Current future plans:
+1. Yudan HUD Enhancement: Support custom components displayed on HUD, including cruise traffic lights, tire pressure, etc.
+2. Yudan Desktop: Desktop software supporting split screen, navigation, music, etc., with card componentization and custom layout display.</color>
+
+If you have any comments or suggestions, please contact me through the following methods. If it is not compatible with your car model, you can also contact me for adaptation.
+Email: egostudio@foxmail.com
+Douyin: @深蓝时光机
+Xiaohongshu: @深蓝时光机
+Official Account: @深蓝时光机
+
+Developers:
+Programmer: Felix
+Designers: Astory, Felix
+Technical Support: Steve' Yang","Мы разработали и произвели это программное обеспечение, используя наше ограниченное свободное время. Хотя оно еще не идеально, мы постараемся услышать мнение всех и улучшить его до наилучшего.
+<color=yellow>
+Текущие планы на будущее:
+1. Улучшение Yudan HUD: поддержка пользовательских компонентов, отображаемых на HUD, включая светофоры круизного контроля, давление в шинах и т.д.
+2. Yudan Desktop: настольное программное обеспечение, поддерживающее разделенный экран, навигацию, музыку и т.д., с компонентами карточек и пользовательским отображением макета.</color>
+
+Если у вас есть комментарии или предложения, пожалуйста, свяжитесь со мной через следующие методы. Если оно не совместимо с вашей моделью автомобиля, вы также можете связаться со мной для адаптации.
+Электронная почта: egostudio@foxmail.com
+Douyin: @深蓝时光机
+Xiaohongshu: @深蓝时光机
+Официальный аккаунт: @深蓝时光机
+
+Разработчики:
+Программист: Felix
+Дизайнеры: Astory, Felix
+Техническая поддержка: Steve' Yang"
+"Contact_Warning","*软件已申请软著，请勿盗用，违者必究!","*軟件已申請軟著，請勿盜用，違者必究!","*The software has applied for software copyright. Please do not plagiarize. Violators will be prosecuted!","*Программное обеспечение зарегистрировано авторским правом. Пожалуйста, не плагинируйте. Нарушители будут привлечены к ответственности!"
+"Record_Title","录音","錄音","Recording","Запись"
+"Record_StopText","点击结束录音","點擊結束錄音","Click to Stop Recording","Нажмите, чтобы остановить запись"
+"Record_StartText","点击开始录音","點擊開始錄音","Click to Start Recording","Нажмите, чтобы начать запись"
+"InputHolder","请输入文本......","請輸入文本......","Please enter text......","Пожалуйста, введите текст......"
+"TextToSpeech_Generate","生成语音","生成語音","Generate Voice","Сгенерировать голос"
+"TextToSpeech_VoiceTitle","语音设置","語音設置","Voice Settings","Настройки голоса"
+"TextToSpeech_RoleText","音色选择：","音色選擇：","Voice Selection:","Выбор голоса:"
+"TextToSpeech_TryText","试听","試聽","Try Listening","Попробовать прослушать"
+"TextToSpeech_SpeedText","语速：","語速：","Speech Speed:","Скорость речи:"
+"TextToSpeech_ToneText","语调：","語調：","Tone:","Тон:"
+"TextToSpeech_SaveText","保存设置","保存設置","Save Settings","Сохранить настройки"
+"TextToSpeech_NeedEnterText","请输入文本","請輸入文本","Please enter text","Пожалуйста, введите текст"
+"TextToSpeech_NeedSelectVoice","请选择音色","請選擇音色","Please select a voice","Пожалуйста, выберите голос"
+"TextToSpeech_GenerateFail","音频生成失败:{0}","音頻生成失敗:{0}","Failed to generate audio: {0}","Ошибка создания аудио: {0}"
+"TextToSpeech_LoadSpeakerNoData","音色文件解析失败","音色文件解析失敗","Failed to parse voice file","Ошибка анализа файла голоса"
+"TextToSpeech_LoadSpeakerError","解析失败:{0}","解析失敗:{0}","Parse error: {0}","Ошибка анализа: {0}"
+"TextToSpeech_LoadSpeakerFail","音色列表加载失败:{0}","音色列表加載失敗:{0}","Failed to load voice list: {0}","Ошибка загрузки списка голосов: {0}"
+"TextToSpeech_PreviewToneText","测试音色","測試音色","Test Voice","Тестовый голос"
+
+"Update_Title","更新提示","更新提示","Update Notification","Уведомление об обновлении"
+"Update_BackgroundToggle","后台下载","後台下載","Background Download","Загрузка в фоновом режиме"
+"Update_StartBtn","开始更新","開始更新","Start Update","Начать обновление"
+"Update_ManualStartBtn","手动更新","手動更新","Manual Update","Ручное обновление"
+"Update_UpdateFail","更新失败？","更新失敗？","Update Failed?","Обновление не удалось?"
+"Update_NoUpdate","没有可用的更新","沒有可用的更新","No Updates Available","Нет доступных обновлений"
+"Update_StartUpdate","开始下载，请稍候...","開始下載，請稍候...","Start downloading, please wait...","Начните загрузку, пожалуйста, подождите..."
+"Update_Downloading","下载中","下載中","Downloading","Загрузка"
+"Update_Downloaded","下载完成，已经启动安装...","下載完成，已經啟動安裝...","Download completed, installation started...","Загрузка завершена, установка началась..."
+"Update_DownloadFail","下载失败: {0}","下載失敗: {0}","Download failed: {0}","Загрузка не удалась: {0}"
+"Update_InstallFailed","安装失败: {0}","安裝失敗: {0}","Installation failed: {0}","Установка не удалась: {0}"
+"Update_RequestUpdateInfoFail","请求更新信息失败: {0}","請求更新信息失敗: {0}","Failed to request update info: {0}","Не удалось запросить информацию об обновлении: {0}"
+"Update_RequestUpdateInfo","正在查询更新信息，请稍候......","正在查詢更新信息，請稍候......","Querying update information, please wait......","Запрос информации об обновлении, пожалуйста, подождите......"
+"Update_IsLatest","已经是最新版本了","已經是最新版本了","Already the latest version","Уже последняя версия"
+"Update_HasUpdate","检测到新版本: {0}({1})","檢測到新版本: {0}({1})","New version detected: {0}({1})","Обнаружена новая версия: {0}({1})"
+"Update_CurrentVersion","当前版本","當前版本","Current Version","Текущая версия"
+"Update_AppName","应用名称:","應用名稱:","App Name:","Название приложения:"
+"Update_AppSize","版本大小:","版本大小:","Version Size:","Размер версии:"
+"Update_AppTime","版本更新时间:","版本更新時間:","Version Update Time:","Время обновления версии:"
+"Update_UpdateContent","版本更新内容:","版本更新內容:","Version Update Content:","Содержание обновления версии:"
+"Update_DownloadBtn","开始下载","開始下載","Start Download","Начать загрузку"
+"Update_ReDownloadBtn","重新下载","重新下載","Redownload","Перезагрузить"
+"Update_OpenDownloadFail","启动下载失败","啟動下載失敗","Failed to start download","Не удалось начать загрузку"
+"Update_SkipThisVersion","跳过此版本","跳過此版本","Skip This Version","Пропустить эту версию"
+
+"App_AutoBackToDesktopTip","5秒后自动返回桌面","5秒後自动回到桌面","Return to desktop in 5 seconds","Вернуться на рабочий стол через 5 секунд"
+
