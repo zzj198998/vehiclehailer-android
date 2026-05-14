@@ -226,3 +226,5 @@
     <!-- AudioLibraryFragment -->
     <string name="audio_unknown_name">未知音频</string>
 </resources>
+<string name="version_info">版本信息</string>
+<string name="voice_item_default">默认语音</string>
