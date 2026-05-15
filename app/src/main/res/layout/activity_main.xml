@@ -2,18 +2,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    android:background="#FFF9FAFB">
+    android:background="#FF0D0D0D">
 
-    <!-- ========== 左侧导航栏（70dp固定宽度，白底） ========== -->
+    <!-- ========== 左侧导航栏（64dp固定宽度，深色底） ========== -->
     <LinearLayout
         android:id="@+id/nav_sidebar"
         android:layout_width="64dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="#FFFFFFFF"
+        android:background="#FF151515"
         android:paddingTop="16dp"
         android:paddingBottom="12dp"
-        android:elevation="2dp">
+        android:elevation="4dp">
 
         <!-- Logo区域 -->
         <TextView
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/app_name"
-            android:textColor="#FF1F2937"
+            android:textColor="#FFCCCCCC"
             android:textSize="10sp"
             android:textStyle="bold"
             android:layout_marginBottom="10dp" />
@@ -38,7 +38,7 @@
         <View
             android:layout_width="24dp"
             android:layout_height="1dp"
-            android:background="#FFE5E7EB"
+            android:background="#FF333333"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="4dp" />
 
@@ -90,14 +90,14 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_view"
-                android:tint="#FF6B7280"
+                android:tint="#FF999999"
                 android:contentDescription="@string/nav_icon_monitor" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tab_monitor"
-                android:textColor="#FF6B7280"
+                android:textColor="#FF999999"
                 android:textSize="10sp"
                 android:layout_marginTop="2dp" />
         </LinearLayout>
@@ -119,14 +119,14 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_edit"
-                android:tint="#FF6B7280"
+                android:tint="#FF999999"
                 android:contentDescription="@string/nav_icon_trigger" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tab_trigger"
-                android:textColor="#FF6B7280"
+                android:textColor="#FF999999"
                 android:textSize="10sp"
                 android:layout_marginTop="2dp" />
         </LinearLayout>
@@ -148,14 +148,14 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_gallery"
-                android:tint="#FF6B7280"
+                android:tint="#FF999999"
                 android:contentDescription="@string/nav_icon_audio" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tab_audio_library"
-                android:textColor="#FF6B7280"
+                android:textColor="#FF999999"
                 android:textSize="10sp"
                 android:layout_marginTop="2dp" />
         </LinearLayout>
@@ -177,25 +177,25 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@android:drawable/ic_menu_preferences"
-                android:tint="#FF6B7280"
+                android:tint="#FF999999"
                 android:contentDescription="@string/nav_icon_settings" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tab_settings"
-                android:textColor="#FF6B7280"
+                android:textColor="#FF999999"
                 android:textSize="10sp"
                 android:layout_marginTop="2dp" />
         </LinearLayout>
 
-        <!-- 底部版本和状态 — 加大字号便于车机远距离查看 -->
+        <!-- 底部版本和状态 -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/version_short"
-            android:textColor="#FF9CA3AF"
+            android:textColor="#FF666666"
             android:textSize="9sp"
             android:paddingTop="6dp"
             android:paddingBottom="2dp" />
@@ -206,7 +206,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/status_offline"
-            android:textColor="#FFEF4444"
+            android:textColor="#FFE53935"
             android:textSize="9sp"
             android:paddingBottom="4dp" />
 
@@ -216,7 +216,7 @@
     <View
         android:layout_width="1dp"
         android:layout_height="match_parent"
-        android:background="#FFE5E7EB" />
+        android:background="#FF333333" />
 
     <!-- 右侧内容区 -->
     <FrameLayout
@@ -224,6 +224,6 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        android:background="#FFF9FAFB" />
+        android:background="#FF0D0D0D" />
 
 </LinearLayout>
